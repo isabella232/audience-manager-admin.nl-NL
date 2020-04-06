@@ -5,7 +5,7 @@ seo-title: Controlelogbestanden
 title: Controlelogbestanden
 uuid: null
 translation-type: tm+mt
-source-git-commit: 6c09d99165c1294999f4a4d7ce763082e6d2cb8f
+source-git-commit: 53bf192d17e107f5f696712e578921abaa52b9ab
 
 ---
 
@@ -14,9 +14,9 @@ source-git-commit: 6c09d99165c1294999f4a4d7ce763082e6d2cb8f
 
 Gebruik [!UICONTROL  Audit Logging] als eerste plaats om te gaan wanneer het zuiveren van klantenkwesties.
 
-> [!NOTE]
+>[!NOTE]
 >
-> De [!UICONTROL Audit Logging] functionaliteit en documentatie is momenteel in ontwikkeling en kan worden gewijzigd. Meld alle problemen aan die u tegenkomt in [!DNL JIRA] ([!DNL UI] team).
+>De [!UICONTROL Audit Logging] functionaliteit en documentatie is momenteel in ontwikkeling en kan worden gewijzigd. Meld alle problemen aan die u tegenkomt in [!DNL JIRA] ([!DNL UI] team).
 
 ![Controlelogboekweergave](assets/audit-logging-img.png)
 
