@@ -1,9 +1,12 @@
 ---
 product: audience-manager
 audience: admin
-user-guide-title: Audience Manager Admin Guide
+user-guide-title: Beheerdershandleiding voor beheer van gehoorbeheer
 translation-type: tm+mt
-source-git-commit: b76aa4a35a5216aabd60d07352a7c4bd2b3e6e32
+source-git-commit: 5510710a65beb47cc6e8ee48a64a4efe91e4b904
+workflow-type: tm+mt
+source-wordcount: '154'
+ht-degree: 0%
 
 ---
 
@@ -46,7 +49,6 @@ source-git-commit: b76aa4a35a5216aabd60d07352a7c4bd2b3e6e32
 + OAuth2 Clients{#oath2-clients}
    + [OAuth2 Clients](admin-oauth2/admin-oauth2-create-edit.md)
    + [API-vereisten en aanbevelingen](admin-oauth2/aam-admin-api-requirements.md)
-+ [Integratiegebruikers](admin-manage-integration-users.md)
 + [Controlelogbestanden](admin-audit-logging.md)
 + [Mijn profiel](admin-my-profile.md)
 + [Probleemoplossing voor configuratie bestemming](admin-destination-troubleshooting.md)
