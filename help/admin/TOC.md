@@ -1,56 +1,56 @@
 ---
 product: audience-manager
 audience: admin
-user-guide-title: Beheerdershandleiding voor beheer van gehoorbeheer
-translation-type: tm+mt
+user-guide-title: Handleiding voor Audience Manager Admin
+translation-type: ht
 source-git-commit: 5510710a65beb47cc6e8ee48a64a4efe91e4b904
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '154'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# Beheerdershandleiding voor beheer van gehoorbeheer {#admin-guide}
+# Handleiding voor Audience Manager Admin {#admin-guide}
 
-+ [Publiek Manager Admin Home](admin-home.md)
-+ [Aanmelden bij Admin van Audience Manager](admin-login.md)
-+ [Functionele beheerderstoegang aanvragen](admin-access.md)
-+ Bedrijven{#companies}
++ [Startpagina van Audience Manager Admin](admin-home.md)
++ [Aanmelden bij Audience Manager Admin](admin-login.md)
++ [Toegang als functioneel beheerder aanvragen](admin-access.md)
++ Bedrijven {#companies}
    + [Bedrijven](companies/admin-companies-overview.md)
    + [Een bedrijfsprofiel maken](companies/admin-manage-company-profiles.md)
    + [Containers beheren](companies/admin-manage-containers.md)
-   + [Grafiekopties voor apparaten voor bedrijven](companies/admin-device-graph-options.md)
-   + [ID synchroniseren met Media Optimizer](companies/admin-amo-sync.md)
-   + [Leveranciers van gegevens van eerste partijen beheren](companies/admin-first-party-providers.md)
-   + [Gegevensleveranciers van derden beheren](companies/admin-third-party-providers.md)
-   + [Bedrijfsdoelen beheren](companies/admin-manage-company-destinations.md)
+   + [Device graph-opties voor bedrijven](companies/admin-device-graph-options.md)
+   + [Id&#39;s synchroniseren met Media Optimizer](companies/admin-amo-sync.md)
+   + [Directe dataproviders beheren](companies/admin-first-party-providers.md)
+   + [Externe dataproviders beheren](companies/admin-third-party-providers.md)
+   + [Bedrijfsbestemmingen beheren](companies/admin-manage-company-destinations.md)
    + [Bedrijfslimieten beheren](companies/admin-company-limits.md)
    + [Bedrijfsgebruikers beheren](companies/admin-manage-company-users.md)
-   + [Uitgaande gegevens filteren op Alleen actieve gebruikers](companies/outbound-active-user-filter.md)
-+ Servers{#servers}
+   + [Uitgaande gegevens alleen op actieve gebruikers filteren](companies/outbound-active-user-filter.md)
++ Servers {#servers}
    + [Overzicht van servers](admin-servers/admin-servers.md)
    + [Een FTP-server maken of bewerken](admin-servers/create-ftp-server.md)
    + [Een HTTP-server maken of bewerken](admin-servers/create-http-server.md)
    + [Een S3-server maken of bewerken](admin-servers/create-s3-server.md)
-   + [Toegang tot andere accounts van Amazon S3 Bucket autoriseren](admin-servers/admin-authorize-s3-cross-bucket.md)
+   + [Andere accounts toegang verlenen tot Amazon S3-buckets](admin-servers/admin-authorize-s3-cross-bucket.md)
    + [Een server verwijderen](admin-servers/admin-delete-server.md)
-+ Rapportage{#reporting}
++ Rapportage {#reporting}
    + [Rapportage](admin-reporting/admin-reporting-overview.md)
-   + [Een Portal-gebruiker toewijzen aan een gebruiker van Tableau](admin-reporting/admin-assign-tableau-user.md)
-+ Indelingen{#formats}
+   + [Een portalgebruiker toewijzen aan een Tableau-gebruiker](admin-reporting/admin-assign-tableau-user.md)
++ Indelingen {#formats}
    + [Overzicht van indelingen](formats/formats.md)
-   + [Enable Hadoop Sequence File Transfers for Outbound](formats/enable-outbound-seq.md)
-   + [Bestandsindelingsmacro&#39;s](formats/file-formats.md)
-   + [Voorbeelden van bestandsformaten in macro](formats/file-format-examples.md)
-   + [HTTP-indelingsmacro&#39;s](formats/web-formats.md)
-   + [Voorbeelden van HTTP-indelingsmacro](formats/web-format-examples.md)
+   + [Uitgaande overdracht van Hadoop-sequentiebestanden toestaan](formats/enable-outbound-seq.md)
+   + [Macro&#39;s voor bestandsindelingen](formats/file-formats.md)
+   + [Voorbeelden van macro&#39;s voor bestandsindelingen](formats/file-format-examples.md)
+   + [Macro&#39;s voor HTTP-indelingen](formats/web-formats.md)
+   + [Voorbeelden van macro&#39;s voor HTTP-indelingen](formats/web-format-examples.md)
    + [Een indeling maken of bewerken](formats/admin-create-format.md)
-+ OAuth2 Clients{#oath2-clients}
-   + [OAuth2 Clients](admin-oauth2/admin-oauth2-create-edit.md)
-   + [API-vereisten en aanbevelingen](admin-oauth2/aam-admin-api-requirements.md)
-+ [Controlelogbestanden](admin-audit-logging.md)
++ OAuth2-clients {#oath2-clients}
+   + [OAuth2-clients](admin-oauth2/admin-oauth2-create-edit.md)
+   + [API-vereisten en -aanbevelingen](admin-oauth2/aam-admin-api-requirements.md)
++ [Auditlogboekregistratie](admin-audit-logging.md)
 + [Mijn profiel](admin-my-profile.md)
-+ [Probleemoplossing voor configuratie bestemming](admin-destination-troubleshooting.md)
++ [Problemen bij het instellen van bestemmingen oplossen](admin-destination-troubleshooting.md)
 + [Bètaomgeving](admin-beta-environment.md)
-+ [Documentatieupdates](admin-doc-updates.md)
++ [Documentatie-updates](admin-doc-updates.md)
