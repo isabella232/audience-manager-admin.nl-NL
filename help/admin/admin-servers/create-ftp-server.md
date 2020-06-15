@@ -5,9 +5,9 @@ seo-title: Een FTP-server maken of bewerken
 title: Een FTP-server maken of bewerken
 uuid: 9273abb2-963d-4d83-bf5a-b3817f0b90e6
 translation-type: tm+mt
-source-git-commit: e0dc190f8765ec91431a2c02a62c6bf5458c7e3d
+source-git-commit: 78d694670e7abdc18938c5be729ad499e2647825
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '423'
 ht-degree: 4%
 
 ---
@@ -44,6 +44,9 @@ Gebruik de [!UICONTROL Servers] pagina in het hulpmiddel van Admin van de Audien
    >Herinner me om ons uitgang [!DNL FTP] [!DNL IP] aan uw lijst van toegestane IPs toe te voegen: **52.44.29.2004**.
 
 1. Voor **[!UICONTROL SSH Key]** verificatie:
+   >[!NOTE]
+   >
+   >Wanneer het vormen van de Zeer belangrijke authentificatie van SSH, zorg ervoor om de openbare en privé sleutels altijd in formaat slechts OpenSSH te produceren.
    1. Genereer het paar openbare/persoonlijke sleutels van een [!DNL Linux] of [!DNL Mac] computer.
    1. Geef de **openbare sleutel** aan de cliënt om op hun [!DNL SFTP] server bij te werken. Zij moeten alle tekst van de openbare sleutel op hun server omvatten, met inbegrip van `-----BEGIN RSA PRIVATE KEY-----` en `-----END RSA PRIVATE KEY-----` . In ruil daarvoor moeten zij de gebruikersnaam opgeven waaronder zij de sleutel installeren.
    1. Werk het veld Gebruikersnaam bij met het veld dat door de client wordt opgegeven en het veld Sleutel met de **persoonlijke sleutel**.
