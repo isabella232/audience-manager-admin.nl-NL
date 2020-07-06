@@ -1,30 +1,33 @@
 ---
-description: Creeer, geef, en schrap de bestemmingen van de Manager van de Publiek uit.
-seo-description: Creeer, geef, en schrap de bestemmingen van de Manager van de Publiek uit.
-seo-title: Bedrijfsdoelen beheren
-title: Bedrijfsdoelen beheren
+description: Audience Managers maken, bewerken en verwijderen.
+seo-description: Audience Managers maken, bewerken en verwijderen.
+seo-title: Bedrijfsbestemmingen beheren
+title: Bedrijfsbestemmingen beheren
 uuid: d9a6bfb1-7629-44e0-b7d7-ece44f65ea2b
 translation-type: tm+mt
-source-git-commit: 57d7a92265e565b6c411e4cfa5c579e40eb837b3
+source-git-commit: f247457004a624297ddc8847dd256dbb7d8da418
+workflow-type: tm+mt
+source-wordcount: '1082'
+ht-degree: 1%
 
 ---
 
 
-# Bedrijfsdoelen beheren {#manage-company-destinations}
+# Bedrijfsbestemmingen beheren {#manage-company-destinations}
 
-Creeer, geef, en schrap de bestemmingen van de Manager van de Publiek uit.
+Audience Managers maken, bewerken en verwijderen.
 
 <!-- t_company_destinations.xml -->
 
-Voor gedetailleerde informatie, zie [Doelen](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/destinations.html) in de Gids *van de Gebruiker van de Manager van de* Auditie.
+Voor gedetailleerde informatie, zie [Doelen](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/destinations.html) in de Gids *van de Gebruiker van de* Audience Manager.
 
-## Bedrijfsdoelen maken of bewerken {#create-edit-company-destinations}
+## Bedrijfsbestemmingen maken of bewerken {#create-edit-company-destinations}
 
 De rol door de secties voor geleidelijke instructies op hoe te om nieuwe [!DNL Audience Manager] bestemmingen tot stand te brengen of bestaande bestemmingen uit te geven.
 
 <!-- create-edit-company-destinations.xml -->
 
-Bezoek de pagina [voor de integratie van](https://wiki.corp.adobe.com/x/mPIMPw) Experience Cloud-partners voordat u doelen instelt. De pagina bevat de specifieke informatie die u voor elke [!DNL Audience Manager] partnerintegratie moet invullen.
+Bezoek de pagina [van de de partnerintegratie van](https://wiki.corp.adobe.com/x/mPIMPw) Experience Cloud alvorens bestemmingen te vestigen. De pagina bevat de specifieke informatie die u voor elke [!DNL Audience Manager] partnerintegratie moet invullen.
 
 Als uw klant [!DNL Adobe Media Optimizer] als doel in wilt gebruiken [!DNL Audience Manager] , moet u dit instellen in [!DNL Adobe Media Optimizer].
 
@@ -50,7 +53,7 @@ Vul de velden in het **[!UICONTROL Basic Settings]** venster in.
    * **[!UICONTROL Integration Code Value]:**Als u deze instelling selecteert, wordt de doelwaardetoewijzing gevuld met de[!DNL Audience Manager]segmentintegratiecode.
 * **[!UICONTROL User ID Key]:**(Vereist) Selecteer de gewenste sleutel van identiteitskaart voor deze bestemming van de drop-down lijst.
 
-Deze id wordt gebruikt als de hoofd-gegevensbron-id. Hiermee bepaalt u welke gebruikers-id&#39;s in het bestand worden overtroffen.
+Deze id wordt gebruikt als de master gegevensbron-id. Hiermee bepaalt u welke gebruikers-id&#39;s in het bestand worden overtroffen.
 
 >[!NOTE]
 >
@@ -82,7 +85,7 @@ Vul voor [!UICONTROL Bulk ID], [!UICONTROL Bulk Trait] of [!UICONTROL Bulk Segme
    * **[!UICONTROL HTTP]**
    * **[!UICONTROL S3]**
 * **[!UICONTROL Servers]**: (Vereist) Selecteer de gewenste server voor deze bestemming van de drop-down lijst.
-* **[!UICONTROL Format]**: (Vereist) Selecteer het gewenste formaat voor deze bestemming van de drop-down lijst: of bestandstype, afhankelijk van het protocol dat u hierboven hebt gekozen. [!DNL HTTP]
+* **[!UICONTROL Format]**: (Vereist) Selecteer het gewenste formaat voor deze bestemming van de drop-down lijst: [!DNL HTTP] of bestandstype, afhankelijk van het protocol dat u hierboven hebt gekozen.
 * **[!UICONTROL Sync Type]**: (Vereist) Selecteer het gewenste synchronisatietype voor deze bestemming. Dit wijst op het niveau van gebruikersactiviteiten cliënten in de uitgaande orden zouden willen omvatten. Selecteer **[!UICONTROL Customer]** als klanten alleen geïnteresseerd zijn in het analyseren van segmentkwalificaties op basis van hun eigenschappen. Selecteer **[!UICONTROL Platform]** als zij segmentkwalificaties van off-site activiteiten over alle [!DNL Audience Manager] klanten willen omvatten.
 * **[!UICONTROL Customer]**: Het bestand bevat actieve gebruikers die voor de geselecteerde tijdsperiode ten minste één kenmerk hebben dat alleen kan worden gerealiseerd op de eigenschappen van de client (gekoppeld aan de client [!UICONTROL PID]). Uw cliënten zouden deze optie moeten gebruiken om hun *real-time* segmentkwalificaties aan bestemmingen uit te zenden.
 * **[!UICONTROL Platform]**: Het dossier bevat actieve gebruikers die minstens 1 interactie in real time hebben, of het synchroon van identiteitskaart of de verwezenlijking van het bezit, overal over alle eigenschappen van [!DNL Audience Manager] cliënten (verbonden aan alle cliëntPIDs) voor de geselecteerde tijdspanne. Uw cliënten zouden deze optie moeten gebruiken om hun *totale* segmentkwalificaties aan bestemmingen uit te zenden.
@@ -91,13 +94,21 @@ Vul voor [!UICONTROL Bulk ID], [!UICONTROL Bulk Trait] of [!UICONTROL Bulk Segme
 Selecteer vervolgens het ordertype. Dit wijst op de frequentie en het werkingsgebied van elke uitgaande integratie met partners. Selecteer tussen incrementele en volledige bestellingen.
 * **[!UICONTROL Incremental Scheduled Run]**: Met elke looppas, [!DNL Audience Manager] zal slechts de netto nieuwe gebruikers verlaten die sinds de vorige uitgaande orde worden gekwalificeerd. Selecteer de gewenste tijdsperiode die u incrementele synchronisatieprocessen wilt [!DNL Audience Manager] uitvoeren. U kunt bijvoorbeeld elke 24 uur selecteren, elke 7 dagen, elke 30 dagen of nooit.
 
->[!NOTE] {Important=&quot;high&quot;}
+<!--
+I removed {importance="high"} from note for Exp League rendering. -Bob
+-->
+
+>[!NOTE]
 >
 >De eerste incrementele volgorde is gelijk aan een volledige volgorde, omdat er nooit eerder gebruikers naar de bestemming zijn gestuurd.
 
 * **[!UICONTROL Full Sync Scheduled Run]**: Met elke looppas, [!DNL Audience Manager] zal alle actieve gebruikers uitgaand aangezien de bestemming eerst opstelling was. Selecteer het gewenste programma dat u wilt gebruiken [!DNL Audience Manager] om volledige synchronisatieprocessen uit te voeren. U kunt bijvoorbeeld elke 24 uur selecteren, elke 7 dagen, elke 30 dagen of nooit.
 
->[!NOTE] {Important=&quot;high&quot;}
+<!--
+I removed {importance="high"} from note for Exp League rendering. -Bob
+-->
+
+>[!NOTE]
 >
 >We raden u aan incrementele syncs vaker te gebruiken dan volledige syncs. Met incrementele syncs worden alleen bestanden verzonden die nieuwe functies of id-syncs bevatten. Met Volledige syntaxis worden alle bestanden verzonden, ongeacht of deze nieuwe realisaties of id-syncs bevatten. Gebruik slechts de [!UICONTROL Full Sync Scheduled Run] configuratie wanneer de cliënten een volledig exemplaar van al hun gebruikers nodig hebben, om het uitgaande gegevensvolume te verminderen.
 
