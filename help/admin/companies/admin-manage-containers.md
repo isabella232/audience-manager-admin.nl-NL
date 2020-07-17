@@ -6,6 +6,9 @@ title: Containers beheren
 uuid: 7dfcac5e-5502-4701-97f4-ae8015c3f0a6
 translation-type: tm+mt
 source-git-commit: 2998dc049971b2fac8c45ca6e3118ea607ae3f92
+workflow-type: tm+mt
+source-wordcount: '157'
+ht-degree: 7%
 
 ---
 
@@ -40,5 +43,5 @@ Gegevensproviders voor containers weergeven of bewerken.
 
 >[!MORELIKETHIS]
 >
->* [ID synchroniseren met Media Optimizer](../companies/admin-amo-sync.md#concept_2B5537233DAA4860B3503B344F937D83)
+>* [Id&#39;s synchroniseren met Media Optimizer](../companies/admin-amo-sync.md#concept_2B5537233DAA4860B3503B344F937D83)
 
