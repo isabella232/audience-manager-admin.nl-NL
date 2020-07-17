@@ -1,16 +1,19 @@
 ---
 description: 'Gebruik Logboekregistratie van de Controle als eerste plaats om te gaan wanneer het zuiveren van klantenkwesties. '
 seo-description: 'Gebruik Logboekregistratie van de Controle als eerste plaats om te gaan wanneer het zuiveren van klantenkwesties. '
-seo-title: Controlelogbestanden
-title: Controlelogbestanden
+seo-title: Auditlogboekregistratie
+title: Auditlogboekregistratie
 uuid: null
 translation-type: tm+mt
 source-git-commit: 53bf192d17e107f5f696712e578921abaa52b9ab
+workflow-type: tm+mt
+source-wordcount: '66'
+ht-degree: 9%
 
 ---
 
 
-# Controlelogbestanden {#audit-logging}
+# Auditlogboekregistratie {#audit-logging}
 
 Gebruik [!UICONTROL  Audit Logging] als eerste plaats om te gaan wanneer het zuiveren van klantenkwesties.
 
