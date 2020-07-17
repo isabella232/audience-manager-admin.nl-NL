@@ -6,15 +6,18 @@ title: Over het autoriseren van toegang tot Amazon S3 Emmertje voor andere accou
 uuid: da2bcbda-a765-437a-bfe9-4355383a4730
 translation-type: tm+mt
 source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
+workflow-type: tm+mt
+source-wordcount: '200'
+ht-degree: 0%
 
 ---
 
 
-# Over het autoriseren van toegang tot Amazon S3 Emmertje voor andere accounts voor batchbestemmingen{#authorize-cross-account-bucket-batch}
+# How To Authorize Cross-Account Amazon S3 Bucket Access for Batch Destinations{#authorize-cross-account-bucket-batch}
 
 Sommige klanten willen Adobe mogelijk geen [!DNL Amazon S3] toegang of geheime sleutels geven om het uploaden van doelgegevens naar hun emmers toe te staan.
 
-Een alternatief dat wij onze klanten kunnen aanbieden is [!UICONTROL Cross-Account Bucket Permissions] in [!DNL Amazon S3]. Dit proces wordt beschreven in de documentatie [van](https://docs.aws.amazon.com/AmazonS3/latest/dev/example-walkthroughs-managing-access-example2.html)AWS. Voer de onderstaande stappen uit om dit alternatief in Audience Manager in te schakelen:
+Een alternatief dat wij onze klanten kunnen aanbieden is [!UICONTROL Cross-Account Bucket Permissions] in [!DNL Amazon S3]. Dit proces wordt beschreven in de documentatie [van](https://docs.aws.amazon.com/AmazonS3/latest/dev/example-walkthroughs-managing-access-example2.html)AWS. Volg onderstaande stappen om dit alternatief in Audience Manager in te schakelen:
 
 1. Ga naar **[!UICONTROL Servers]** en selecteer **[!UICONTROL Create Server]**.
 1. Selecteer **[!UICONTROL S3]** in het **[!UICONTROL Protocol/Credentials]** vervolgkeuzemasker.
