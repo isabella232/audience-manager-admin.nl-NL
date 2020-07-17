@@ -1,18 +1,21 @@
 ---
-description: Gebruik de pagina Servers in het hulpmiddel Admin van de Manager van de Publiek om een bestaande server te schrappen.
-seo-description: Gebruik de pagina Servers in het hulpmiddel Admin van de Manager van de Publiek om een bestaande server te schrappen.
+description: Gebruik de pagina Servers in het hulpmiddel Admin van de Audience Manager om een bestaande server te schrappen.
+seo-description: Gebruik de pagina Servers in het hulpmiddel Admin van de Audience Manager om een bestaande server te schrappen.
 seo-title: Een server verwijderen
 title: Een server verwijderen
 uuid: 21d8feeb-a205-43bb-9bc1-9048c918a80a
 translation-type: tm+mt
 source-git-commit: 71bf4cec222428686c1eab0998f66887db06da68
+workflow-type: tm+mt
+source-wordcount: '85'
+ht-degree: 10%
 
 ---
 
 
 # Een server verwijderen {#delete-a-server}
 
-Gebruik de [!UICONTROL Servers] pagina in het hulpmiddel Admin van de Manager van de Publiek om een bestaande server te schrappen.
+Gebruik de [!UICONTROL Servers] pagina in het hulpmiddel Admin van de Audience Manager om een bestaande server te schrappen.
 
 <!-- t_delete_server.xml -->
 
