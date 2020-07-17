@@ -1,16 +1,19 @@
 ---
 description: Standaard synchroniseren alle bedrijven gegevens met Adobe Media Optimizer (AMO). In Admin UI, heeft elke bedrijfcontainer een gegevensbron die dit proces beheert. Deze gegevensbron is Adobe AMO (ID 411). Klik op een containerrij (onder het tabblad Containers) voor een geselecteerd bedrijf om deze standaardsynchronisatie uit te schakelen of om andere gegevensbronnen aan het AMO-synchronisatieproces toe te voegen en te verwijderen.
 seo-description: Standaard synchroniseren alle bedrijven gegevens met Adobe Media Optimizer (AMO). In Admin UI, heeft elke bedrijfcontainer een gegevensbron die dit proces beheert. Deze gegevensbron is Adobe AMO (ID 411). Klik op een containerrij (onder het tabblad Containers) voor een geselecteerd bedrijf om deze standaardsynchronisatie uit te schakelen of om andere gegevensbronnen aan het AMO-synchronisatieproces toe te voegen en te verwijderen.
-seo-title: ID synchroniseren met Media Optimizer
-title: ID synchroniseren met Media Optimizer
+seo-title: Id's synchroniseren met Media Optimizer
+title: Id's synchroniseren met Media Optimizer
 uuid: b741dfa7-2947-4288-b214-79eccf18d53a
 translation-type: tm+mt
 source-git-commit: 2998dc049971b2fac8c45ca6e3118ea607ae3f92
+workflow-type: tm+mt
+source-wordcount: '287'
+ht-degree: 6%
 
 ---
 
 
-# ID synchroniseren met Media Optimizer {#id-syncing-with-media-optimizer}
+# Id&#39;s synchroniseren met Media Optimizer {#id-syncing-with-media-optimizer}
 
 Standaard synchroniseren alle bedrijven gegevens met [!DNL Adobe Media Optimizer] ([!DNL AMO]). In [!UICONTROL Admin UI], heeft elke bedrijfcontainer een gegevensbron die dit proces beheert. Deze gegevensbron is [!UICONTROL Adobe AMO] ([!UICONTROL ID] 411). Klik op een containerrij (onder het [!UICONTROL Containers] tabblad) voor een geselecteerd bedrijf om deze standaardsynchronisatie uit te schakelen of om andere gegevensbronnen aan het [!DNL AMO] synchronisatieproces toe te voegen en te verwijderen.
 
