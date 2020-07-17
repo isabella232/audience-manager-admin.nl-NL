@@ -1,16 +1,19 @@
 ---
-description: Gebruik de pagina van Cliënten OAuth2 om een lijst van cliënten OAuth2 in uw configuratie van de Manager van de Publiek te bekijken. U kunt bestaande clients bewerken of verwijderen of nieuwe clients maken, op voorwaarde dat u de juiste gebruikersrollen hebt toegewezen.
-seo-description: Gebruik de pagina van Cliënten OAuth2 om een lijst van cliënten OAuth2 in uw configuratie van de Manager van de Publiek te bekijken. U kunt bestaande clients bewerken of verwijderen of nieuwe clients maken, op voorwaarde dat u de juiste gebruikersrollen hebt toegewezen.
-seo-title: OAuth2 Clients
-title: OAuth2 Clients
+description: Gebruik de pagina van Clients OAuth2 om een lijst van cliënten OAuth2 in uw configuratie van de Audience Manager te bekijken. U kunt bestaande clients bewerken of verwijderen of nieuwe clients maken, op voorwaarde dat u de juiste gebruikersrollen hebt toegewezen.
+seo-description: Gebruik de pagina van Clients OAuth2 om een lijst van cliënten OAuth2 in uw configuratie van de Audience Manager te bekijken. U kunt bestaande clients bewerken of verwijderen of nieuwe clients maken, op voorwaarde dat u de juiste gebruikersrollen hebt toegewezen.
+seo-title: OAuth2-clients
+title: OAuth2-clients
 uuid: 3e654053-fb2f-4d8f-a53c-b5c3b8dbdaaa
 translation-type: tm+mt
 source-git-commit: 2998dc049971b2fac8c45ca6e3118ea607ae3f92
+workflow-type: tm+mt
+source-wordcount: '597'
+ht-degree: 2%
 
 ---
 
 
-# OAuth2 Clients {#oauth-clients}
+# OAuth2-clients {#oauth-clients}
 
 Gebruik de [!UICONTROL OAuth2 Clients] pagina om een lijst van [!UICONTROL OAuth2] cliënten in uw [!DNL Audience Manager] configuratie te bekijken. U kunt bestaande clients bewerken of verwijderen of nieuwe clients maken, op voorwaarde dat u de juiste gebruikersrollen hebt toegewezen.
 
@@ -20,7 +23,7 @@ Gebruik de [!UICONTROL OAuth2 Clients] pagina om een lijst van [!UICONTROL OAuth
 
 >[!NOTE]
 >
->Zorg ervoor dat uw klant de [OAuth2](https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html#oauth) -documentatie in de [!DNL Handboek van de Manager van de Audience van de Audience leest.
+>Zorg ervoor dat uw klant de [OAuth2](https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html#oauth) -documentatie leest in de [!DNL Audience Manager User Guide.
 
 [!DNL OAuth2] is een open norm voor vergunning om veilige gedelegeerde toegang tot [!DNL Audience Manager] middelen namens een middeleigenaar te verlenen.
 
@@ -62,5 +65,5 @@ Als u een [!UICONTROL OAuth2] client wilt verwijderen, klikt u op **[!UICONTROL 
 
 >[!MORELIKETHIS]
 >
->* [API-vereisten en aanbevelingen](../admin-oauth2/aam-admin-api-requirements.md)
+>* [API-vereisten en -aanbevelingen](../admin-oauth2/aam-admin-api-requirements.md)
 
