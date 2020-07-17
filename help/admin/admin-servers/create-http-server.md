@@ -1,18 +1,21 @@
 ---
-description: Gebruik de pagina Servers in het hulpprogramma Audience Manager Admin om een nieuwe HTTP-server te maken of om een bestaande server te bewerken.
-seo-description: Gebruik de pagina Servers in het hulpprogramma Audience Manager Admin om een nieuwe HTTP-server te maken of om een bestaande server te bewerken.
+description: Gebruik de pagina Servers in het hulpmiddel Admin van de Audience Manager om een nieuwe server van HTTP tot stand te brengen of een bestaande server uit te geven.
+seo-description: Gebruik de pagina Servers in het hulpmiddel Admin van de Audience Manager om een nieuwe server van HTTP tot stand te brengen of een bestaande server uit te geven.
 seo-title: Een HTTP-server maken of bewerken
 title: Een HTTP-server maken of bewerken
 uuid: 1ef0e751-e239-4dc6-a4f6-73cc05686807
 translation-type: tm+mt
 source-git-commit: 57d7a92265e565b6c411e4cfa5c579e40eb837b3
+workflow-type: tm+mt
+source-wordcount: '329'
+ht-degree: 5%
 
 ---
 
 
 # Een HTTP-server maken of bewerken {#create-or-edit-an-http-server}
 
-Gebruik de [!UICONTROL Servers] pagina in het hulpmiddel Admin van de Manager van de Publiek om een nieuwe server van HTTP tot stand te brengen of een bestaande server uit te geven.
+Gebruik de [!UICONTROL Servers] pagina in het hulpmiddel van Admin van de Audience Manager om een nieuwe server van HTTP tot stand te brengen of een bestaande server uit te geven.
 
 >[!NOTE]
 >
@@ -28,7 +31,7 @@ Gebruik de [!UICONTROL Servers] pagina in het hulpmiddel Admin van de Manager va
    * **[!UICONTROL Maximum Users Per Request]:**Geef het maximumaantal gebruikers op dat per aanvraag is toegestaan voor deze server.
    * **[!UICONTROL URL Prefix]:**Geef het[!DNL URL]voorvoegsel op dat u voor deze server wilt gebruiken.
    * **[!UICONTROL Authentication URL]:**Geef de[!UICONTROL Authentication URL]voor deze`HTTP`server op.
-   * **[!UICONTROL Authentication]:**Geef de gewenste verificatiemethode op:**[!UICONTROL None]**,**[!UICONTROL Username/Password]**, of **[!UICONTROL SSH Key]**.
+   * **[!UICONTROL Authentication]:**Geef de gewenste verificatiemethode op:**[!UICONTROL None]**,**[!UICONTROL Username/Password]**of **[!UICONTROL SSH Key]**.
    * **[!UICONTROL HTTP Signature Header]:**De naam van de[!DNL HTTP]header, verstrekt door de klant, die de[!DNL HTTP]handtekeningsleutel bevat. De standaardwaarde is,[!UICONTROL X-Signature]zoals in het onderstaande voorbeeld wordt getoond:
 
       ```
@@ -45,6 +48,7 @@ Gebruik de [!UICONTROL Servers] pagina in het hulpmiddel Admin van de Manager va
    * **[!UICONTROL HTTP Signature Key]:**De sleutel die wordt gebruikt om het[!DNL HTTP]verzoek te ondertekenen, door de klant wordt verstrekt die.
    * **[!UICONTROL Show Signature Key]:**Schakel deze optie in of uit om de handtekening in de browser weer te geven.
    * **[!UICONTROL HTTP Signature Encryption Method]:**Geef de methode op waarmee de handtekening wordt versleuteld. Gebruik deze optie[!UICONTROL SHA1]tenzij de klant anders kiest.
+
    >[!NOTE]
    >
    >Als u [authentificatie OAuth 2.0 voor gegevensoverdrachten](https://docs.adobe.com/help/en/audience-manager/user-guide/implemenation-integration-guides/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.html) in real time voor een partner wilt toelaten, vul de gebieden zoals in de hieronder lijst in. De velden *cursief* moeten exact zo worden ingevuld als in de tabel.
