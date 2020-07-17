@@ -1,16 +1,19 @@
 ---
 description: Bekijk of geef containers en afbeeldingen voor de leveranciers van gegevens van de eerste partij uit.
 seo-description: Bekijk of geef containers en afbeeldingen voor de leveranciers van gegevens van de eerste partij uit.
-seo-title: Leveranciers van gegevens van eerste partijen beheren
-title: Leveranciers van gegevens van eerste partijen beheren
+seo-title: Directe dataproviders beheren
+title: Directe dataproviders beheren
 uuid: 222890cb-2ebd-4e16-a516-51000891ed34
 translation-type: tm+mt
 source-git-commit: 71bf4cec222428686c1eab0998f66887db06da68
+workflow-type: tm+mt
+source-wordcount: '137'
+ht-degree: 10%
 
 ---
 
 
-# Leveranciers van gegevens van eerste partijen beheren {#manage-first-party-data-providers}
+# Directe dataproviders beheren {#manage-first-party-data-providers}
 
 Bekijk of geef containers en afbeeldingen voor de leveranciers van gegevens van de eerste partij uit.
 
