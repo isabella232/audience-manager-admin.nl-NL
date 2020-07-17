@@ -1,18 +1,21 @@
 ---
-description: Gebruik de pagina Formaten in het hulpmiddel Admin van de Manager van de Publiek om een nieuw formaat tot stand te brengen of een bestaand formaat uit te geven.
-seo-description: Gebruik de pagina Formaten in het hulpmiddel Admin van de Manager van de Publiek om een nieuw formaat tot stand te brengen of een bestaand formaat uit te geven.
+description: Met de pagina Opmaak in het Audience Manager Admin kunt u een nieuwe indeling maken of een bestaande indeling bewerken.
+seo-description: Met de pagina Opmaak in het Audience Manager Admin kunt u een nieuwe indeling maken of een bestaande indeling bewerken.
 seo-title: Een indeling maken of bewerken
 title: Een indeling maken of bewerken
 uuid: ca1b1feb-bcd3-4a41-b1e8-80565f6c23ae
 translation-type: tm+mt
 source-git-commit: 71bf4cec222428686c1eab0998f66887db06da68
+workflow-type: tm+mt
+source-wordcount: '449'
+ht-degree: 3%
 
 ---
 
 
 # Een indeling maken of bewerken {#create-or-edit-a-format}
 
-Gebruik de [!UICONTROL Formats] pagina in het hulpmiddel Admin van de Manager van de Publiek om een nieuw formaat tot stand te brengen of een bestaand formaat uit te geven.
+Gebruik de [!UICONTROL Formats] pagina in het hulpmiddel van Admin van de Audience Manager om een nieuw formaat tot stand te brengen of een bestaand formaat uit te geven.
 
 <!-- t_create_format.xml -->
 
@@ -41,8 +44,8 @@ Gebruik de [!UICONTROL Formats] pagina in het hulpmiddel Admin van de Manager va
    * **[!UICONTROL Data Row]:**Geef de tekst op die in elke buitenste rij van het bestand wordt weergegeven.
    * **[!UICONTROL Maximum File Size (In MB)]:**Geef de maximale bestandsgrootte op voor bestanden voor gegevensoverdracht. Gecomprimeerde bestanden moeten kleiner zijn dan 100 MB. De ongecomprimeerde bestandsgrootte is niet beperkt.
    * **[!UICONTROL Compression]:**Selecteer het gewenste compressietype: gz of zip voor uw gegevensbestanden. Voor levering aan[!UICONTROL AWS S3], moet u .gz of uncompressed dossiers gebruiken.
-   * **[!UICONTROL .info Receipt]:**Geeft op dat een bestand met overdrachtcontrole ([!DNL .info]) wordt gegenereerd. Het[!DNL .info]dossier verstrekt meta-gegevensinformatie over dossieroverdrachten zodat de partners kunnen verifiëren dat de Manager van de Publiek correct dossieroverdrachten behandelde. Voor meer informatie, zie[Overdracht-Controle Dossiers voor de Overdrachten](https://marketing.adobe.com/resources/help/en_US/aam/c_s2s_add_transfer_control_files.html)van het Dossier van het Logboek.
-   * **[!UICONTROL MD5 Checksum Receipt]:**Geeft aan dat een[!DNL MD5]kwitantie wordt gegenereerd. Het[!DNL MD5]controlesomontvangstbewijs zodat de partners kunnen verifiëren dat de Manager van het Publiek de volledige overdracht correct behandelde.
+   * **[!UICONTROL .info Receipt]:**Geeft op dat een bestand met overdrachtcontrole ([!DNL .info]) wordt gegenereerd. Het[!DNL .info]bestand bevat metagegevens over bestandsoverdrachten, zodat partners kunnen controleren of de Audience Manager het bestand correct heeft verwerkt. Voor meer informatie, zie[Overdracht-Controle Dossiers voor de Overdrachten](https://marketing.adobe.com/resources/help/en_US/aam/c_s2s_add_transfer_control_files.html)van het Dossier van het Logboek.
+   * **[!UICONTROL MD5 Checksum Receipt]:**Geeft aan dat een[!DNL MD5]kwitantie wordt gegenereerd. Het[!DNL MD5]controlesomontvangstbewijs zodat de partners kunnen verifiëren dat de Audience Manager de volledige overdracht correct behandelde.
 
 1. (Voorwaardelijk) Als u kiest **[!UICONTROL HTTP]**, vult u de velden in:
 
