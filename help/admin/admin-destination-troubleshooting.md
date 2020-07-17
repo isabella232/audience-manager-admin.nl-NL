@@ -1,18 +1,21 @@
 ---
-description: Informatie die u helpt bij het instellen van doelen in Audience Manager en het vermijden van algemene problemen.
-seo-description: Informatie die u helpt bij het instellen van doelen in Audience Manager en het vermijden van algemene problemen.
-seo-title: Probleemoplossing voor configuratie bestemming
-title: Probleemoplossing voor configuratie bestemming
+description: Informatie om u te helpen plaatsingsbestemmingen in Audience Manager en gemeenschappelijke problemen te vermijden.
+seo-description: Informatie om u te helpen plaatsingsbestemmingen in Audience Manager en gemeenschappelijke problemen te vermijden.
+seo-title: Problemen bij het instellen van bestemmingen oplossen
+title: Problemen bij het instellen van bestemmingen oplossen
 uuid: 04080fb9-6c7b-4de7-960e-54482be2de83
 translation-type: tm+mt
 source-git-commit: 118e8fa3f35bc77846c6518268448d57d779a2ee
+workflow-type: tm+mt
+source-wordcount: '1331'
+ht-degree: 2%
 
 ---
 
 
-# Probleemoplossing voor configuratie bestemming {#destination-setup-troubleshooting}
+# Problemen bij het instellen van bestemmingen oplossen {#destination-setup-troubleshooting}
 
-Informatie die u helpt bij het instellen van doelen in Audience Manager en het vermijden van algemene problemen.
+Informatie om u te helpen plaatsingsbestemmingen in Audience Manager en gemeenschappelijke problemen te vermijden.
 
 ## Ik heb een bestemming ingesteld, maar ik zie geen bestanden. Waar zijn ze? {#destination-no-files}
 
@@ -72,28 +75,28 @@ Het outbounding proces loopt tweemaal daags, en veelvoudige processen (het uitsp
 
 ### Gesplitste bestanden te groot
 
-Wanneer uitgaande bestanden naar doelen worden gesplitst, kunt u grotere uitgaande bestanden in bestandskoppelingen splitsen. Controleer of de afzonderlijke bestandskoppelingen niet groter zijn dan 10 GB. Zie ook [Naam uitgaand gegevensbestand: Syntaxis en voorbeelden](https://docs.adobe.com/help/en/audience-manager/user-guide/implemenation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html).
+Wanneer uitgaande bestanden naar doelen worden gesplitst, kunt u grotere uitgaande bestanden in bestandskoppelingen splitsen. Controleer of de afzonderlijke bestandskoppelingen niet groter zijn dan 10 GB. See also, [Outbound Data File Name: Syntax and Examples](https://docs.adobe.com/help/en/audience-manager/user-guide/implemenation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html).
 
 
-## Hoe u uw doelen instelt voor het exporteren van de ervaring in cloud-id&#39;s, Customer ID&#39;s of Audience Manager-id&#39;s in uitgaande gegevensbestanden {#set-up-destinations-export}
+## Hoe te opstelling uw Doelen om Experience Cloud IDs, Klant IDs of Audience Manager IDs in Uitgaande Gegevensdossiers uit te voeren {#set-up-destinations-export}
 
-Deze pagina toont u hoe te opstellingsbestemmingen om gegevens uit te voeren die van het type van identiteitskaart u binnen wilt [!UICONTROL Outbound Data Files].
+This page shows you how to set up destinations to export data keyed off the ID type you want in [!UICONTROL Outbound Data Files].
 
 <!-- set-up-destinations-mcid-aamid.xml -->
 
-Met doelen kunnen onze klanten hun gegevens op elk willekeurig aantal digitale kanalen activeren. Ze kunnen bijvoorbeeld publieksgegevens exporteren naar andere [!DNL Adobe Experience Cloud] oplossingen ([!DNL Target], [!DNL Campaign]enz.). Of ze kunnen gegevens verzenden naar [!UICONTROL DSP]s, [!UICONTROL SSP]s of een platform dat is geïntegreerd met Audience Manager. We houden een lijst bij van partners waarmee we werken aan onze [integrations Wiki pagina](https://wiki.corp.adobe.com/display/MCPI).
+Met doelen kunnen onze klanten hun gegevens op elk willekeurig aantal digitale kanalen activeren. Ze kunnen bijvoorbeeld publieksgegevens exporteren naar andere [!DNL Adobe Experience Cloud] oplossingen ([!DNL Target], [!DNL Campaign]enz.). Of ze kunnen gegevens verzenden naar [!UICONTROL DSP]s, [!UICONTROL SSP]s of elk platform dat is geïntegreerd met Audience Manager. We houden een lijst bij van partners waarmee we werken aan onze [integrations Wiki pagina](https://wiki.corp.adobe.com/display/MCPI).
 
 >[!NOTE]
 >
 >Voor een gedetailleerde analyse bij het creëren van bestemmingen in Admin UI, kijk aan het [Create of geeft het artikel van de Doelen](companies/admin-manage-company-destinations.md#create-edit-company-destinations) van het Bedrijf uit.
 
-Uw klanten willen verschillende types van identiteitskaart, afhankelijk van bestemming uitvoeren. In het onderstaande configuratieschema ziet u de opties die u moet selecteren om profielgegevens te exporteren die betrekking hebben op verschillende id-typen. We raden u aan ook te verwijzen naar de [index van id&#39;s in Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/ids-in-aam.html). Er zijn drie belangrijke instellingen die in overweging moeten worden genomen: de [!UICONTROL User ID Key], de [!UICONTROL Data Source Type] en de [!UICONTROL Format]. We geven ze allemaal hieronder in detail weer.
+Uw klanten willen verschillende types van identiteitskaart, afhankelijk van bestemming uitvoeren. In het onderstaande configuratieschema ziet u de opties die u moet selecteren om profielgegevens te exporteren die betrekking hebben op verschillende id-typen. We raden u aan ook naar de [index van id&#39;s in Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/ids-in-aam.html)te verwijzen. Er zijn drie belangrijke instellingen die in overweging moeten worden genomen: de [!UICONTROL User ID Key], de [!UICONTROL Data Source Type] en de [!UICONTROL Format]. We geven ze allemaal hieronder in detail weer.
 
 * [!UICONTROL User ID Key]. Ga in de [!UICONTROL Admin UI]. Ga naar **[!UICONTROL Companies]**. Zoek naar het bedrijf van uw klant en klik het. Zoek het **[!UICONTROL Destinations]** tabblad en druk op **[!UICONTROL Add Destination]**. Selecteer de **[!UICONTROL Add Destination]** werkstroom in de werkstroom [!UICONTROL User ID Key]. De id&#39;s [!UICONTROL User ID Key] filteren de inkomende id&#39;s van de doelgegevensbron en staan alleen toe dat de id&#39;s worden doorgegeven.
 
    ![](assets/user_id_key.PNG)
 
-* [!UICONTROL Data Source Type]. Selecteer deze optie wanneer u een doel maakt in de gebruikersinterface van Audience Manager. Selecteer eerst het gewenste id-type [!UICONTROL Inbound]en selecteer vervolgens het gewenste id-type. De opties zijn:
+* [!UICONTROL Data Source Type]. Selecteer deze optie wanneer u een doel maakt in de gebruikersinterface van de Audience Manager. Selecteer eerst het gewenste id-type [!UICONTROL Inbound]en selecteer vervolgens het gewenste id-type. De opties zijn:
 
    ![](assets/data_source_settings.PNG)
 
@@ -117,44 +120,44 @@ Als u een indeling wilt inspecteren, gaat u naar **[!UICONTROL Admin UI > Format
   <tr> 
    <td colname="col01"> 1 </td> 
    <td colname="col1"> <p>Adobe Audience Manager (0) </p> </td> 
-   <td colname="col2"> <p>Experience Cloud ID </p> </td> 
+   <td colname="col2"> <p>Experience Cloud-id </p> </td> 
    <td colname="col3"> <p>&lt;DP_UUID&gt; </p> </td> 
-   <td colname="col4"> <p>Experience Cloud ID </p> </td> 
+   <td colname="col4"> <p>Experience Cloud-id </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 2 </td> 
    <td colname="col1"> <p>Adobe Audience Manager (0) </p> </td> 
-   <td colname="col2"> <p>Experience Cloud ID </p> </td> 
+   <td colname="col2"> <p>Experience Cloud-id </p> </td> 
    <td colname="col3"> <p>MCID </p> </td> 
-   <td colname="col4"> <p>UUID van Audience Manager </p> </td> 
+   <td colname="col4"> <p>UUID Audience Manager </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 3 </td> 
    <td colname="col1"> <p>Adobe Audience Manager (0) </p> </td> 
-   <td colname="col2"> <p>Experience Cloud ID </p> </td> 
+   <td colname="col2"> <p>Experience Cloud-id </p> </td> 
    <td colname="col3"> <p>UUID </p> </td> 
-   <td colname="col4"> <p>Experience Cloud ID </p> </td> 
+   <td colname="col4"> <p>Experience Cloud-id </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 4 </td> 
    <td colname="col1"> <p>Adobe Audience Manager (0) </p> </td> 
-   <td colname="col2"> <p>Auditiebeheer-id </p> </td> 
+   <td colname="col2"> <p>Audience Manager-id </p> </td> 
    <td colname="col3"> <p>&lt;DP_UUID&gt; </p> </td> 
-   <td colname="col4"> <p>UUID van Audience Manager </p> </td> 
+   <td colname="col4"> <p>UUID Audience Manager </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 5 </td> 
    <td colname="col1"> <p>Adobe Audience Manager (0) </p> </td> 
-   <td colname="col2"> <p>Auditiebeheer-id </p> </td> 
+   <td colname="col2"> <p>Audience Manager-id </p> </td> 
    <td colname="col3"> <p>MCID </p> </td> 
-   <td colname="col4"> <p>Experience Cloud ID </p> </td> 
+   <td colname="col4"> <p>Experience Cloud-id </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 6 </td> 
    <td colname="col1"> <p>Adobe Audience Manager (0) </p> </td> 
-   <td colname="col2"> <p>Auditiebeheer-id </p> </td> 
+   <td colname="col2"> <p>Audience Manager-id </p> </td> 
    <td colname="col3"> <p>UUID </p> </td> 
-   <td colname="col4"> <p>UUID van Audience Manager </p> </td> 
+   <td colname="col4"> <p>UUID Audience Manager </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 7 </td> 
@@ -168,39 +171,39 @@ Als u een indeling wilt inspecteren, gaat u naar **[!UICONTROL Admin UI > Format
    <td colname="col1"> <p>DPID (Om het even welke gegevensbron het bedrijf heeft toegang tot) </p> </td> 
    <td colname="col2"> <p>Klant-id </p> </td> 
    <td colname="col3"> <p>MCID </p> </td> 
-   <td colname="col4"> <p>Experience Cloud ID </p> </td> 
+   <td colname="col4"> <p>Experience Cloud-id </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 9 </td> 
    <td colname="col1"> <p>DPID (Om het even welke gegevensbron het bedrijf heeft toegang tot) </p> </td> 
    <td colname="col2"> <p>Klant-id </p> </td> 
    <td colname="col3"> <p>UUID </p> </td> 
-   <td colname="col4"> <p>UUID van Audience Manager </p> </td> 
+   <td colname="col4"> <p>UUID Audience Manager </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 10 </td> 
    <td colname="col1"> <p>DPID (Om het even welke gegevensbron het bedrijf heeft toegang tot) </p> </td> 
-   <td colname="col2"> <p>Auditiebeheer-id </p> </td> 
+   <td colname="col2"> <p>Audience Manager-id </p> </td> 
    <td colname="col3"> <p>&lt;DP_UUID&gt; </p> </td> 
-   <td colname="col4"> <p>UUID van Audience Manager </p> </td> 
+   <td colname="col4"> <p>UUID Audience Manager </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 11 </td> 
    <td colname="col1"> <p>DPID (Om het even welke gegevensbron het bedrijf heeft toegang tot) </p> </td> 
-   <td colname="col2"> <p>Auditiebeheer-id </p> </td> 
+   <td colname="col2"> <p>Audience Manager-id </p> </td> 
    <td colname="col3"> <p>MCID </p> </td> 
-   <td colname="col4"> <p>Experience Cloud ID </p> </td> 
+   <td colname="col4"> <p>Experience Cloud-id </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 12 </td> 
    <td colname="col1"> <p>DPID (Om het even welke gegevensbron het bedrijf heeft toegang tot) </p> </td> 
-   <td colname="col2"> <p>Auditiebeheer-id </p> </td> 
+   <td colname="col2"> <p>Audience Manager-id </p> </td> 
    <td colname="col3"> <p>UUID </p> </td> 
-   <td colname="col4"> <p>UUID van Audience Manager </p> </td> 
+   <td colname="col4"> <p>UUID Audience Manager </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Gevallen gebruiken
 
-Laten we zeggen dat u Audience Manager en [!DNL Campaign]. Als u de klantgegevens in wilt laten werken, [!DNL Campaign]wilt u exporteren [!UICONTROL Experience Cloud IDs]. Gebruik in dit geval configuratienummer 3.
+Laten we zeggen dat je Audience Manager gebruikt en [!DNL Campaign]. Als u de klantgegevens in wilt laten werken, [!DNL Campaign]wilt u exporteren [!UICONTROL Experience Cloud IDs]. Gebruik in dit geval configuratienummer 3.
