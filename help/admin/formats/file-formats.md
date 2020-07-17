@@ -1,16 +1,19 @@
 ---
 description: Hier worden de macro's weergegeven die u kunt gebruiken om op FTP gebaseerde gegevensbestanden te maken. Sommige macro's kunnen voor alle gebieden en rijen van het gegevensdossier worden gebruikt. Andere macro's zijn alleen specifiek voor koptekst- en gegevensrijen.
 seo-description: Hier worden de macro's weergegeven die u kunt gebruiken om op FTP gebaseerde gegevensbestanden te maken. Sommige macro's kunnen voor alle gebieden en rijen van het gegevensdossier worden gebruikt. Andere macro's zijn alleen specifiek voor koptekst- en gegevensrijen.
-seo-title: Bestandsindelingsmacro's
-title: Bestandsindelingsmacro's
+seo-title: Macro's voor bestandsindelingen
+title: Macro's voor bestandsindelingen
 uuid: f91c91b6-6581-4ed7-8d7f-f8532bd41df9
 translation-type: tm+mt
 source-git-commit: e1122a7f3d3e8c2d67616eb56cb186a4750ed29b
+workflow-type: tm+mt
+source-wordcount: '717'
+ht-degree: 2%
 
 ---
 
 
-# Bestandsindelingsmacro&#39;s {#file-format-macros}
+# Macro&#39;s voor bestandsindelingen {#file-format-macros}
 
 Hier worden de macro&#39;s weergegeven die u kunt gebruiken om [!DNL FTP]gegevensbestanden te maken. Sommige macro&#39;s kunnen voor alle gebieden en rijen van het gegevensdossier worden gebruikt. Andere macro&#39;s zijn alleen specifiek voor koptekst- en gegevensrijen.
 
@@ -32,7 +35,7 @@ Deze macro&#39;s kunnen in elk formaatveld worden gebruikt. Zie [Bestandsindelin
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DPID</code> </p> </td> 
-   <td colname="col2"> <p>Id van doelgegevensaanbieder. </p> </td> 
+   <td colname="col2"> <p>Target Data Provider ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>MASTER_DPID</code> </p> </td> 
@@ -111,11 +114,11 @@ Macro&#39;s die alleen in gegevensrijen worden gebruikt. Zie [Bestandsindeling v
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID</code> </p> </td> 
-   <td colname="col2"> <p> <span class="term"> Unieke gebruikersnaam gegevenspartner </span>. Retourneert de id die u aan een gebruiker/sitebezoeker hebt toegewezen als die id al is gesynchroniseerd met een <span class="keyword"> Audience Manager- </span> apparaat-id. </p> <p>Als DPID 0 is, zal deze macro <span class="keyword"> identiteitskaart van de Manager van de Publiek in plaats van uw identiteitskaart voor de gebruiker </span> terugkeren. </p> </td> 
+   <td colname="col2"> <p> <span class="term"> Unieke gebruikersnaam gegevenspartner </span>. Retourneert de id die u aan een gebruiker/sitebezoeker hebt toegewezen als die id al is gesynchroniseerd met een <span class="keyword"> Audience Manager- </span> apparaat-id. </p> <p>Als DPID 0 is, zal deze macro <span class="keyword"> Audience Manager </span> identiteitskaart in plaats van uw identiteitskaart voor de gebruiker terugkeren. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID_LIST</code> </p> </td> 
-   <td colname="col2"> <p>Keert een lijst terug die veelvoudige IDs voor een gegevenspartner bevat. Dit is nuttig als u een grote organisatie met veelvoudige onderverdelingen of andere organisatorische groepen hebt u gegevens met mag delen. Deze macro retourneert een lijst met de id's voor die onderliggende groepen. </p> </td> 
+   <td colname="col2"> <p>Keert een lijst terug die veelvoudige IDs voor een gegevenspartner bevat. Dit is nuttig als u een grote organisatie met veelvoudige onderverdelingen of andere organisatorische groepen hebt u gegevens met mag delen. Deze macro keert een lijst van identiteitskaarts voor die ondergeschikte groepen terug. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DPUUIDS</code> </p> </td> 
@@ -131,7 +134,7 @@ Macro&#39;s die alleen in gegevensrijen worden gebruikt. Zie [Bestandsindeling v
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>MCID</code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Adobe Experience Cloud </span> -id. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Adobe Experience Cloud ID.</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OPEN_CURLY_BRACKET</code> </p> </td> 
@@ -192,7 +195,7 @@ Macro&#39;s die alleen in gegevensrijen worden gebruikt. Zie [Bestandsindeling v
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>UUID</code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Gebruikersnaam voor </span> Audience Manager. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager- </span> gebruikersnaam. </p> </td> 
   </tr> 
  </tbody> 
 </table>
