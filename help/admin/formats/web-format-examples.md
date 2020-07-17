@@ -1,16 +1,19 @@
 ---
 description: Voorbeelden van veelgebruikte HTTP-macrocombinaties.
 seo-description: Voorbeelden van veelgebruikte HTTP-macrocombinaties.
-seo-title: Voorbeelden van HTTP-indelingsmacro
-title: Voorbeelden van HTTP-indelingsmacro
+seo-title: Voorbeelden van macro's voor HTTP-indelingen
+title: Voorbeelden van macro's voor HTTP-indelingen
 uuid: a81a2e2a-de7e-4b6a-8771-fcfa0dc74570
 translation-type: tm+mt
 source-git-commit: 4c6d1752ff10d2d3d12cab88e823f25f5ef4fcd0
+workflow-type: tm+mt
+source-wordcount: '78'
+ht-degree: 15%
 
 ---
 
 
-# Voorbeelden van HTTP-indelingsmacro {#http-format-macro-examples}
+# Voorbeelden van macro&#39;s voor HTTP-indelingen {#http-format-macro-examples}
 
 Voorbeelden van enkele veelgebruikte [!DNL HTTP] macrocombinaties.
 
