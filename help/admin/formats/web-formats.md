@@ -1,16 +1,19 @@
 ---
 description: Hier worden de macro's weergegeven die u kunt gebruiken om HTTP-gegevensbestanden te maken. HTTP verzendt gegevens in een formaat JSON.
 seo-description: Hier worden de macro's weergegeven die u kunt gebruiken om HTTP-gegevensbestanden te maken. HTTP verzendt gegevens in een formaat JSON.
-seo-title: HTTP-indelingsmacro's
-title: HTTP-indelingsmacro's
+seo-title: Macro's voor HTTP-indelingen
+title: Macro's voor HTTP-indelingen
 uuid: 91021f60-75d0-4b1d-86ca-91c9dadafac1
 translation-type: tm+mt
 source-git-commit: 1a547e421346a6bf281e2b3ff3a0bcb5cf1d78df
+workflow-type: tm+mt
+source-wordcount: '409'
+ht-degree: 2%
 
 ---
 
 
-# HTTP-indelingsmacro&#39;s {#http-format-macros}
+# Macro&#39;s voor HTTP-indelingen {#http-format-macros}
 
 Hier worden de macro&#39;s weergegeven die u kunt gebruiken om [!DNL HTTP] gegevensbestanden te maken. [!DNL HTTP] verzendt gegevens in een [!DNL JSON] formaat.
 
@@ -33,7 +36,7 @@ Zie de Macro Voorbeelden [van het Formaat van](../formats/web-format-examples.md
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>Unieke gebruikersnaam voor gegevenspartner. Deze macro retourneert de id die u aan een gebruiker hebt toegewezen als de id ervan al is gesynchroniseerd met de apparaat-id <span class="keyword"> </span> Audience Manager. </p> </td> 
+   <td colname="col3"> <p>Unieke gebruikersnaam voor gegevenspartner. Deze macro retourneert de id die u aan een gebruiker hebt toegewezen als de id al is gesynchroniseerd met een apparaat-id voor de <span class="keyword"> Audience Manager </span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DPID</code> </p> </td> 
@@ -58,7 +61,7 @@ Zie de Macro Voorbeelden [van het Formaat van](../formats/web-format-examples.md
     <tr> 
    <td colname="col1"> <p> <code>MCID</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>Ervaar de cloud-id. (MCID staat voor Marketing Cloud, de oudere naam van de Experience Cloud) </p> </td> 
+   <td colname="col3"> <p>Experience Cloud-id. (MCID staat voor Marketing Cloud, de oudere naam van de Experience Cloud) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>NUM_REMOVED_SEGMENTS</code> </p> </td> 
@@ -88,7 +91,7 @@ Zie de Macro Voorbeelden [van het Formaat van](../formats/web-format-examples.md
   <tr> 
    <td colname="col1"> <p> <code>REGION_ID_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>Het <a href="https://docs.adobe.com/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html"> gebied van de Manager DCS van de Publiek </a> waar de activiteit voortkwam.</p> </td> 
+   <td colname="col3"> <p>Het DCS-gebied van de <a href="https://docs.adobe.com/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html"> Audience Manager </a> waar de activiteit is gestart.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>REMOVED_SEGMENT_LIST</code> </p> </td> 
@@ -157,7 +160,7 @@ Zie de Macro Voorbeelden [van het Formaat van](../formats/web-format-examples.md
   <tr> 
    <td colname="col1"> <p> <code>USER_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>POST</code> </p> </td> 
-   <td colname="col3"> <p>Een lijst met gebruikers-id's van <span class="keyword"> </span> Audience Manager. U kunt ook specifieke velden retourneren die het volgende bevatten: </p> 
+   <td colname="col3"> <p>Een lijst met gebruikers-id' <span class="keyword"> s voor </span> Audience Managers. U kunt ook specifieke velden retourneren die het volgende bevatten: </p> 
     <ul id="ul_B6857D809FDC46749B7E745BD8C45F8E"> 
      <li id="li_F31CD82D16ED41FD82518141D90B5B35"> <code>user.aamUuid</code> </li> 
      <li id="li_623FA758C84D4A2D9B25C7FBE90F62B7"> <code>user.dpUuid</code> </li> 
