@@ -39,6 +39,7 @@ Gebruik de [!UICONTROL Servers] pagina in het hulpmiddel van Admin van de Audien
    * **[!UICONTROL Filename Suffix]:**Geef de tekst op die u wilt toevoegen aan de bestandsoverdracht.
    * **[!UICONTROL Moved to When Finished]:**Geef het pad op naar de locatie waar het overdrachtsbestand na voltooiing moet worden verplaatst.
    * **[!UICONTROL Authentication]:**Geef de gewenste serververificatiemethode op:**[!UICONTROL Username/Password]**of **[!UICONTROL SSH Key]**.
+
    >[!NOTE]
    >
    >Herinner me om ons uitgang [!DNL FTP] [!DNL IP] aan uw lijst van toegestane IPs toe te voegen: **52.44.29.2004**.
@@ -47,7 +48,7 @@ Gebruik de [!UICONTROL Servers] pagina in het hulpmiddel van Admin van de Audien
    >[!NOTE]
    >
    >Wanneer het vormen van de Zeer belangrijke authentificatie van SSH, zorg ervoor om de openbare en privé sleutels altijd in formaat slechts OpenSSH te produceren.
-   1. Genereer het paar openbare/persoonlijke sleutels van een [!DNL Linux] of [!DNL Mac] computer.
+   1. Genereer het openbare/persoonlijke sleutelpaar van om het even welke [!DNL Linux] of [!DNL Mac] machine.
    1. Geef de **openbare sleutel** aan de cliënt om op hun [!DNL SFTP] server bij te werken. Zij moeten alle tekst van de openbare sleutel op hun server omvatten, met inbegrip van `-----BEGIN RSA PRIVATE KEY-----` en `-----END RSA PRIVATE KEY-----` . In ruil daarvoor moeten zij de gebruikersnaam opgeven waaronder zij de sleutel installeren.
    1. Werk het veld Gebruikersnaam bij met het veld dat door de client wordt opgegeven en het veld Sleutel met de **persoonlijke sleutel**.
 1. Klik **[!UICONTROL Create]** als u een nieuwe server maakt of klik **[!UICONTROL Update]** als u een bestaande server bewerkt.
