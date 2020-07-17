@@ -1,16 +1,19 @@
 ---
 description: Volg deze instructies om een volledig synchronisatiedossier te produceren dat onlangs actieve gebruikers slechts omvat. U kunt desgewenst filteren op actieve gebruikers om relevante gegevens door te sturen naar een on-site doelsysteem of om de grootte van de bestanden die naar een DSP worden verzonden te beperken. U kunt dit filter niet gebruiken met incrementele synchronisatie.
 seo-description: Volg deze instructies om een volledig synchronisatiedossier te produceren dat onlangs actieve gebruikers slechts omvat. U kunt desgewenst filteren op actieve gebruikers om relevante gegevens door te sturen naar een on-site doelsysteem of om de grootte van de bestanden die naar een DSP worden verzonden te beperken. U kunt dit filter niet gebruiken met incrementele synchronisatie.
-seo-title: Uitgaande gegevens filteren op Alleen actieve gebruikers
-title: Uitgaande gegevens filteren op Alleen actieve gebruikers
+seo-title: Uitgaande gegevens alleen op actieve gebruikers filteren
+title: Uitgaande gegevens alleen op actieve gebruikers filteren
 uuid: a2b4a385-eee3-458c-b978-09509cacb397
 translation-type: tm+mt
 source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
+workflow-type: tm+mt
+source-wordcount: '276'
+ht-degree: 8%
 
 ---
 
 
-# Uitgaande gegevens filteren op Alleen actieve gebruikers {#filter-outbound-data-by-active-users-only}
+# Uitgaande gegevens alleen op actieve gebruikers filteren {#filter-outbound-data-by-active-users-only}
 
 Volg deze instructies om een volledig synchronisatiedossier te produceren dat onlangs actieve gebruikers slechts omvat. U kunt desgewenst filteren op actieve gebruikers om relevante gegevens door te sturen naar een on-site doelsysteem of om de grootte van de bestanden die naar een DSP worden verzonden te beperken. U kunt dit filter niet gebruiken met incrementele synchronisatie.
 
