@@ -1,16 +1,19 @@
 ---
 description: Voorbeelden van hoe macro's worden gebruikt om uitgaande, FTP- dossiermalplaatjes tot stand te brengen.
 seo-description: Voorbeelden van hoe macro's worden gebruikt om uitgaande, FTP- dossiermalplaatjes tot stand te brengen.
-seo-title: Voorbeelden van bestandsformaten in macro
-title: Voorbeelden van bestandsformaten in macro
+seo-title: Voorbeelden van macro's voor bestandsindelingen
+title: Voorbeelden van macro's voor bestandsindelingen
 uuid: f00d431d-7e43-457a-b633-c79cbc4c8f10
 translation-type: tm+mt
 source-git-commit: 4c6d1752ff10d2d3d12cab88e823f25f5ef4fcd0
+workflow-type: tm+mt
+source-wordcount: '215'
+ht-degree: 5%
 
 ---
 
 
-# Voorbeelden van bestandsformaten in macro {#file-format-macro-examples}
+# Voorbeelden van macro&#39;s voor bestandsindelingen {#file-format-macro-examples}
 
 Voorbeelden van hoe macro&#39;s worden gebruikt om uitgaande, [!DNL FTP] dossiermalplaatjes tot stand te brengen.
 
