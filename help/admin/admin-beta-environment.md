@@ -1,19 +1,22 @@
 ---
-description: De bètaomgeving is bedoeld voor het testen van de implementaties van Audience Manager. Wijzigingen in bèta hebben geen invloed op de productiegegevens. De bètaomgeving van Audience Manager is een kleinschaligere, zelfstandige versie van de productieomgeving. Alle gegevens die u wilt testen, moeten in deze omgeving worden ingevoerd en verzameld.
-seo-description: De bètaomgeving is bedoeld voor het testen van de implementaties van Audience Manager. Wijzigingen in bèta hebben geen invloed op de productiegegevens. De bètaomgeving van Audience Manager is een kleinschaligere, zelfstandige versie van de productieomgeving. Alle gegevens die u wilt testen, moeten in deze omgeving worden ingevoerd en verzameld.
+description: De bètaomgeving is bedoeld voor het testen van implementaties van Audience Managers. Wijzigingen in bèta hebben geen invloed op de productiegegevens. De bètaomgeving van de Audience Manager is een kleinschalige, zelfstandige versie van de productieomgeving. Alle gegevens die u wilt testen, moeten in deze omgeving worden ingevoerd en verzameld.
+seo-description: De bètaomgeving is bedoeld voor het testen van implementaties van Audience Managers. Wijzigingen in bèta hebben geen invloed op de productiegegevens. De bètaomgeving van de Audience Manager is een kleinschalige, zelfstandige versie van de productieomgeving. Alle gegevens die u wilt testen, moeten in deze omgeving worden ingevoerd en verzameld.
 seo-title: Bètaomgeving
 solution: Audience Manager
 title: Bètaomgeving
 uuid: 6a253f4e-96e7-4395-a783-a8eb213b7daf
 translation-type: tm+mt
 source-git-commit: 7765dbf79c2fb6ca8c4b52fe8090c1fd11f9db27
+workflow-type: tm+mt
+source-wordcount: '414'
+ht-degree: 2%
 
 ---
 
 
 # Bètaomgeving {#beta-environment}
 
-De bètaomgeving is bedoeld voor het testen van de implementaties van Audience Manager. Wijzigingen in bèta hebben geen invloed op de productiegegevens. De bètaomgeving van Audience Manager is een kleinschaligere, zelfstandige versie van de productieomgeving. Alle gegevens die u wilt testen, moeten in deze omgeving worden ingevoerd en verzameld.
+De bètaomgeving is bedoeld voor het testen van implementaties van Audience Managers. Wijzigingen in bèta hebben geen invloed op de productiegegevens. De bètaomgeving van de Audience Manager is een kleinschalige, zelfstandige versie van de productieomgeving. Alle gegevens die u wilt testen, moeten in deze omgeving worden ingevoerd en verzameld.
 
 ## Overzicht {#overview}
 
@@ -36,8 +39,8 @@ Aan leveringsemmers [!DNL S3] voor binnenkomende gegevens:
 
 1. Gebruik de [**eigenschap van de Hulp **](https://skms.adobe.com/)van TechOps van het Verzoek van SKMS.
 1. Ga naar **[!UICONTROL Request TechOps Help]** de linkernavigatieregel.
-1. Typ in **[!UICONTROL Request Search]** Audience Manager in het zoekveld.
-1. Blader omlaag in de zoekresultaten en klik in **Audience Manager - S3 Inbound / Outbound Account Provisioning**.
+1. Typ in **[!UICONTROL Request Search]** het zoekveld in Audience Manager.
+1. De rol neer in de onderzoeksresultaten en klikt in **Audience Manager - S3 Binnenkomende/Uitgaande Levering** van de Rekening.
 1. Vul de velden in het inrichtingsvenster in en geef de **Sandbox-omgeving** op in het **[!UICONTROL Environment]** veld.
 
 >[!NOTE]
