@@ -1,16 +1,19 @@
 ---
 description: De opties voor apparaatgrafiek zijn beschikbaar voor bedrijven die deelnemen aan de Adobe Experience Cloud Device Co-op. Als een klant ook een contractuele relatie heeft met een externe provider van apparaatgrafieken die is geïntegreerd met Audience Manager, worden in deze sectie opties voor die apparaatgrafiek weergegeven. U vindt deze opties in Bedrijven > bedrijfsnaam > Profiel > Opties apparaatgrafiek.
 seo-description: De opties voor apparaatgrafiek zijn beschikbaar voor bedrijven die deelnemen aan de Adobe Experience Cloud Device Co-op. Als een klant ook een contractuele relatie heeft met een externe provider van apparaatgrafieken die is geïntegreerd met Audience Manager, worden in deze sectie opties voor die apparaatgrafiek weergegeven. U vindt deze opties in Bedrijven > bedrijfsnaam > Profiel > Opties apparaatgrafiek.
-seo-title: Grafiekopties voor apparaten voor bedrijven
-title: Grafiekopties voor apparaten voor bedrijven
+seo-title: Device graph-opties voor bedrijven
+title: Device graph-opties voor bedrijven
 uuid: a8ced843-710c-4a8f-a0d7-ea89d010a7a5
 translation-type: tm+mt
 source-git-commit: 2998dc049971b2fac8c45ca6e3118ea607ae3f92
+workflow-type: tm+mt
+source-wordcount: '538'
+ht-degree: 3%
 
 ---
 
 
-# Grafiekopties voor apparaten voor bedrijven {#device-graph-options-for-companies}
+# Device graph-opties voor bedrijven {#device-graph-options-for-companies}
 
 Deze [!UICONTROL Device Graph Options] zijn beschikbaar voor bedrijven die aan de [!DNL Adobe Experience Cloud Device Co-op]overeenkomst deelnemen. Als een klant ook een contractuele relatie heeft met een externe provider van apparaatgrafieken die is geïntegreerd met Audience Manager, worden in deze sectie opties voor die apparaatgrafiek weergegeven. U vindt deze opties in [!UICONTROL Companies] > bedrijfsnaam > [!UICONTROL Profile] > [!UICONTROL Device Graph Options].
 
@@ -48,6 +51,6 @@ Deze controledozen worden toegelaten in de [!DNL Admin UI] wanneer een partner c
 
 >[!MORELIKETHIS]
 >
->* [Opties voor regel voor samenvoegen van profiel gedefinieerd](https://marketing.adobe.com/resources/help/en_US/aam/merge-rule-definitions.html)
+>* [Definities van opties voor regels voor profielsamenvoeging](https://marketing.adobe.com/resources/help/en_US/aam/merge-rule-definitions.html).
 >* [Instellingen gegevensbron en menuopties](https://marketing.adobe.com/resources/help/en_US/aam/datasource-settings-definitions.html)
 
