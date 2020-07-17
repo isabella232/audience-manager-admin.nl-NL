@@ -1,18 +1,21 @@
 ---
-description: Maak nieuwe gebruikers van Audience Manager of bewerk en verwijder bestaande gebruikers.
-seo-description: Maak nieuwe gebruikers van Audience Manager of bewerk en verwijder bestaande gebruikers.
+description: Maak nieuwe Audience Managers of bewerk en verwijder bestaande gebruikers.
+seo-description: Maak nieuwe Audience Managers of bewerk en verwijder bestaande gebruikers.
 seo-title: Bedrijfsgebruikers beheren
 title: Bedrijfsgebruikers beheren
 uuid: 32c8a4e1-c29c-44d2-8cd4-f4f1be707492
 translation-type: tm+mt
 source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
+workflow-type: tm+mt
+source-wordcount: '285'
+ht-degree: 3%
 
 ---
 
 
 # Bedrijfsgebruikers beheren {#manage-company-users}
 
-Maak nieuwe gebruikers van Audience Manager of bewerk en verwijder bestaande gebruikers.
+Maak nieuwe Audience Managers of bewerk en verwijder bestaande gebruikers.
 
 <!-- t_manage_company_users.xml -->
 
@@ -28,14 +31,14 @@ Maak nieuwe gebruikers van Audience Manager of bewerk en verwijder bestaande geb
 
    * **[!UICONTROL First Name]**: (Vereist) Geef de voornaam van de gebruiker op.
    * **[!UICONTROL Last Name]**: (Vereist) Geef de achternaam van de gebruiker op.
-   * **[!UICONTROL Username]**: (Vereist) Geef de gebruikersnaam op voor Audience Manager van de gebruiker. Gebruikersnamen moeten uniek zijn.
+   * **[!UICONTROL Username]**: (Vereist) Geef de gebruikersnaam van de Audience Manager van de gebruiker op. Gebruikersnamen moeten uniek zijn.
    * **[!UICONTROL Email Address]**: (Vereist) Geef het e-mailadres van de gebruiker op.
    * **[!UICONTROL Phone Number]**: Geef het telefoonnummer van de gebruiker op.
    * **[!UICONTROL IMS ID]**: De gebruiker [!UICONTROL Identity Management System ID]. Met deze id kan de gebruiker een koppeling maken naar Adobe-oplossingen voor de Adobe Experience Cloud.
-   * **[!UICONTROL Is Admin]**: Maak van deze gebruiker een beheergebruiker van Audience Manager. Een beheerder heeft alle gebruikersrollen van de Manager van de Publiek voor deze partner.
+   * **[!UICONTROL Is Admin]**: Van deze gebruiker een gebruiker met beheerdersrechten voor Audience Managers maken. Een beheerder heeft alle gebruikersrollen van de Audience Manager voor deze partner.
    * **[!UICONTROL Status]**: Wanneer u een nieuwe gebruiker maakt, wordt dit veld eerst weergegeven **[!UICONTROL Pending]** totdat de gebruiker zich aanmeldt en het tijdelijke wachtwoord opnieuw instelt. Als u een bestaande gebruiker bewerkt, kunt u uit de volgende statussen kiezen:
-      * **[!UICONTROL Active]**: Geeft aan dat deze gebruiker een actieve gebruiker van Audience Manager is.
-      * **[!UICONTROL Deactivated]**: Geeft aan dat deze gebruiker een gedeactiveerde gebruiker van Audience Manager is.
+      * **[!UICONTROL Active]**: Geeft aan dat deze gebruiker een actieve gebruiker van de Audience Manager is.
+      * **[!UICONTROL Deactivated]**: Geeft aan dat deze gebruiker een gedeactiveerde gebruiker van een Audience Manager is.
       * **[!UICONTROL Expired]**: Geeft aan dat deze gebruiker een verlopen gebruiker is.
       * **[!UICONTROL Locked Out]**: Geeft aan dat deze gebruiker een vergrendelde gebruiker is.
 
