@@ -1,16 +1,19 @@
 ---
 description: Containers en toewijzingen voor externe gegevensproviders weergeven of bewerken. U kunt het delen met verschillende gegevensleveranciers ook toelaten.
 seo-description: Containers en toewijzingen voor externe gegevensproviders weergeven of bewerken. U kunt het delen met verschillende gegevensleveranciers ook toelaten.
-seo-title: Gegevensleveranciers van derden beheren
-title: Gegevensleveranciers van derden beheren
+seo-title: Externe dataproviders beheren
+title: Externe dataproviders beheren
 uuid: e41dc7b2-8b06-4e81-9b3b-0f70e2fd3275
 translation-type: tm+mt
 source-git-commit: 10adb6b06160f5a5c4068483b407e5798fc10150
+workflow-type: tm+mt
+source-wordcount: '218'
+ht-degree: 5%
 
 ---
 
 
-# Gegevensleveranciers van derden beheren {#manage-third-party-data-providers}
+# Externe dataproviders beheren {#manage-third-party-data-providers}
 
 Containers en toewijzingen voor externe gegevensproviders weergeven of bewerken. U kunt het delen met verschillende gegevensleveranciers ook toelaten.
 
@@ -29,6 +32,7 @@ Containers en toewijzingen voor externe gegevensproviders weergeven of bewerken.
 
    * **Overlappen op partnerniveau:**
    * **Model Use Enabled:** Laat dit bedrijf deze gegevensleverancier gebruiken wanneer het creëren van algoritmische modellen.
+
    Wanneer u delen inschakelt, krijgt u toegang tot kenmerken van deze gegevensaanbieder.
 
 1. (Voorwaardelijk) Als de container voor deze provider is ingeschakeld, kunt u containers voor deze gegevensaanbieder selecteren door de gewenste containers van de beschikbare lijst naar de geselecteerde lijst te verplaatsen.
