@@ -5,7 +5,7 @@ seo-title: Macro's voor bestandsindelingen
 title: Macro's voor bestandsindelingen
 uuid: f91c91b6-6581-4ed7-8d7f-f8532bd41df9
 translation-type: tm+mt
-source-git-commit: e1122a7f3d3e8c2d67616eb56cb186a4750ed29b
+source-git-commit: 0ee7aa9c13f1b9b8fd64dddff4e52d101055e77c
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 2%
@@ -35,7 +35,7 @@ Deze macro&#39;s kunnen in elk formaatveld worden gebruikt. Zie [Bestandsindelin
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DPID</code> </p> </td> 
-   <td colname="col2"> <p>Target Data Provider ID. </p> </td> 
+   <td colname="col2"> <p>Id van doelgegevensaanbieder. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>MASTER_DPID</code> </p> </td> 
@@ -106,7 +106,7 @@ Macro&#39;s die alleen in gegevensrijen worden gebruikt. Zie [Bestandsindeling v
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code>CLOSE_CURLY_BRACKET</code> </p> </td> 
-   <td colname="col2"> <p>Voegt een gesloten haakje }-teken in. </p> </td> 
+   <td colname="col2"> <p>Hiermee voegt u een gesloten haakje <code>}</code> in. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>COMMA</code> </p> </td> 
@@ -138,7 +138,7 @@ Macro&#39;s die alleen in gegevensrijen worden gebruikt. Zie [Bestandsindeling v
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OPEN_CURLY_BRACKET</code> </p> </td> 
-   <td colname="col2"> <p>Hiermee voegt u een open accolade {-teken in. </p> </td> 
+   <td colname="col2"> <p>Hiermee voegt u een open haakje <code>{</code> in. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OPT_OUT</code> </p> </td> 
