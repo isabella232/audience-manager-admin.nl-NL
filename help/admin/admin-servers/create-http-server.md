@@ -5,7 +5,7 @@ seo-title: Een HTTP-server maken of bewerken
 title: Een HTTP-server maken of bewerken
 uuid: 1ef0e751-e239-4dc6-a4f6-73cc05686807
 translation-type: tm+mt
-source-git-commit: 57d7a92265e565b6c411e4cfa5c579e40eb837b3
+source-git-commit: d518ba4011f203a7d450ce76d8c1924f7d73a815
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 5%
@@ -26,13 +26,13 @@ Gebruik de [!UICONTROL Servers] pagina in het hulpmiddel van Admin van de Audien
 1. Selecteer in de **[!UICONTROL Protocol]** vervolgkeuzelijst het gewenste protocol: [!DNL HTTP].
 1. Vul de velden in:
 
-   * **[!UICONTROL Domain]:**Geef het gewenste domein (host) voor deze server op.
-   * **[!UICONTROL Port]:**Geef de gewenste poort voor deze server op. De standaardpoort wordt weergegeven voor elk type codering. U kunt de standaardpoort desgewenst wijzigen
-   * **[!UICONTROL Maximum Users Per Request]:**Geef het maximumaantal gebruikers op dat per aanvraag is toegestaan voor deze server.
-   * **[!UICONTROL URL Prefix]:**Geef het[!DNL URL]voorvoegsel op dat u voor deze server wilt gebruiken.
-   * **[!UICONTROL Authentication URL]:**Geef de[!UICONTROL Authentication URL]voor deze`HTTP`server op.
-   * **[!UICONTROL Authentication]:**Geef de gewenste verificatiemethode op:**[!UICONTROL None]**,**[!UICONTROL Username/Password]**of **[!UICONTROL SSH Key]**.
-   * **[!UICONTROL HTTP Signature Header]:**De naam van de[!DNL HTTP]header, verstrekt door de klant, die de[!DNL HTTP]handtekeningsleutel bevat. De standaardwaarde is,[!UICONTROL X-Signature]zoals in het onderstaande voorbeeld wordt getoond:
+   * **[!UICONTROL Domain]:** Geef het gewenste domein (host) voor deze server op.
+   * **[!UICONTROL Port]:** Geef de gewenste poort voor deze server op. De standaardpoort wordt weergegeven voor elk type codering. U kunt de standaardpoort desgewenst wijzigen
+   * **[!UICONTROL Maximum Users Per Request]:** Geef het maximumaantal gebruikers op dat per aanvraag is toegestaan voor deze server.
+   * **[!UICONTROL URL Prefix]:** Geef het [!DNL URL] voorvoegsel op dat u voor deze server wilt gebruiken.
+   * **[!UICONTROL Authentication URL]:** Geef de [!UICONTROL Authentication URL] voor deze `HTTP` server op.
+   * **[!UICONTROL Authentication]:** Geef de gewenste verificatiemethode op: **[!UICONTROL None]**, **[!UICONTROL Username/Password]** of **[!UICONTROL SSH Key]**.
+   * **[!UICONTROL HTTP Signature Header]:** De naam van de [!DNL HTTP] header, verstrekt door de klant, die de [!DNL HTTP] handtekeningsleutel bevat. De standaardwaarde is, [!UICONTROL X-Signature]zoals in het onderstaande voorbeeld wordt getoond:
 
       ```
       * Connected to partner.website.com (127.0.0.1) port 80 (#0)
@@ -45,9 +45,9 @@ Gebruik de [!UICONTROL Servers] pagina in het hulpmiddel van Admin van de Audien
       POST message content
       ```
 
-   * **[!UICONTROL HTTP Signature Key]:**De sleutel die wordt gebruikt om het[!DNL HTTP]verzoek te ondertekenen, door de klant wordt verstrekt die.
-   * **[!UICONTROL Show Signature Key]:**Schakel deze optie in of uit om de handtekening in de browser weer te geven.
-   * **[!UICONTROL HTTP Signature Encryption Method]:**Geef de methode op waarmee de handtekening wordt versleuteld. Gebruik deze optie[!UICONTROL SHA1]tenzij de klant anders kiest.
+   * **[!UICONTROL HTTP Signature Key]:** De sleutel die wordt gebruikt om het [!DNL HTTP] verzoek te ondertekenen, door de klant wordt verstrekt die.
+   * **[!UICONTROL Show Signature Key]:** Schakel deze optie in of uit om de handtekening in de browser weer te geven.
+   * **[!UICONTROL HTTP Signature Encryption Method]:** Geef de methode op waarmee de handtekening wordt versleuteld. Gebruik deze optie [!UICONTROL SHA1] tenzij de klant anders kiest.
 
    >[!NOTE]
    >
@@ -63,7 +63,7 @@ Gebruik de [!UICONTROL Servers] pagina in het hulpmiddel van Admin van de Audien
    | [!UICONTROL URL Prefix] | [!UICONTROL /segments/aam] |
    | [!UICONTROL Authentication URL] | [!UICONTROL api.partner.com/oauth2/token] |
    | [!UICONTROL Authentication] | [!UICONTROL Username/Password] |
-   | [!UICONTROL Username] | [!UICONTROL *Toestemming *] |
+   | [!UICONTROL Username] | [!UICONTROL *Toestemming*] |
    | [!UICONTROL Password] | your_password_here |
    | [!UICONTROL HTTP Signature Header] | [!UICONTROL Leave this field blank] |
    | [!UICONTROL HTTP Signature Key] | [!UICONTROL Leave this field blank] |
