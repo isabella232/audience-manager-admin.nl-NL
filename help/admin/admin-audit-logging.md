@@ -19,7 +19,7 @@ Gebruik [!UICONTROL  Audit Logging] als eerste plaats om te gaan wanneer het zui
 
 >[!NOTE]
 >
->De [!UICONTROL Audit Logging] functionaliteit en documentatie is momenteel in ontwikkeling en kan worden gewijzigd. Meld alle problemen aan die u tegenkomt in [!DNL JIRA] ([!DNL UI] team).
+>De [!UICONTROL Audit Logging] functionaliteit en documentatie is momenteel in ontwikkeling en onderhevig aan wijzigingen. Gelieve te registreren om het even welke kwesties u in [!DNL JIRA] ([!DNL UI] team) ontmoet.
 
 ![Controlelogboekweergave](assets/audit-logging-img.png)
 
