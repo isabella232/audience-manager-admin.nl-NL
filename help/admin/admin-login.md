@@ -19,5 +19,5 @@ Meld u met uw webbrowser aan bij het hulpprogramma Adobe Audience Manager Admin.
 
 <!-- t_login.xml -->
 
-1. U kunt het [!DNL Admin] gereedschap Audience Manager openen door naar het volgende te bladeren [!DNL URL]: [https://admin.demdex.com/](https://admin.demdex.com/).
-1. Selecteer de gewenste verificatiemethode in het keuzemenu en klik op **[!UICONTROL Verify]**.
+1. Open het gereedschap Audience Manager [!DNL Admin] door naar het volgende [!DNL URL] te bladeren: [https://admin.demdex.com/](https://admin.demdex.com/).
+1. Selecteer de gewenste verificatiemethode in de keuzelijst en klik op **[!UICONTROL Verify]**.
