@@ -15,10 +15,10 @@ ht-degree: 4%
 
 # Overzicht van servers {#servers-overview}
 
-Gebruik de [!UICONTROL Servers] pagina om een lijst van servers in uw configuratie van de Audience Manager te bekijken. U kunt bestaande servers bewerken of verwijderen of nieuwe servers maken, op voorwaarde dat u de juiste gebruikersrollen hebt toegewezen.
+Gebruik de pagina [!UICONTROL Servers] om een lijst van servers in uw configuratie van de Audience Manager te bekijken. U kunt bestaande servers bewerken of verwijderen of nieuwe servers maken, op voorwaarde dat u de juiste gebruikersrollen hebt toegewezen.
 
 <!-- c_servers.xml -->
 
 ![](assets/servers.png)
 
-U kunt elke kolom in stijgende of dalende orde sorteren door de gewenste kopbal van de kolom te klikken. Gebruik het [!UICONTROL Search] vakje of de pagineringscontroles bij de bodem van de lijst om de gewenste server te vinden.
+U kunt elke kolom in stijgende of dalende orde sorteren door de gewenste kopbal van de kolom te klikken. Gebruik de doos [!UICONTROL Search] of de pagineringscontroles bij de bodem van de lijst om de gewenste server te vinden.
