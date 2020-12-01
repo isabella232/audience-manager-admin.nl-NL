@@ -15,17 +15,17 @@ ht-degree: 10%
 
 # Een server verwijderen {#delete-a-server}
 
-Gebruik de [!UICONTROL Servers] pagina in het hulpmiddel Admin van de Audience Manager om een bestaande server te schrappen.
+Gebruik de pagina [!UICONTROL Servers] in het hulpmiddel van Admin van de Audience Manager om een bestaande server te schrappen.
 
 <!-- t_delete_server.xml -->
 
 >[!NOTE]
 >
->U moet de [!UICONTROL DEXADMIN] rol hebben om bestaande servers te schrappen.
+>U moet de rol [!UICONTROL DEXADMIN] hebben om bestaande servers te schrappen.
 
-1. Als u een bestaande server wilt verwijderen, klikt u **[!UICONTROL Servers]** op.
+1. Als u een bestaande server wilt verwijderen, klikt u op **[!UICONTROL Servers]**.
 
    ![Stap resultaat](assets/servers.png)
 
-1. Klik ![](assets/icon_delete.png) in de **[!UICONTROL Actions]** kolom van de gewenste server.
-1. Klik **[!UICONTROL OK]** om de verwijdering te bevestigen.
+1. Klik ![](assets/icon_delete.png) in **[!UICONTROL Actions]** kolom van de gewenste server.
+1. Klik **[!UICONTROL OK]** om de schrapping te bevestigen.
