@@ -19,17 +19,17 @@ Volg deze instructies om een volledig synchronisatiedossier te produceren dat on
 
 >[!NOTE]
 >
->Een bezoeker hoeft niet op een geselecteerde klantsite of in zijn advertentieverkeer te worden gezien om als &quot;actief&quot; te worden beschouwd. Zij kunnen door om het even welke [!DNL Audience Manager] klant of partner worden gezien om als &quot;actief te kwalificeren.&quot;
+>Een bezoeker hoeft niet op een geselecteerde klantsite of in zijn advertentieverkeer te worden gezien om als &quot;actief&quot; te worden beschouwd. Ze kunnen door elke [!DNL Audience Manager] klant of partner worden gezien als &#39;actief&#39;.
 
 Alleen door actieve gebruikers filteren:
 
 1. Klik op **[!UICONTROL Companies]**.
 1. Selecteer het bedrijf waarmee u wilt werken en klik op **[!UICONTROL Destinations]**.
-1. Stel in de [!UICONTROL Batch Data] sectie de volgende opties in:
+1. Stel in de sectie [!UICONTROL Batch Data] de volgende opties in:
 
-   * **[!UICONTROL Sync Type]**: Selecteer **[!UICONTROL Customer]** of **[!UICONTROL Platform]**.
+   * **[!UICONTROL Sync Type]**: Selecteer  **[!UICONTROL Customer]** of  **[!UICONTROL Platform]**.
    * **[!UICONTROL Sync Type Lookback Period]**: Dit tijdinterval bepaalt de waaier van uw gegevensdossier. U kunt kiezen uit **[!UICONTROL 24 hours]**, **[!UICONTROL 7 days]**, **[!UICONTROL 30 days]**.
-   * **[!UICONTROL Incremental Sync Scheduled Run]**: Selecteer **[!UICONTROL Never]**. Dit filter is alleen van toepassing op bestanden met volledige synchronisatie.
-   * **[!UICONTROL Full Sync Scheduled Run]**: Hiermee bepaalt u hoe vaak u dit bestand wilt ontvangen. U kunt kiezen uit **[!UICONTROL 24 hours]**, **[!UICONTROL 7 days]**, **[!UICONTROL 30 days]** of **[!UICONTROL Never]** (uitschakelen).
+   * **[!UICONTROL Incremental Sync Scheduled Run]**: Selecteer  **[!UICONTROL Never]**. Dit filter is alleen van toepassing op bestanden met volledige synchronisatie.
+   * **[!UICONTROL Full Sync Scheduled Run]**: Hiermee bepaalt u hoe vaak u dit bestand wilt ontvangen. U kunt kiezen uit **[!UICONTROL 24 hours]**, **[!UICONTROL 7 days]**, **[!UICONTROL 30 days]** of **[!UICONTROL Never]** (om uit te schakelen).
 
 1. Klik op **[!UICONTROL Save]**.
