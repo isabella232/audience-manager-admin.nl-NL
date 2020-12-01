@@ -13,16 +13,16 @@ ht-degree: 11%
 ---
 
 
-# Assign a Portal User to a Tableau User {#assign-a-portal-user-to-tableau-user}
+# Wijs een Poortgebruiker aan een Gebruiker van Tableau {#assign-a-portal-user-to-tableau-user} toe
 
 <!-- t_tabeau.xml -->
 
-Gebruik de [!UICONTROL Reporting] pagina om van een poortgebruiker een [!DNL Tableau] gebruiker te maken. Hiermee kunnen gebruikers [!DNL Tableau] rapporten weergeven in Audience Manager.
+Gebruik de pagina [!UICONTROL Reporting] om van een poortgebruiker een [!DNL Tableau] gebruiker te maken. Hiermee kunnen gebruikers [!DNL Tableau]-rapporten weergeven in Audience Manager.
 
 1. Klik op **[!UICONTROL Reporting]** > **[!UICONTROL Assign Portal User to Tableau User]**.
 
    ![](assets/tableau.png)
 
-1. Als u een gebruiker wilt toewijzen, typt u in de gewenste partnerrij een [!DNL Tableau] gebruikersnaam in het tekstveld en klikt u vervolgens buiten het tekstveld.
+1. Als u een gebruiker wilt toewijzen, typt u in de gewenste partnerrij een [!DNL Tableau]-gebruikersnaam in het tekstveld en klikt u vervolgens buiten het tekstveld.
 
 Als u een gebruikershandtekening wilt verwijderen, verwijdert u in de gewenste partnerrij de gebruikersnaam uit het tekstveld en klikt u vervolgens buiten het tekstveld.
