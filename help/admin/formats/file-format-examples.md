@@ -19,11 +19,11 @@ Voorbeelden van hoe macro&#39;s worden gebruikt om uitgaande, [!DNL FTP] dossier
 
 >[!NOTE]
 >
->In de tabellen geeft het **vetgedrukte** type elke macro met de bijbehorende uitvoer aan. In de indelingsvoorbeelden zijn de &lt; >-symbolen toegevoegd om elke macro visueel te kunnen scheiden.
+>In de tabellen geeft het type **vet** elke macro met de bijbehorende uitvoer aan. In de indelingsvoorbeelden zijn de &lt; >-symbolen toegevoegd om elke macro visueel te kunnen scheiden.
 
 ## Algemene macro&#39;s {#common-macros}
 
-Deze macro&#39;s kunnen in elk formaatveld worden gebruikt. Zie de Macro&#39;s [van het Formaat van](../formats/file-formats.md) Dossier voor een volledige lijst en definities.
+Deze macro&#39;s kunnen in elk formaatveld worden gebruikt. Zie [Bestandsindelingmacro&#39;s](../formats/file-formats.md) voor een volledige lijst en definities.
 
 <table id="table_B5073597219B470298EE614902DACAE8"> 
  <thead> 
@@ -69,9 +69,9 @@ Deze macro&#39;s kunnen in elk formaatveld worden gebruikt. Zie de Macro&#39;s [
  </tbody> 
 </table>
 
-## Koptekstveldmacro&#39;s {#header-field-macros}
+## Macro&#39;s {#header-field-macros} voor koptekstveld
 
-Macro&#39;s die alleen in koptekstvelden worden gebruikt. Zie de Macro&#39;s [van het Formaat van](../formats/file-formats.md) Dossier voor een volledige lijst en definities.
+Macro&#39;s die alleen in koptekstvelden worden gebruikt. Zie [Bestandsindelingmacro&#39;s](../formats/file-formats.md) voor een volledige lijst en definities.
 
 <table id="table_ABC31B3D660D47969E111EBC734D5BBC"> 
  <thead> 
@@ -88,9 +88,9 @@ Macro&#39;s die alleen in koptekstvelden worden gebruikt. Zie de Macro&#39;s [va
  </tbody>
 </table>
 
-## Macro&#39;s gegevensrij {#data-row-macros}
+## Macro&#39;s {#data-row-macros} gegevensrij
 
-Macro&#39;s die alleen in koptekstvelden worden gebruikt. Zie de Macro&#39;s [van het Formaat van](../formats/file-formats.md) Dossier voor een volledige lijst en definities.
+Macro&#39;s die alleen in koptekstvelden worden gebruikt. Zie [Bestandsindelingmacro&#39;s](../formats/file-formats.md) voor een volledige lijst en definities.
 
 <table id="table_408C6DD2B9D54550B003EAC93562E64F"> 
  <thead> 
