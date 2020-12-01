@@ -19,9 +19,9 @@ Bekijk of geef containers en afbeeldingen voor de leveranciers van gegevens van 
 
 <!-- t_first_party_providers.xml -->
 
-1. Klik **[!UICONTROL Companies]**, bepaal de plaats en klik het gewenste bedrijf om zijn [!UICONTROL Profile] pagina te tonen. Gebruik het [!UICONTROL Search] vakje of de pagineringscontroles bij de bodem van de lijst om het gewenste bedrijf te vinden. U kunt elke kolom in stijgende of dalende orde sorteren door de gewenste kopbal van de kolom te klikken.
+1. Klik **[!UICONTROL Companies]**, dan bepaal de plaats en klik het gewenste bedrijf om zijn [!UICONTROL Profile] pagina te tonen. Gebruik de doos [!UICONTROL Search] of de pagineringscontroles bij de bodem van de lijst om het gewenste bedrijf te vinden. U kunt elke kolom in stijgende of dalende orde sorteren door de gewenste kopbal van de kolom te klikken.
 
-1. Klik op het **[!UICONTROL First Party Data Providers]** tabblad.
+1. Klik op het tabblad **[!UICONTROL First Party Data Providers]**.
 
    ![](assets/first_party_providers.png)
 
@@ -29,5 +29,5 @@ Bekijk of geef containers en afbeeldingen voor de leveranciers van gegevens van 
 
    ![Stap resultaat](assets/first_party_providers_edit.png)
 
-1. Verplaats containers van de lijst **[!UICONTROL Available Containers]** en **[!UICONTROL Selected Containers for This Data Provider]** lijsten door de gewenste containers te selecteren en klik vervolgens zo nodig op de rechter- of linkerpijlen.
-1. Klik **[!UICONTROL Save]** als u wijzigingen hebt aangebracht.
+1. Verplaats containers van de lijsten **[!UICONTROL Available Containers]** en **[!UICONTROL Selected Containers for This Data Provider]** door de gewenste containers te selecteren, en dan de juiste of linkerpijlen te klikken zonodig.
+1. Klik **[!UICONTROL Save]** als u veranderingen aanbracht.
