@@ -15,19 +15,19 @@ ht-degree: 6%
 
 # Id&#39;s synchroniseren met Media Optimizer {#id-syncing-with-media-optimizer}
 
-Standaard synchroniseren alle bedrijven gegevens met [!DNL Adobe Media Optimizer] ([!DNL AMO]). In [!UICONTROL Admin UI], heeft elke bedrijfcontainer een gegevensbron die dit proces beheert. Deze gegevensbron is [!UICONTROL Adobe AMO] ([!UICONTROL ID] 411). Klik op een containerrij (onder het [!UICONTROL Containers] tabblad) voor een geselecteerd bedrijf om deze standaardsynchronisatie uit te schakelen of om andere gegevensbronnen aan het [!DNL AMO] synchronisatieproces toe te voegen en te verwijderen.
+Standaard synchroniseren alle bedrijven gegevens met [!DNL Adobe Media Optimizer] ([!DNL AMO]). In [!UICONTROL Admin UI], heeft elke bedrijfcontainer een gegevensbron die dit proces beheert. Deze gegevensbron is [!UICONTROL Adobe AMO] ([!UICONTROL ID] 411). Klik op een containerrij (onder het tabblad [!UICONTROL Containers]) voor een geselecteerd bedrijf om deze standaardsynchronisatie uit te schakelen of om andere gegevensbronnen toe te voegen en te verwijderen aan het synchronisatieproces [!DNL AMO].
 
 ![](assets/id-sync.png)
 
-## Synchronisatiestatus ID {#id-sync-status}
+## Synchronisatiestatus id {#id-sync-status}
 
 In de volgende tabel wordt de synchronisatiestatus van een gegevensbron beschreven.
 
 | Status | Beschrijving |
 |------ | -------- |
-| Uit | Verwijder alle gegevensbronnen uit [!UICONTROL Selected Data Sources] deze container om id-synchrone versies uit te schakelen [!DNL AMO] |
-| Aan (ongeacht versie van de ID-service) | Een gegevensbron synchroniseert met [!DNL AMO] ongeacht de de dienstversie van identiteitskaart wanneer: <ul><li>De gegevensbron wordt in de [!UICONTROL Selected Data Sources] lijst weergegeven.</li><li>Het [!DNL AMO] selectievakje *is niet* ingeschakeld.</li></ul> |
-| Aan (ongeacht versie van de ID-service) | Een gegevensbron synchroniseert met [!DNL AMO] versie 2.0 (of hoger) van de ID-service wanneer: <ul><li>De gegevensbron wordt in de [!UICONTROL Selected Data Sources] lijst weergegeven.</li><li>Het [!DNL AMO] selectievakje *is* ingeschakeld.</li></ul> |
+| Uit | Verwijder alle gegevensbronnen van [!UICONTROL Selected Data Sources] voor deze container om de synoniemen van identiteitskaart met [!DNL AMO] onbruikbaar te maken |
+| Aan (ongeacht versie van de ID-service) | Een gegevensbron synchroniseert met [!DNL AMO], ongeacht de versie van de ID-service wanneer: <ul><li>De gegevensbron wordt weergegeven in de lijst [!UICONTROL Selected Data Sources].</li><li>Het selectievakje [!DNL AMO] *is niet* geselecteerd.</li></ul> |
+| Aan (ongeacht versie van de ID-service) | Een gegevensbron synchroniseert met [!DNL AMO] met ID-service versie 2.0 (of hoger) wanneer: <ul><li>De gegevensbron wordt weergegeven in de lijst [!UICONTROL Selected Data Sources].</li><li>Het selectievakje [!DNL AMO] *is* geselecteerd.</li></ul> |
 
 >[!MORELIKETHIS]
 >
