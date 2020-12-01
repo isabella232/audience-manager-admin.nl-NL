@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # Rapportage {#reporting}
 
-U kunt rapporten van Audience Managers beheren door nieuwe rapporten te maken of bestaande rapporten te bewerken of te verwijderen. U kunt een poortgebruiker ook toewijzen als [!DNL Tableau] gebruiker.
+U kunt rapporten van Audience Managers beheren door nieuwe rapporten te maken of bestaande rapporten te bewerken of te verwijderen. U kunt een poortgebruiker ook toewijzen als een [!DNL Tableau] gebruiker.
 
 <!-- c_reporting.xml -->
 
@@ -23,4 +23,4 @@ U kunt rapporten van Audience Managers beheren door nieuwe rapporten te maken of
 
 U kunt elke kolom in stijgende of dalende orde sorteren door de gewenste kopbal van de kolom te klikken.
 
-Gebruik het [!UICONTROL Search] vakje of de pagineringscontroles bij de bodem van de lijst om het gewenste rapport te vinden.
+Gebruik de [!UICONTROL Search] doos of de pagineringscontroles bij de bodem van de lijst om het gewenste rapport te vinden.
