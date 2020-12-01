@@ -24,38 +24,38 @@ De bètaomgeving is bedoeld voor het testen van implementaties van Audience Mana
 
 | Service | URL/hostnaam | Stappen voor levering |
 |--- |--- |--- |
-| S3 |  | Zie [Providing Amazon S3 Buckets](admin-beta-environment.md#provision-s3-buckets). |
-| DCS | https&amp;colon;//dcs-beta.demdex.net/... | Geen extra stappen nodig van onze kant. Zie [Toegang tot DCS in het milieu](admin-beta-environment.md#access-dcs-beta-environment)van Beta. |
+| S3 |  | Zie [Voorziening Amazon S3 Buckets](admin-beta-environment.md#provision-s3-buckets). |
+| DCS | https&amp;colon;//dcs-beta.demdex.net/... | Geen extra stappen nodig van onze kant. Zie [Toegang tot DCS in het milieu van Beta](admin-beta-environment.md#access-dcs-beta-environment). |
 | UI | https&amp;colon;//bank-beta.demdex.com | Gegevens worden maandelijks van de productie naar de bètaomgeving gekopieerd. Referenties voor productie zijn geldig voor bèta. |
 | API | https&amp;colon;//api-beta.demdex.com/... | Gegevens worden maandelijks van de productie naar de bètaomgeving gekopieerd. Referenties voor productie zijn geldig voor bèta. |
 
-## Artiment Amazon S3 Buckets {#provision-s3-buckets}
+## Voorziening Amazon S3-emmertjes {#provision-s3-buckets}
 
 >[!NOTE]
 >
->We gaan weg van het gebruik [!DNL FTP/SFTP]. Ook, gelieve te merken op dat de uitgaande gegevensoverdrachten niet voor het bètamilieu werken.
+>We gaan weg van het gebruik van [!DNL FTP/SFTP]. Ook, gelieve te merken op dat de uitgaande gegevensoverdrachten niet voor het bètamilieu werken.
 
-Aan leveringsemmers [!DNL S3] voor binnenkomende gegevens:
+Aan voorziening [!DNL S3] emmers voor binnenkomende gegevens:
 
-1. Gebruik de [**eigenschap van de Hulp **](https://skms.adobe.com/)van TechOps van het Verzoek van SKMS.
-1. Ga naar **[!UICONTROL Request TechOps Help]** de linkernavigatieregel.
-1. Typ in **[!UICONTROL Request Search]** het zoekveld in Audience Manager.
-1. De rol neer in de onderzoeksresultaten en klikt in **Audience Manager - S3 Binnenkomende/Uitgaande Levering** van de Rekening.
-1. Vul de velden in het inrichtingsvenster in en geef de **Sandbox-omgeving** op in het **[!UICONTROL Environment]** veld.
+1. Gebruik [**SKMS Verzoek TechOps Help**](https://skms.adobe.com/) eigenschap.
+1. Ga naar **[!UICONTROL Request TechOps Help]** in de linkernavigatieregel.
+1. Typ in **[!UICONTROL Request Search]** in Audience Manager in het zoekveld.
+1. Blader omlaag in de zoekresultaten en klik op **Audience Manager - S3 Binnenkomend / Uitgaande Account Provisioning**.
+1. Vul de velden in het inrichtingsvenster in en geef **Sandbox-omgeving** op in het veld **[!UICONTROL Environment]**.
 
 >[!NOTE]
 >
->We ontmoedigen het gebruik van [!DNL FTP/SFTP] en stimuleren het gebruik van [!UICONTROL Amazon S3]. De redenen waarom wij het gebruik van [!UICONTROL Amazon S3] aansporen zijn vermeld in [Amazon S3:Info](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/amazon-s3.html).
+>We ontmoedigen het gebruik van [!DNL FTP/SFTP] en moedigen het gebruik van [!UICONTROL Amazon S3] aan. De redenen waarom wij het gebruik van [!UICONTROL Amazon S3] aanmoedigen zijn vermeld in [Amazon S3:About](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/amazon-s3.html).
 
-## Toegang tot DCS in het Bètamilieu {#access-dcs-beta-environment}
+## Open DCS in het milieu van Beta {#access-dcs-beta-environment}
 
-Toegang krijgen tot de [!UICONTROL DCS] bètaomgeving:
+Om tot [!UICONTROL DCS] in het bètamilieu toegang te hebben:
 
-1. Maak een [!UICONTROL DCS] vraag, gebruikend het [!DNL curl] bevel [](https://curl.haxx.se/docs/manpage.html). [!DNL Curl] is een hulpmiddel om gegevens van of naar een server over te brengen, gebruikend één van vele gesteunde protocollen.
+1. Maak een [!UICONTROL DCS] vraag, gebruikend [!DNL curl] [bevel](https://curl.haxx.se/docs/manpage.html). [!DNL Curl] is een hulpmiddel om gegevens van of naar een server over te brengen, gebruikend één van vele gesteunde protocollen.
 
    Bijvoorbeeld: `curl -v https://dcs-beta.demdex.net/event`
 
-1. Controleer of de bètaversie uw verzoek heeft verzonden [!UICONTROL DCS] door naar &quot;[!DNL sandbox]&quot; in de [!UICONTROL DCS] antwoordheader te zoeken.
+1. Verifieer dat uw verzoek door de bèta [!UICONTROL DCS] door &quot;[!DNL sandbox]&quot;in [!UICONTROL DCS] reactiekop te zoeken werd gediend.
 
    Bijvoorbeeld:
 
