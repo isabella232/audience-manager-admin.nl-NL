@@ -13,21 +13,21 @@ ht-degree: 1%
 ## Inhoudsopgave
 
 + `TOC.md` bij de wortel van de gebruikersgids verstrekt de organisatie van de onderwerpen die in de gids voor deze oplossing bevat zijn.
-+ Elke gebruikersgids zal het hebben uniek `TOC.md`, waarin u alle pagina&#39;s/onderwerpen kunt tot zonodig opdracht geven.
++ Elke gebruikershandleiding heeft een eigen unieke `TOC.md`, waarin u alle pagina&#39;s/onderwerpen naar wens kunt bestellen.
 + De eerste pagina van alle gebruikershandleidingen is `overview.md`.
 
 ## Handboek
 
-+ De inleiding tot de gebruikersgids wordt geroepen `overview.md`
++ De inleiding aan de gebruikersgids wordt genoemd `overview.md`
 + Elk onderwerp in de gebruikersgids heeft het zijn eigen verschillende folder.
    + Als er een onderwerp in de gids genoemd *Implementatie* is, is de overeenkomstige folder `/implementation`
-+ Alle afbeeldingselementen worden in de `/assets` hoofdmap van de gebruikershandleiding opgeslagen.
-   + Alle afbeeldingen in de `/assets` map worden gelokaliseerd.
-   + Afbeeldingen in de `/no-localize` directory worden niet gelokaliseerd (dat is een verrassing!). Dit kan worden gebruikt om er in lokale versies voor te zorgen dat specifieke elementen niet onnodig worden gereproduceerd.
++ Alle afbeeldingselementen worden opgeslagen in `/assets` aan de basis van de gebruikershandleiding.
+   + Alle afbeeldingen in de map `/assets` worden gelokaliseerd.
+   + Afbeeldingen in de map `/no-localize` worden niet gelokaliseerd (dit is een verrassing!). Dit kan worden gebruikt om er in lokale versies voor te zorgen dat specifieke elementen niet onnodig worden gereproduceerd.
 
 ## Metagegevens gebruikersgids Niveau
 
-+ Metagegevens die de gebruikershandleiding beschrijven, worden opgeslagen in de `TOC.md`. Dit omvat:
++ Metagegevens die de gebruikershandleiding beschrijven, worden opgeslagen in `TOC.md`. Dit omvat:
    + product - naam van product/capaciteit.
    + cloud - cloud waartoe dit product behoort.
    + publiek - publiek of archetype waarop de gids is gericht.
@@ -41,9 +41,9 @@ ht-degree: 1%
    + tweede titel - tweede alternatieve titel.
    + seo-description - alternatieve titel voor SEO-doeleinden.
    + korte titel - (optioneel veld).
-   + Met index - ja/nee - wordt de pagina geïndexeerd door het zoekplatform van Adobe.
+   + index - ja / neen - zal de pagina door Adobe zoekplatform worden geïndexeerd.
    + vertalen - ja / nee - zal deze pagina worden gelokaliseerd .
-   + versie - vooral gebruikt voor AEM en Campagne, om de versie van het product aan te duiden.
+   + versie - hoofdzakelijk gebruikt voor AEM en Campagne, om de versie van het product aan te duiden.
    + private-feature-pack - voornamelijk gebruikt voor AEM.
    + bèta - is dit product in bèta?
    + omleiding - kan worden gebruikt om een verwijzing naar een nieuwe pagina tot stand te brengen als dat wordt vereist.
@@ -51,4 +51,4 @@ ht-degree: 1%
 
 ## Meer informatie
 
-Voor meer publicatieinstructies, stijlgidsen, steekproeven en andere middelen, gelieve te bezoeken de [Samenwerken Documentatie Repo](https://git.corp.adobe.com/AdobeDocs/collaborative-doc-instructions)
+Voor meer publicatieinstructies, stijlgidsen, steekproeven en andere middelen, gelieve [Samenwerkende Documentatie Repo](https://git.corp.adobe.com/AdobeDocs/collaborative-doc-instructions) te bezoeken
