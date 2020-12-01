@@ -15,6 +15,6 @@ ht-degree: 2%
 
 # Overzicht van indelingen {#formats-overview}
 
-Een indeling is een opgeslagen sjabloon (of bestand) waarin macro&#39;s worden gebruikt om de inhoud te ordenen van gegevens die naar een doel worden verzonden. Indelingstypen omvatten [!DNL HTTP] indelingen en bestandsindelingen. [!DNL HTTP] indelingen verzenden gegevens in een [!DNL JSON] object met een [!DNL POST] of [!DNL GET] methode. Met bestandsindelingen worden gegevens in een bestand verzonden door [!DNL FTP]. Met de macro&#39;s die door elke indeling worden gebruikt, kunt u bestandsnamen instellen, bestandsheaders definiëren en de inhoud van een gegevensbestand ordenen. In Admin [!DNL UI], kunt u, formaten tot stand brengen opslaan en hergebruiken wanneer vestiging bestemmingen voor klanten.
+Een indeling is een opgeslagen sjabloon (of bestand) waarin macro&#39;s worden gebruikt om de inhoud te ordenen van gegevens die naar een doel worden verzonden. Indelingstypen zijn onder andere [!DNL HTTP]-indelingen en bestandsindelingen. [!DNL HTTP] indelingen verzenden gegevens in een  [!DNL JSON] object met een  [!DNL POST] of  [!DNL GET] methode. Met bestandsindelingen worden gegevens in een bestand verzonden door [!DNL FTP]. Met de macro&#39;s die door elke indeling worden gebruikt, kunt u bestandsnamen instellen, bestandsheaders definiëren en de inhoud van een gegevensbestand ordenen. In Admin [!DNL UI], kunt u, formaten tot stand brengen opslaan en hergebruiken wanneer het vestigen van bestemmingen voor klanten.
 
 ![](assets/formats.png)
