@@ -17,7 +17,7 @@ ht-degree: 15%
 
 Voorbeelden van enkele veelgebruikte [!DNL HTTP] macrocombinaties.
 
-Zie de Macro&#39;s [van het Formaat van](../formats/web-formats.md) HTTP voor een lijst van macro&#39;s en hun definities.
+Zie [HTTP-indelingsmacro&#39;s](../formats/web-formats.md) voor een lijst met macro&#39;s en de bijbehorende definities.
 
 <table id="table_D5FAC5D056ED49D79FA883197EF8F42E"> 
  <thead> 
@@ -138,7 +138,7 @@ Zie de Macro&#39;s [van het Formaat van](../formats/web-formats.md) HTTP voor ee
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>&lt;if(user.segments &amp;&amp; user.removedSegments)&gt;&lt;COMMA&gt;&lt;endif&gt;</code> </p> </td> 
-   <td colname="col2"> <p>Hiermee wordt een komma afgedrukt als de velden <code>segments</code> en <code>removedSegments</code> niet leeg zijn. Deze voorwaarde kan voor POST- verzoeken worden gebruikt wanneer het aaneenschakelen van lijsten voor segmenten en verwijderde segmenten. </p> </td> 
+   <td colname="col2"> <p>Hiermee wordt een komma afgedrukt als de velden <code>segments</code> en <code>removedSegments</code> niet leeg zijn. Deze voorwaarde kan voor POST verzoeken worden gebruikt wanneer het aaneenschakelen van lijsten voor segmenten en verwijderde segmenten. </p> </td> 
   </tr> 
  </tbody> 
 </table>
