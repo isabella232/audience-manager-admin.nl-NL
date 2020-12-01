@@ -21,13 +21,13 @@ Gegevensproviders voor containers weergeven of bewerken.
 
 >[!NOTE]
 >
->Standaard worden bedrijven gemaakt met één container. In de gebruikersinterface kunt u meer containers voor een bedrijf maken, in **[!UICONTROL Tools > Tags]**.
+>Standaard worden bedrijven gemaakt met één container. U kunt extra containers voor een bedrijf in het gebruikersinterface, in **[!UICONTROL Tools > Tags]** tot stand brengen.
 
-1. Klik **[!UICONTROL Companies]**, bepaal de plaats en klik het gewenste bedrijf om zijn [!UICONTROL Profile] pagina te tonen.
+1. Klik **[!UICONTROL Companies]**, dan bepaal de plaats en klik het gewenste bedrijf om zijn [!UICONTROL Profile] pagina te tonen.
 
-   Gebruik het [!UICONTROL Search] vakje of de pagineringscontroles bij de bodem van de lijst om het gewenste bedrijf te vinden. U kunt elke kolom in stijgende of dalende orde sorteren door de gewenste kopbal van de kolom te klikken.
+   Gebruik de doos [!UICONTROL Search] of de pagineringscontroles bij de bodem van de lijst om het gewenste bedrijf te vinden. U kunt elke kolom in stijgende of dalende orde sorteren door de gewenste kopbal van de kolom te klikken.
 
-1. Klik op het **[!UICONTROL Containers]** tabblad.
+1. Klik op het tabblad **[!UICONTROL Containers]**.
 
    ![](assets/containers.png)
 
@@ -35,11 +35,11 @@ Gegevensproviders voor containers weergeven of bewerken.
 
    ![Stap resultaat](assets/containers_edit.png)
 
-1. Verplaats gegevensbronnen uit de lijst **[!UICONTROL Available Data Sources]** **[!UICONTROL Selected Data Sources for This Container]** en de lijst door de gewenste gegevensbronnen te selecteren en klik vervolgens zo nodig op de pijl naar rechts of naar links.
+1. Verplaats gegevensbronnen uit de lijsten **[!UICONTROL Available Data Sources]** en **[!UICONTROL Selected Data Sources for This Container]** door de gewenste gegevensbronnen te selecteren en vervolgens desgewenst op de pijl naar rechts of naar links te klikken.
 
-   U kunt deze taak ook uitvoeren vanuit de [Data](../companies/admin-third-party-providers.md#task_E942DD674D794BA6B8EFD52FD866E689)Providerspage van derden.
+   U kunt deze taak van [de Leveranciers van Gegevens van de Derde ](../companies/admin-third-party-providers.md#task_E942DD674D794BA6B8EFD52FD866E689)pagina ook uitvoeren.
 
-1. Klik **[!UICONTROL Save]** als u wijzigingen hebt aangebracht.
+1. Klik **[!UICONTROL Save]** als u veranderingen aanbracht.
 
 >[!MORELIKETHIS]
 >
