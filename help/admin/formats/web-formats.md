@@ -15,9 +15,9 @@ ht-degree: 2%
 
 # Macro&#39;s voor HTTP-indelingen {#http-format-macros}
 
-Hier worden de macro&#39;s weergegeven die u kunt gebruiken om [!DNL HTTP] gegevensbestanden te maken. [!DNL HTTP] verzendt gegevens in een [!DNL JSON] formaat.
+Hier worden de macro&#39;s weergegeven die u kunt gebruiken om [!DNL HTTP]-gegevensbestanden te maken. [!DNL HTTP] verzendt gegevens in een  [!DNL JSON] formaat.
 
-Zie de Macro Voorbeelden [van het Formaat van](../formats/web-format-examples.md) HTTP voor een lijst en voorbeelden van sommige algemeen gebruikte macrocombinaties.
+Zie [Macro Examples](../formats/web-format-examples.md) van het Formaat van HTTP voor een lijst en voorbeelden van sommige algemeen gebruikte macrocombinaties.
 
 <table id="table_72A72EA63C3643FB84B47A76CD2CC1CA"> 
  <thead> 
@@ -36,7 +36,7 @@ Zie de Macro Voorbeelden [van het Formaat van](../formats/web-format-examples.md
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>Unieke gebruikersnaam voor gegevenspartner. Deze macro retourneert de id die u aan een gebruiker hebt toegewezen als de id al is gesynchroniseerd met een apparaat-id voor de <span class="keyword"> Audience Manager </span> . </p> </td> 
+   <td colname="col3"> <p>Unieke gebruikersnaam voor gegevenspartner. Deze macro retourneert de id die u aan een gebruiker hebt toegewezen als de id ervan al is gesynchroniseerd met een <span class="keyword">-Audience Manager </span>-apparaat-id. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DPID</code> </p> </td> 
@@ -51,7 +51,7 @@ Zie de Macro Voorbeelden [van het Formaat van](../formats/web-format-examples.md
   <tr> 
    <td colname="col1"> <p> <code>GENERATION_TIME</code> </p> </td> 
    <td colname="col2"> <p> <code>GET, POST</code> </p> </td> 
-   <td colname="col3"> <p>Unix UTC-tijdstempel. Een interne timestamp, vertegenwoordigt de tijd AAM werd meegedeeld om de <span class="wintitle"> S2S </span> bestemming aan onze partners te publiceren. </p> </td> 
+   <td colname="col3"> <p>Unix UTC-tijdstempel. Een interne timestamp, vertegenwoordigt de tijd AAM werd meegedeeld om <span class="wintitle"> S2S </span> bestemming aan onze partners te publiceren. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>IP</code> </p> </td> 
@@ -61,7 +61,7 @@ Zie de Macro Voorbeelden [van het Formaat van](../formats/web-format-examples.md
     <tr> 
    <td colname="col1"> <p> <code>MCID</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>Experience Cloud-id. (MCID staat voor Marketing Cloud, de oudere naam van de Experience Cloud) </p> </td> 
+   <td colname="col3"> <p>Experience Cloud-id. (MCID staat voor Marketing Cloud, wat de oudere naam van de Experience Cloud is) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>NUM_REMOVED_SEGMENTS</code> </p> </td> 
@@ -91,7 +91,7 @@ Zie de Macro Voorbeelden [van het Formaat van](../formats/web-format-examples.md
   <tr> 
    <td colname="col1"> <p> <code>REGION_ID_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>Het DCS-gebied van de <a href="https://docs.adobe.com/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html"> Audience Manager </a> waar de activiteit is gestart.</p> </td> 
+   <td colname="col3"> <p>Het <a href="https://docs.adobe.com/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html"> DCS gebied van de Audience Manager </a> waar de activiteit voortkwam.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>REMOVED_SEGMENT_LIST</code> </p> </td> 
@@ -160,7 +160,7 @@ Zie de Macro Voorbeelden [van het Formaat van](../formats/web-format-examples.md
   <tr> 
    <td colname="col1"> <p> <code>USER_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>POST</code> </p> </td> 
-   <td colname="col3"> <p>Een lijst met gebruikers-id' <span class="keyword"> s voor </span> Audience Managers. U kunt ook specifieke velden retourneren die het volgende bevatten: </p> 
+   <td colname="col3"> <p>Een lijst met <span class="keyword"> Audience Manager </span> gebruikers-id's. U kunt ook specifieke velden retourneren die het volgende bevatten: </p> 
     <ul id="ul_B6857D809FDC46749B7E745BD8C45F8E"> 
      <li id="li_F31CD82D16ED41FD82518141D90B5B35"> <code>user.aamUuid</code> </li> 
      <li id="li_623FA758C84D4A2D9B25C7FBE90F62B7"> <code>user.dpUuid</code> </li> 
@@ -174,7 +174,8 @@ Zie de Macro Voorbeelden [van het Formaat van](../formats/web-format-examples.md
      <li><code>user.regionIds</code></li> 
     </ul> <p>Geef deze velden op zoals in dit voorbeeld: </p> <p> 
      <codeblock>
-       "AAM_UUID": "&lt;user.amUuid&gt;" "DataPartner_UUID": "&lt;user.dpUuid&gt;" 
+       "AAM_UUID": "&lt;user.aamUuid&gt;" 
+"DataPartner_UUID": "&lt;user.dpUuid&gt;" 
      </codeblock> </p> <p>Zie ook <a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31"> HTTP Format Macro Examples </a> voor een volledig voorbeeld. </p> </td> 
   </tr>
  </tbody>
