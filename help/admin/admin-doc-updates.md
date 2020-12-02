@@ -5,10 +5,10 @@ seo-title: Documentatie-updates
 title: Documentatie-updates
 uuid: 1c02dff5-8e3f-42bf-a50c-03b75e121ac7
 translation-type: tm+mt
-source-git-commit: e60aa0ac341d74454bfe00a4f56add3a9f9e281b
+source-git-commit: 87f89a8a229b221cdab217b8a6b96ccd958078ca
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 100%
+source-wordcount: '632'
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Alle updates (toevoegingen, verwijderingen en correcties) in de Handleiding voor Audience Manager Admin, op datum.
 
-Zie de [release-opmerkingen bij Experience Cloud](https://marketing.adobe.com/resources/help/en_US/whatsnew/) voor meer informatie over functiereleases, verbeteringen en opgeloste problemen. Zie de [opmerkingen bij eerdere releases](https://marketing.adobe.com/resources/help/en_US/whatsnew/c_legacy_releases.html) voor oudere Experience Cloud-aankondigingen. Voor [!DNL Audience Manager documentation changes, see] [documentatie-updates](https://docs.adobe.com/content/help/nl-NL/audience-manager/user-guide/documentation-updates/docs-2019.html).
+Zie de [release-opmerkingen bij Experience Cloud](https://marketing.adobe.com/resources/help/en_US/whatsnew/) voor meer informatie over functiereleases, verbeteringen en opgeloste problemen. Zie de [opmerkingen bij eerdere releases](https://marketing.adobe.com/resources/help/en_US/whatsnew/c_legacy_releases.html) voor oudere Experience Cloud-aankondigingen. Voor [!DNL Audience Manager] documentatieveranderingen, zie [Documentatie Updates](https://docs.adobe.com/content/help/nl-NL/audience-manager/user-guide/documentation-updates/docs-2019.html).
 
 ## Updates in AAM 2019-documentatie {#aam-2019-docs-updates}
 
