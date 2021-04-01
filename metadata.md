@@ -1,16 +1,19 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 solution-title: Meer informatie en ondersteuning
-solution-hub-url: https://helpx.adobe.com/support/audience-manager.html
+solution-hub-url: https://helpx.adobe.com/nl/support/audience-manager.html
 solution-image: assets/aam-icon-24.png
 getting-started-title: Aan de slag
 getting-started-url: https://helpx.adobe.com/audience-manager/get-started.html
-tutorials-title: Zelfstudies
+tutorials-title: Tutorials
 tutorials-url: https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/overview.html
-git-repo: https://git.corp.adobe.com/AdobeDocs/audience-manager-admin.en
+git-repo: https://git.corp.adobe.com/AdobeDocs/audience-manager-admin.nl-NL
 index: false
 translation-type: tm+mt
-source-git-commit: b9d0dc2a2daf067435b62e4d2e2bc0784fbe3baf
+source-git-commit: 2152bf70087aecc33ed81f35f034acb268b12bda
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,4 +30,4 @@ Het bestand metadata.md bevat metagegevens op repo-niveau die worden doorgegeven
 | aan de slag-url | Aan de slag met Help-pagina koppelen |
 | zelfstudies-url | Koppeling maken naar videozelfstudies: helpx-zelfstudies of KT-zelfstudies |
 | mini-toc-niveaus | Hiermee bepaalt u het aantal kopniveaus dat wordt weergegeven in de rechterrails. default is 2 |
-| git-repo | Hiermee geeft u de locatie op van het hoofdrepo voor intern gebruik |
+| git-repo | Hiermee wordt de locatie van het master repo voor intern gebruik opgegeven |
