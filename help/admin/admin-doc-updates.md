@@ -4,14 +4,13 @@ seo-description: Alle updates (toevoegingen, verwijderingen en correcties) in de
 seo-title: Documentatie-updates
 title: Documentatie-updates
 uuid: 1c02dff5-8e3f-42bf-a50c-03b75e121ac7
-translation-type: tm+mt
-source-git-commit: 87f89a8a229b221cdab217b8a6b96ccd958078ca
+exl-id: 8221b4df-99c2-47d3-a2ea-186a701a2b20
+source-git-commit: 7767c20bf97ee5c602b60dc6c11a5cd2bf21835d
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
-
 
 # Documentatie-updates {#documentation-updates}
 
@@ -21,12 +20,10 @@ Zie de [release-opmerkingen bij Experience Cloud](https://marketing.adobe.com/re
 
 ## Updates in AAM 2019-documentatie {#aam-2019-docs-updates}
 
-
 | Onderwerp | Beschrijving |
----------|----------|
+|--- |--- |
 | Macro&#39;s voor HTTP-indelingen | We hebben een nieuwe macro toegevoegd: `REGION_ID_LIST`. Verder hebben we drie nieuwe velden aan de macro `USER_LIST` toegevoegd: `sda`, `sda` en `sda`. |
 | Macro&#39;s voor HTTP-indelingen | We hebben twee nieuwe macro&#39;s toegevoegd: `ECID` en `MCID`. |
-
 
 ## Updates van de AAM 2018-documentatie {#aam-2018-docs-updates}
 
