@@ -1,17 +1,16 @@
 ---
 description: Gebruik de pagina Servers in het hulpmiddel Admin van de Audience Manager om een nieuwe server van FTP tot stand te brengen of een bestaande server uit te geven.
-seo-description: Gebruik de pagina Servers in het hulpmiddel Admin van de Audience Manager om een nieuwe server van FTP tot stand te brengen of een bestaande server uit te geven.
-seo-title: Een FTP-server maken of bewerken
+seo-description: Use the Servers page in the Audience Manager Admin tool to create a new FTP server or to edit an existing server.
+seo-title: Create or Edit an FTP Server
 title: Een FTP-server maken of bewerken
 uuid: 9273abb2-963d-4d83-bf5a-b3817f0b90e6
-translation-type: tm+mt
-source-git-commit: 78d694670e7abdc18938c5be729ad499e2647825
+exl-id: 9eae4ecf-ccde-483a-ae53-1cbac033d8d6
+source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 4%
+source-wordcount: '393'
+ht-degree: 3%
 
 ---
-
 
 # Een FTP-server maken of bewerken {#create-or-edit-an-ftp-server}
 
@@ -27,7 +26,7 @@ Gebruik de pagina [!UICONTROL Servers] in het hulpmiddel van Admin van de Audien
 
    >[!NOTE]
    >
-   >Als beste praktijken, adviseren wij gebruikend [!DNL Amazon S3] als methode om dossiers van te krijgen en dossiers aan partners te leveren. [!DNL Amazon S3] verstrekt een eenvoudige interface van de Webdiensten die kan worden gebruikt om het even welke hoeveelheid gegevens op te slaan en terug te winnen, op elk ogenblik, van overal op het Web. Zie [Informatie over Amazon S3](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/amazon-s3.html) in de *Gebruikershandleiding voor Audience Managers* voor meer informatie.
+   >Als beste praktijken, adviseren wij gebruikend [!DNL Amazon S3] als methode om dossiers van te krijgen en dossiers aan partners te leveren. [!DNL Amazon S3] verstrekt een eenvoudige interface van de Webdiensten die kan worden gebruikt om het even welke hoeveelheid gegevens op te slaan en terug te winnen, op elk ogenblik, van overal op het Web. Zie [Informatie over Amazon S3](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html) in de *Gebruikershandleiding voor Audience Managers* voor meer informatie.
 
 1. Vul de velden in:
 

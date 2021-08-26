@@ -1,17 +1,16 @@
 ---
 description: Dingen u uw cliënten zou moeten aanmoedigen om zich bewust te zijn van wanneer zij met Audience Manager APIs werken.
-seo-description: Dingen u uw cliënten zou moeten aanmoedigen om zich bewust te zijn van wanneer zij met Audience Manager APIs werken.
-seo-title: API-vereisten en -aanbevelingen
+seo-description: Things you should encourage your clients to be aware of when they're working with the Audience Manager APIs.
+seo-title: API Requirements and Recommendations
 title: API-vereisten en -aanbevelingen
 uuid: eba9cf92-f0c8-4394-8532-0de9a2e7b103
-translation-type: tm+mt
-source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
+exl-id: 24f90732-31a6-436d-862b-e6871d279c7a
+source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 3%
+source-wordcount: '340'
+ht-degree: 2%
 
 ---
-
 
 # API-vereisten en -aanbevelingen {#api-requirements-and-recommendations}
 
@@ -37,4 +36,4 @@ We raden u aan een aparte, technische gebruikersaccount te maken voor het werken
 * Identificeer welke dienst [!DNL API] roept (b.v., vraag van een cliënttoepassing die onze [!DNL API]s of van het aanbrengen van bulkveranderingen gebruikt).
 * Ononderbroken toegang tot de [!DNL API]s bieden. Een rekening die aan een specifieke werknemer is gebonden, kan worden geschrapt wanneer zij het bedrijf verlaten. Hierdoor kunnen uw klanten niet met de beschikbare [!DNL API]-code werken. Dit probleem wordt voorkomen door een algemeen account dat niet aan een bepaalde werknemer is gekoppeld.
 
-Als voorbeeld of gebruiksgeval voor dit type van rekening, laten wij zeggen uw klanten een heleboel segmenten in één keer met [Bulk de Hulpmiddelen van het Beheer willen veranderen](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/bult-management-tools/bulk-management-intro.html). Om dit te doen, hebben zij [!DNL API] toegang nodig. In plaats van toestemmingen aan een specifieke gebruiker toe te voegen, creeer een niet-specifieke, [!DNL API] gebruikersrekening die de aangewezen geloofsbrieven, de sleutel, en het geheim heeft om [!DNL API] vraag te maken. Dit is ook handig als de client eigen toepassingen ontwikkelt die de [!DNL Audience Manager] [!DNL API]s gebruiken.
+Als voorbeeld of gebruiksgeval voor dit type van rekening, laten wij zeggen uw klanten een heleboel segmenten in één keer met [Bulk de Hulpmiddelen van het Beheer willen veranderen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/bult-management-tools/bulk-management-intro.html). Om dit te doen, hebben zij [!DNL API] toegang nodig. In plaats van toestemmingen aan een specifieke gebruiker toe te voegen, creeer een niet-specifieke, [!DNL API] gebruikersrekening die de aangewezen geloofsbrieven, de sleutel, en het geheim heeft om [!DNL API] vraag te maken. Dit is ook handig als de client eigen toepassingen ontwikkelt die de [!DNL Audience Manager] [!DNL API]s gebruiken.

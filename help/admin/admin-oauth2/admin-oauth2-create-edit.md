@@ -1,17 +1,16 @@
 ---
 description: Gebruik de pagina van Clients OAuth2 om een lijst van cliënten OAuth2 in uw configuratie van de Audience Manager te bekijken. U kunt bestaande clients bewerken of verwijderen of nieuwe clients maken, op voorwaarde dat u de juiste gebruikersrollen hebt toegewezen.
-seo-description: Gebruik de pagina van Clients OAuth2 om een lijst van cliënten OAuth2 in uw configuratie van de Audience Manager te bekijken. U kunt bestaande clients bewerken of verwijderen of nieuwe clients maken, op voorwaarde dat u de juiste gebruikersrollen hebt toegewezen.
-seo-title: OAuth2-clients
+seo-description: Use the OAuth2 Clients page to view a list of OAuth2 clients in your Audience Manager configuration. You can edit or delete existing clients or create new clients, providing that you have the appropriate user roles assigned.
+seo-title: OAuth2 Clients
 title: OAuth2-clients
 uuid: 3e654053-fb2f-4d8f-a53c-b5c3b8dbdaaa
-translation-type: tm+mt
-source-git-commit: 0ee7aa9c13f1b9b8fd64dddff4e52d101055e77c
+exl-id: 993eae04-02e8-4554-a6fe-cf599053bfc9
+source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 2%
+source-wordcount: '555'
+ht-degree: 1%
 
 ---
-
 
 # OAuth2-clients {#oauth-clients}
 
@@ -23,7 +22,7 @@ Gebruik de pagina [!UICONTROL OAuth2 Clients] om een lijst van [!UICONTROL OAuth
 
 >[!NOTE]
 >
->Zorg ervoor dat uw klant de [OAuth2](https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html#oauth) documentatie in de Gids van de Gebruiker van de Audience Manager leest.
+>Zorg ervoor dat uw klant de [OAuth2](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html#oauth) documentatie in de Gids van de Gebruiker van de Audience Manager leest.
 
 [!DNL OAuth2] is een open norm voor vergunning om beveiligde gedelegeerde toegang tot  [!DNL Audience Manager] middelen namens een middeleigenaar te verlenen.
 

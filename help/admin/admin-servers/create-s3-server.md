@@ -1,17 +1,16 @@
 ---
 description: Gebruik de pagina Servers in het hulpmiddel Admin van de Audience Manager om een nieuwe S3 server tot stand te brengen of een bestaande server uit te geven.
-seo-description: Gebruik de pagina Servers in het hulpmiddel Admin van de Audience Manager om een nieuwe S3 server tot stand te brengen of een bestaande server uit te geven.
-seo-title: Een S3-server maken of bewerken
+seo-description: Use the Servers page in the Audience Manager Admin tool to create a new S3 server or to edit an existing server.
+seo-title: Create or Edit an S3 Server
 title: Een S3-server maken of bewerken
 uuid: 94fee787-eb26-45aa-b602-d61ab12969ea
-translation-type: tm+mt
-source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
+exl-id: 89310de0-e24e-4d4b-8171-56faf0b441f6
+source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 7%
+source-wordcount: '207'
+ht-degree: 5%
 
 ---
-
 
 # Een S3-server maken of bewerken {#create-or-edit-an-s-server}
 
@@ -27,7 +26,7 @@ Gebruik de pagina [!UICONTROL Servers] in het hulpmiddel van Admin van de Audien
 
    >[!NOTE]
    >
-   >Wij adviseren gebruikend [!DNL Amazon S3] als methode om dossiers van en het leveren van dossiers aan partners te krijgen. [!DNL Amazon S3] verstrekt een eenvoudige interface van de Webdiensten die kan worden gebruikt om het even welke hoeveelheid gegevens op te slaan en terug te winnen, op elk ogenblik, van overal op het Web. Zie [Informatie over Amazon S3](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/amazon-s3.html) in de *Gebruikershandleiding voor Audience Managers* voor meer informatie.
+   >Wij adviseren gebruikend [!DNL Amazon S3] als methode om dossiers van en het leveren van dossiers aan partners te krijgen. [!DNL Amazon S3] verstrekt een eenvoudige interface van de Webdiensten die kan worden gebruikt om het even welke hoeveelheid gegevens op te slaan en terug te winnen, op elk ogenblik, van overal op het Web. Zie [Informatie over Amazon S3](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html) in de *Gebruikershandleiding voor Audience Managers* voor meer informatie.
 
 1. Vul de velden in:
 

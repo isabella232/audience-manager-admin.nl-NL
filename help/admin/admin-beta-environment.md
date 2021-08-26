@@ -1,18 +1,17 @@
 ---
 description: De bètaomgeving is bedoeld voor het testen van implementaties van Audience Managers. Wijzigingen in bèta hebben geen invloed op de productiegegevens. De bètaomgeving van de Audience Manager is een kleinschalige, zelfstandige versie van de productieomgeving. Alle gegevens die u wilt testen, moeten in deze omgeving worden ingevoerd en verzameld.
-seo-description: De bètaomgeving is bedoeld voor het testen van implementaties van Audience Managers. Wijzigingen in bèta hebben geen invloed op de productiegegevens. De bètaomgeving van de Audience Manager is een kleinschalige, zelfstandige versie van de productieomgeving. Alle gegevens die u wilt testen, moeten in deze omgeving worden ingevoerd en verzameld.
-seo-title: Bètaomgeving
+seo-description: The beta environment is for testing Audience Manager implementations. Changes made in beta do not affect production data. The Audience Manager beta environment is a smaller-scale, standalone version of the production environment. All the data that you want to test must be entered and collected in this environment.
+seo-title: Beta Environment
 solution: Audience Manager
 title: Bètaomgeving
 uuid: 6a253f4e-96e7-4395-a783-a8eb213b7daf
-translation-type: tm+mt
-source-git-commit: 7765dbf79c2fb6ca8c4b52fe8090c1fd11f9db27
+exl-id: 78d5a1ff-c016-4366-ba34-9814a0d92067
+source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '362'
 ht-degree: 2%
 
 ---
-
 
 # Bètaomgeving {#beta-environment}
 
@@ -29,7 +28,7 @@ De bètaomgeving is bedoeld voor het testen van implementaties van Audience Mana
 | UI | https&amp;colon;//bank-beta.demdex.com | Gegevens worden maandelijks van de productie naar de bètaomgeving gekopieerd. Referenties voor productie zijn geldig voor bèta. |
 | API | https&amp;colon;//api-beta.demdex.com/... | Gegevens worden maandelijks van de productie naar de bètaomgeving gekopieerd. Referenties voor productie zijn geldig voor bèta. |
 
-## Voorziening Amazon S3-emmertjes {#provision-s3-buckets}
+## Amazon S3-emmertjes voorzien {#provision-s3-buckets}
 
 >[!NOTE]
 >
@@ -45,9 +44,9 @@ Aan voorziening [!DNL S3] emmers voor binnenkomende gegevens:
 
 >[!NOTE]
 >
->We ontmoedigen het gebruik van [!DNL FTP/SFTP] en moedigen het gebruik van [!UICONTROL Amazon S3] aan. De redenen waarom wij het gebruik van [!UICONTROL Amazon S3] aanmoedigen zijn vermeld in [Amazon S3:About](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/amazon-s3.html).
+>We ontmoedigen het gebruik van [!DNL FTP/SFTP] en moedigen het gebruik van [!UICONTROL Amazon S3] aan. De redenen waarom wij het gebruik van [!UICONTROL Amazon S3] aanmoedigen zijn vermeld in [Amazon S3:About](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html).
 
-## Open DCS in het milieu van Beta {#access-dcs-beta-environment}
+## Toegang tot DCS in het Bètamilieu {#access-dcs-beta-environment}
 
 Om tot [!UICONTROL DCS] in het bètamilieu toegang te hebben:
 

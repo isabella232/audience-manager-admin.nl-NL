@@ -1,17 +1,16 @@
 ---
 description: Audience Managers maken, bewerken en verwijderen.
-seo-description: Audience Managers maken, bewerken en verwijderen.
-seo-title: Bedrijfsbestemmingen beheren
+seo-description: Create, edit, and delete Audience Manager destinations.
+seo-title: Manage Company Destinations
 title: Bedrijfsbestemmingen beheren
 uuid: d9a6bfb1-7629-44e0-b7d7-ece44f65ea2b
-translation-type: tm+mt
-source-git-commit: f247457004a624297ddc8847dd256dbb7d8da418
+exl-id: a2e73613-07cd-4ab8-8c6e-be451ed50bfc
+source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1068'
 ht-degree: 1%
 
 ---
-
 
 # Bedrijfsbestemmingen beheren {#manage-company-destinations}
 
@@ -19,7 +18,7 @@ Audience Managers maken, bewerken en verwijderen.
 
 <!-- t_company_destinations.xml -->
 
-Voor gedetailleerde informatie, zie [Doelen](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/destinations.html) in *de Gids van de Gebruiker van de Audience Manager*.
+Voor gedetailleerde informatie, zie [Doelen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html) in *de Gids van de Gebruiker van de Audience Manager*.
 
 ## Bedrijfsbestemmingen maken of bewerken {#create-edit-company-destinations}
 
@@ -31,7 +30,7 @@ Bezoek de [Experience Cloud partner integratiepagina](https://wiki.corp.adobe.co
 
 Als uw client [!DNL Adobe Media Optimizer] als doel in [!DNL Audience Manager] wil gebruiken, moet u dit instellen in [!DNL Adobe Media Optimizer].
 
-## Navigeer naar het tabblad Doelen {#navigate-destinations}
+## Ga naar het tabblad Doelen {#navigate-destinations}
 
 1. Klik **[!UICONTROL Companies]**, dan bepaal de plaats en klik het gewenste bedrijf om zijn [!UICONTROL Profile] pagina te tonen. U kunt de [!UICONTROL Search] doos of de pagineringscontroles bij de bodem van de lijst gebruiken om het gewenste bedrijf te vinden. U kunt elke kolom in stijgende of dalende orde sorteren door de gewenste kopbal van de kolom te klikken.
 1. Klik op het tabblad **[!UICONTROL Destinations]**.
@@ -59,13 +58,13 @@ Deze id wordt gebruikt als de master gegevensbron-id. Hiermee bepaalt u welke ge
 >
 >Voor het [!UICONTROL Bulk ID] bestemmingstype, kunt u [!DNL Audience Manager] [!UICONTROL User ID] of [!DNL Adobe Experience Cloud] identiteitskaart niet gebruiken.
 
-Als de gegevensbron-id ( [!UICONTROL DPID]) niet in de vervolgkeuzelijst wordt weergegeven, moet u het selectievakje **[!UICONTROL Outbound]** op gegevensbronniveau op de [pagina Instellingen gegevensbron](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/manage-datasources.html) inschakelen.
+Als de gegevensbron-id ( [!UICONTROL DPID]) niet in de vervolgkeuzelijst wordt weergegeven, moet u het selectievakje **[!UICONTROL Outbound]** op gegevensbronniveau op de [pagina Instellingen gegevensbron](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html) inschakelen.
 
 * **[!UICONTROL Target Data Source]:** (Vereist) Selecteer de gewenste gegevensbron voor deze bestemming van de drop-down lijst. Met deze instelling wordt de etikettering van buitenaf gemaakte gegevens ingeschakeld, waardoor inname in afzonderlijke systemen aan de zijde van de client mogelijk is.
 * **[!UICONTROL Foreign Account ID]:** Geef de externe account-id voor deze bestemming op. Dit is de identificatiewaarde in het systeem van de ontvanger voor deze outbounded gegevens.
 * **[!UICONTROL Outbound Sample Rate Denominator]:** Wanneer de totale hoeveelheid geretourneerde gegevens onbekend is, gebruikt u deze instelling om alleen een voorbeeldhoeveelheid gegevens te retourneren in plaats van de volledige hoeveelheid. Pas hier het getal aan dat een fractie van de gegevens vertegenwoordigt (een waarde &#39;100&#39; retourneert bijvoorbeeld 1/100e van de normale hoeveelheid gegevens, een waarde &#39;10&#39; retourneert een tiende van de normale hoeveelheid gegevens). De standaardwaarde is &#39;1&#39;, die alle gegevens retourneert.
 
-## Realtime-gegevens (voor S2S-doelen) {#realtime-s2s}
+## Realtime-gegevens (voor S2S-bestemmingen) {#realtime-s2s}
 
 Als u een [!UICONTROL S2S] bestemming creeert, vul de hieronder gebieden in:
 
@@ -112,18 +111,18 @@ I removed {importance="high"} from note for Exp League rendering. -Bob
 >
 >We raden u aan incrementele syncs vaker te gebruiken dan volledige syncs. Met incrementele syncs worden alleen bestanden verzonden die nieuwe functies of id-syncs bevatten. Met Volledige syntaxis worden alle bestanden verzonden, ongeacht of deze nieuwe realisaties of id-syncs bevatten. Gebruik alleen de [!UICONTROL Full Sync Scheduled Run]-configuratie wanneer clients een volledige kopie van alle gebruikers nodig hebben om het uitgaande gegevensvolume te verminderen.
 
-## Gegevensbronnen {#configure-data-sources} configureren
+## Gegevensbronnen configureren {#configure-data-sources}
 
 Vul voor [!UICONTROL Bulk ID]-, [!UICONTROL Bulk Trait]- of [!UICONTROL Bulk Segment]-doelen de onderstaande velden in. Met deze instellingen kunt u alle gegevens (kenmerken, segmenten of id&#39;s op basis van het geselecteerde type) verzenden die aan de gegevensbronnen zijn gekoppeld.
 
 * **[!UICONTROL All Unrestricted First Party Data]**: Selecteer deze optie om alle gegevensbronnen van de eerste partij te gebruiken. Als u deze optie selecteert, worden de [!UICONTROL Available Data Sources] opties onbruikbaar gemaakt.
 * **[!UICONTROL Available Data Sources]**: Gebruik de pijlen om gegevensbronnen tussen de  **[!UICONTROL Available Data Sources]** vakken en de  **[!UICONTROL In File Data Sources]** vakken te verplaatsen.
 
-## {#save-and-finalize} opslaan en voltooien
+## Opslaan en voltooien {#save-and-finalize}
 
 De knop **[!UICONTROL Save]** wordt geactiveerd nadat alle vereiste velden zijn ingevuld. Klik **[!UICONTROL Save]** om te voltooien creeer bestemmingsproces.
 
-## Bedrijfsdoelen {#delete-company-destinations} verwijderen
+## Bedrijfsdoelen verwijderen {#delete-company-destinations}
 
 <!-- delete-company-destinations.xml -->
 
