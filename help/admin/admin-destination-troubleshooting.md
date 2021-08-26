@@ -1,17 +1,16 @@
 ---
 description: Informatie om u te helpen plaatsingsbestemmingen in Audience Manager en gemeenschappelijke problemen te vermijden.
-seo-description: Informatie om u te helpen plaatsingsbestemmingen in Audience Manager en gemeenschappelijke problemen te vermijden.
-seo-title: Problemen bij het instellen van bestemmingen oplossen
+seo-description: Information to help you set up destinations in Audience Manager and avoid common problems.
+seo-title: Destination Setup Troubleshooting
 title: Problemen bij het instellen van bestemmingen oplossen
 uuid: 04080fb9-6c7b-4de7-960e-54482be2de83
-translation-type: tm+mt
-source-git-commit: 118e8fa3f35bc77846c6518268448d57d779a2ee
+exl-id: 53c72b1a-f1a1-4266-a595-e4821c2640b2
+source-git-commit: 1f4dbf8f7b36e64c3015b98ef90b6726d0e7495a
 workflow-type: tm+mt
-source-wordcount: '1331'
+source-wordcount: '1316'
 ht-degree: 2%
 
 ---
-
 
 # Problemen bij het instellen van bestemmingen oplossen {#destination-setup-troubleshooting}
 
@@ -75,10 +74,10 @@ Het outbounding proces loopt tweemaal daags, en veelvoudige processen (het uitsp
 
 ### Gesplitste bestanden te groot
 
-Wanneer uitgaande bestanden naar doelen worden gesplitst, kunt u grotere uitgaande bestanden in bestandskoppelingen splitsen. Controleer of de afzonderlijke bestandskoppelingen niet groter zijn dan 10 GB. Zie ook [Naam uitgaand gegevensbestand: Syntaxis en voorbeelden](https://docs.adobe.com/help/en/audience-manager/user-guide/implemenation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html).
+Wanneer uitgaande bestanden naar doelen worden gesplitst, kunt u grotere uitgaande bestanden in bestandskoppelingen splitsen. Controleer of de afzonderlijke bestandskoppelingen niet groter zijn dan 10 GB. Zie ook [Naam uitgaand gegevensbestand: Syntaxis en voorbeelden](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implemenation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html?lang=en).
 
 
-## Hoe te opstelling Uw Doelen om Experience Cloud IDs, identiteitskaart van de Klant of Audience Manager IDs in Uitgaande Dossiers van Gegevens {#set-up-destinations-export} uit te voeren
+## Hoe te opstelling Uw Doelen om Experience Cloud IDs, identiteitskaart van de Klant of Audience Manager IDs in Uitgaande Dossiers van Gegevens uit te voeren {#set-up-destinations-export}
 
 Deze pagina toont u hoe te opstellingsbestemmingen om gegevens uit te voeren die van het type ID u in [!UICONTROL Outbound Data Files] wilt.
 
@@ -90,7 +89,7 @@ Met doelen kunnen onze klanten hun gegevens op elk willekeurig aantal digitale k
 >
 >Voor een gedetailleerde analyse bij het creëren van bestemmingen in Admin UI, kijk aan [creeer of geef de Doelen van het Bedrijf](companies/admin-manage-company-destinations.md#create-edit-company-destinations) artikel uit.
 
-Uw klanten willen verschillende types van identiteitskaart, afhankelijk van bestemming uitvoeren. In het onderstaande configuratieschema ziet u de opties die u moet selecteren om profielgegevens te exporteren die betrekking hebben op verschillende id-typen. Wij adviseren u ook naar [Index van IDs in Audience Manager ](https://marketing.adobe.com/resources/help/en_US/aam/ids-in-aam.html) te verwijzen. Er zijn drie belangrijke instellingen die in overweging moeten worden genomen: [!UICONTROL User ID Key], [!UICONTROL Data Source Type] en [!UICONTROL Format]. We geven ze allemaal hieronder in detail weer.
+Uw klanten willen verschillende types van identiteitskaart, afhankelijk van bestemming uitvoeren. In het onderstaande configuratieschema ziet u de opties die u moet selecteren om profielgegevens te exporteren die betrekking hebben op verschillende id-typen. Wij adviseren u ook naar [Index van IDs in Audience Manager ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=en) te verwijzen. Er zijn drie belangrijke instellingen die in overweging moeten worden genomen: [!UICONTROL User ID Key], [!UICONTROL Data Source Type] en [!UICONTROL Format]. We geven ze allemaal hieronder in detail weer.
 
 * [!UICONTROL User ID Key]. Ga in [!UICONTROL Admin UI] naar **[!UICONTROL Companies]**. Zoek naar het bedrijf van uw klant en klik het. Zoek naar **[!UICONTROL Destinations]** tabel en druk **[!UICONTROL Add Destination]**. Selecteer [!UICONTROL User ID Key] in de **[!UICONTROL Add Destination]**-workflow. Met [!UICONTROL User ID Key] worden de inkomende id&#39;s van de doelgegevensbron gefilterd en kunnen alleen de id&#39;s worden doorgegeven.
 

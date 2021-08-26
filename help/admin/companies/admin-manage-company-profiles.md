@@ -1,17 +1,16 @@
 ---
 description: Gebruik de pagina van Bedrijven in het hulpmiddel van Admin van de Audience Manager om een nieuw bedrijf tot stand te brengen.
-seo-description: Gebruik de pagina van Bedrijven in het hulpmiddel van Admin van de Audience Manager om een nieuw bedrijf tot stand te brengen.
-seo-title: Een bedrijfsprofiel maken
+seo-description: Use the Companies page in the Audience Manager Admin tool to create a new company.
+seo-title: Create a Company Profile
 title: Een bedrijfsprofiel maken
 uuid: 55de18f8-883d-43fe-b37f-e8805bb92f7a
-translation-type: tm+mt
-source-git-commit: 69b733ae869b3dded76f0264e395f0157b445148
+exl-id: 80bb8a89-0207-4645-ac42-e73cd10561de
+source-git-commit: 1f4dbf8f7b36e64c3015b98ef90b6726d0e7495a
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '933'
 ht-degree: 1%
 
 ---
-
 
 # Een bedrijfsprofiel maken {#create-a-company-profile}
 
@@ -43,12 +42,12 @@ Gebruik de pagina [!UICONTROL Companies] in het hulpmiddel van Admin van de Audi
       * **[!UICONTROL Full AAM]**: Geef op dat het bedrijf een volledige Adobe Audience Manager-account heeft en dat gebruikers toegang tot de aanmelding hebben.
       * **[!UICONTROL MMP]**: Specificeer dat het bedrijf is toegelaten om de  [!UICONTROL Master Marketing Profile] ([!UICONTROL MMP]) mogelijkheden te gebruiken. Met [!UICONTROL MMP] kunnen soorten publiek via de Experience Cloud worden gedeeld met een [!UICONTROL Experience Cloud ID] ([!DNL MCID]) die aan elke bezoeker is toegewezen en vervolgens door de Audience Manager wordt gebruikt. Als u dit accounttype selecteert, wordt [!UICONTROL Experience Cloud ID Service] ook automatisch geselecteerd.
 
-         Zie [Soorten publiek - Master marketingprofiel](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html) voor meer informatie.
+         Zie [Experience Cloud Soorten publiek](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=en) voor meer informatie.
    * **[!UICONTROL Data Source]**: Specificeer dat het bedrijf een derde gegevensleverancier binnen Audience Manager is.
    * **[!UICONTROL Targeting Partner]**: Specificeer dat de onderneming als doelplatform voor klanten van de Audience Manager handelt.
    * **[!UICONTROL Visitor ID Service]**: Geef op dat het bedrijf de  [!UICONTROL Experience Cloud Visitor ID Service]functie mag gebruiken.
 
-      [!UICONTROL Experience Cloud Visitor ID Service] verstrekt een universele bezoekersidentiteitskaart over Experience Cloud oplossingen. Raadpleeg de gebruikershandleiding [Experience Cloud-bezoeker-id Service](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-overview.html) voor meer informatie.
+      [!UICONTROL Experience Cloud Visitor ID Service] verstrekt een universele bezoekersidentiteitskaart over Experience Cloud oplossingen. Raadpleeg de gebruikershandleiding [Experience Cloud-bezoeker-id Service](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=en) voor meer informatie.
 
    * **[!UICONTROL Agency]**: Geef op dat het bedrijf een  [!UICONTROL Agency] account krijgt.
 
@@ -91,12 +90,12 @@ Bewerk het profiel van een bedrijf, inclusief de naam, beschrijving, subdomein, 
       * **[!UICONTROL MMP]**: Geef op dat het bedrijf de mogelijkheden van het Master marketingprofiel ([!UICONTROL MMP]) mag gebruiken.
 
          Als u dit accounttype selecteert, wordt **[!UICONTROL Visitor ID Service]** ook automatisch geselecteerd.
-Zie [Soorten publiek - Master marketingprofiel](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html) voor meer informatie.
+Zie [Experience Cloud Soorten publiek](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=en) voor meer informatie.
    * **[!UICONTROL Data Source]**: Specificeer dat het bedrijf een derde gegevensleverancier binnen Audience Manager is.
    * **[!UICONTROL Targeting Partner]**: Specificeer dat de onderneming als doelplatform voor klanten van de Audience Manager handelt.
    * **[!UICONTROL Visitor ID Service]**: Specificeer dat het bedrijf is toegelaten om de Dienst van identiteitskaart van de Bezoeker van Experience Cloud te gebruiken.
 
-      De dienst van identiteitskaart van de Bezoeker van Experience Cloud verstrekt universele bezoekersidentiteitskaart over Experience Cloud oplossingen. Raadpleeg de gebruikershandleiding [Experience Cloud-bezoeker-id Service](https://microsite.omniture.com/t2/help/en_US/mcvid/mcvid_service.html) voor meer informatie.
+      De dienst van identiteitskaart van de Bezoeker van Experience Cloud verstrekt universele bezoekersidentiteitskaart over Experience Cloud oplossingen. Voor meer informatie, zie [Experience Cloud ID de gebruikershandleiding van de Dienst](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en).
 
    * **[!UICONTROL Agency]**: Geef op dat de onderneming een account van het Agentschap heeft.
    * **[!UICONTROL Features]**: Selecteer de gewenste opties:
@@ -107,7 +106,7 @@ Zie [Soorten publiek - Master marketingprofiel](https://marketing.adobe.com/reso
 
 1. Klik op **[!UICONTROL Submit Updates]**.
 
-## Een bedrijfsprofiel {#delete-company-profile} verwijderen
+## Een bedrijfsprofiel verwijderen {#delete-company-profile}
 
 Gebruik de [!UICONTROL Companies] pagina in de Audience Manager [!UICONTROL Admin] hulpmiddel om een bestaand bedrijf te schrappen.
 

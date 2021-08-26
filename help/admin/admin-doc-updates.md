@@ -1,14 +1,14 @@
 ---
 description: Alle updates (toevoegingen, verwijderingen en correcties) in de Handleiding voor Audience Manager Admin, op datum.
-seo-description: Alle updates (toevoegingen, verwijderingen en correcties) in de Handleiding voor Audience Manager Admin, op datum.
-seo-title: Documentatie-updates
+seo-description: All updates (additions, deletions, and corrections) to the Audience Manager Admin Guide, by date.
+seo-title: Documentation Updates
 title: Documentatie-updates
 uuid: 1c02dff5-8e3f-42bf-a50c-03b75e121ac7
 exl-id: 8221b4df-99c2-47d3-a2ea-186a701a2b20
-source-git-commit: 7767c20bf97ee5c602b60dc6c11a5cd2bf21835d
+source-git-commit: 1f4dbf8f7b36e64c3015b98ef90b6726d0e7495a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '600'
+ht-degree: 94%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Alle updates (toevoegingen, verwijderingen en correcties) in de Handleiding voor Audience Manager Admin, op datum.
 
-Zie de [release-opmerkingen bij Experience Cloud](https://marketing.adobe.com/resources/help/en_US/whatsnew/) voor meer informatie over functiereleases, verbeteringen en opgeloste problemen. Zie de [opmerkingen bij eerdere releases](https://marketing.adobe.com/resources/help/en_US/whatsnew/c_legacy_releases.html) voor oudere Experience Cloud-aankondigingen. Voor [!DNL Audience Manager] documentatieveranderingen, zie [Documentatie Updates](https://docs.adobe.com/content/help/nl-NL/audience-manager/user-guide/documentation-updates/docs-2019.html).
+Zie de [release-opmerkingen bij Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en) voor meer informatie over functiereleases, verbeteringen en opgeloste problemen. Voor [!DNL Audience Manager] documentatieveranderingen, zie [Documentatie Updates](https://experienceleague.adobe.com/docs/audience-manager/user-guide/documentation-updates/docs-2019.html?lang=en).
 
-## Updates in AAM 2019-documentatie {#aam-2019-docs-updates}
+## Updates van de AAM 2019-documentatie {#aam-2019-docs-updates}
 
 | Onderwerp | Beschrijving |
 |--- |--- |
@@ -100,7 +100,7 @@ Zie de [release-opmerkingen bij Experience Cloud](https://marketing.adobe.com/re
   </tr> 
   <tr> 
    <td colname="col1"> <p><a href="admin-oauth2/aam-admin-api-requirements.md#concept_A7FAC9443CF34974A873E6B787616421"> API-vereisten en -aanbevelingen</a> </p> </td> 
-   <td colname="col2"> <p>Nieuwe documentatie over belangrijke vereisten en aanbevelingen waarop klanten moeten worden geattendeerd. Dit wordt onder dezelfde titel in de openbare documenten gedupliceerd met wijzigingen voor een ander lezend publiek. Zie <a href="https://docs.adobe.com/content/help/nl-NL/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.translate.html#api-requirements-recommendations" format="https" scope="external"> API-vereisten en -aanbevelingen</a> in de openbare documenten. </p> </td> 
+   <td colname="col2"> <p>Nieuwe documentatie over belangrijke vereisten en aanbevelingen waarop klanten moeten worden geattendeerd. Dit wordt onder dezelfde titel in de openbare documenten gedupliceerd met wijzigingen voor een ander lezend publiek. Zie <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html?lang=en#api-requirements-recommendations" format="https" scope="external"> API-vereisten en -aanbevelingen</a> in de openbare documenten. </p> </td> 
   </tr> 
  </tbody> 
 </table>
