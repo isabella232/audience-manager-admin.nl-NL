@@ -1,17 +1,16 @@
 ---
 description: Hier worden de macro's weergegeven die u kunt gebruiken om HTTP-gegevensbestanden te maken. HTTP verzendt gegevens in een formaat JSON.
-seo-description: Hier worden de macro's weergegeven die u kunt gebruiken om HTTP-gegevensbestanden te maken. HTTP verzendt gegevens in een formaat JSON.
-seo-title: Macro's voor HTTP-indelingen
+seo-description: Lists the macros you can use to create HTTP data files. HTTP sends data in a JSON format.
+seo-title: HTTP Format Macros
 title: Macro's voor HTTP-indelingen
 uuid: 91021f60-75d0-4b1d-86ca-91c9dadafac1
-translation-type: tm+mt
-source-git-commit: 1a547e421346a6bf281e2b3ff3a0bcb5cf1d78df
+exl-id: 80ed24ac-1b84-4c1b-966f-039b587ea899
+source-git-commit: cfc3396843592d80b017471a0e88cf335a5f81e0
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
-
 
 # Macro&#39;s voor HTTP-indelingen {#http-format-macros}
 
@@ -91,7 +90,7 @@ Zie [Macro Examples](../formats/web-format-examples.md) van het Formaat van HTTP
   <tr> 
    <td colname="col1"> <p> <code>REGION_ID_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>Het <a href="https://docs.adobe.com/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html"> DCS gebied van de Audience Manager </a> waar de activiteit voortkwam.</p> </td> 
+   <td colname="col3"> <p>Het <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html?lang=en"> DCS gebied van de Audience Manager </a> waar de activiteit voortkwam.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>REMOVED_SEGMENT_LIST</code> </p> </td> 
