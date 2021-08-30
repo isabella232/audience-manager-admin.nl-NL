@@ -5,7 +5,7 @@ seo-title: Destination Setup Troubleshooting
 title: Problemen bij het instellen van bestemmingen oplossen
 uuid: 04080fb9-6c7b-4de7-960e-54482be2de83
 exl-id: 53c72b1a-f1a1-4266-a595-e4821c2640b2
-source-git-commit: 1f4dbf8f7b36e64c3015b98ef90b6726d0e7495a
+source-git-commit: c7c5da62b32f6a56152e1c09a965facfc601cade
 workflow-type: tm+mt
 source-wordcount: '1316'
 ht-degree: 2%
@@ -74,7 +74,7 @@ Het outbounding proces loopt tweemaal daags, en veelvoudige processen (het uitsp
 
 ### Gesplitste bestanden te groot
 
-Wanneer uitgaande bestanden naar doelen worden gesplitst, kunt u grotere uitgaande bestanden in bestandskoppelingen splitsen. Controleer of de afzonderlijke bestandskoppelingen niet groter zijn dan 10 GB. Zie ook [Naam uitgaand gegevensbestand: Syntaxis en voorbeelden](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implemenation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html?lang=en).
+Wanneer uitgaande bestanden naar doelen worden gesplitst, kunt u grotere uitgaande bestanden in bestandskoppelingen splitsen. Controleer of de afzonderlijke bestandskoppelingen niet groter zijn dan 10 GB. Zie ook [Naam uitgaand gegevensbestand: Syntaxis en voorbeelden](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html?lang=en).
 
 
 ## Hoe te opstelling Uw Doelen om Experience Cloud IDs, identiteitskaart van de Klant of Audience Manager IDs in Uitgaande Dossiers van Gegevens uit te voeren {#set-up-destinations-export}
