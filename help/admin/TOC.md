@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Handleiding voor Audience Manager Admin
 breadcrumb-title: Beheerdershandleiding
 user-guide-description: Met de tool Audience Manager Admin kunt u bedrijven, servers, rapporten, indelingen en gebruikers toevoegen en configureren. U kunt ook uw persoonlijke profiel weergeven of bewerken.
-source-git-commit: 5074b73a4ffa9be305cfd753cb4a1efdfeeb9be3
+source-git-commit: 25a00b3e877eab3136e70e924d87d011f44ba52c
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 98%
+source-wordcount: '187'
+ht-degree: 95%
 
 ---
 
@@ -29,6 +29,7 @@ ht-degree: 98%
    + [Bedrijfslimieten beheren](companies/admin-company-limits.md)
    + [Bedrijfsgebruikers beheren](companies/admin-manage-company-users.md)
    + [Uitgaande gegevens alleen op actieve gebruikers filteren](companies/outbound-active-user-filter.md)
+   + [Toegang aan boord beheren voor gegevens van andere leveranciers](companies/admin-manage-onboarding-access.md)
 + Servers {#servers}
    + [Overzicht van servers](admin-servers/admin-servers.md)
    + [Een FTP-server maken of bewerken](admin-servers/create-ftp-server.md)
