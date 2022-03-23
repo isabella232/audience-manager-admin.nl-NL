@@ -5,16 +5,20 @@ seo-title: Audience Manager Admin Home
 title: Startpagina van Audience Manager Admin
 uuid: 4534b622-4c8d-4c42-8019-1614faaba9d6
 exl-id: 27316802-9c98-41f5-af3e-edc11e572e29
-source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
+source-git-commit: e12731066834df18b44e6737fe8c1264d316f7fd
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 87%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Startpagina van Audience Manager Admin {#audience-manager-admin-home}
 
 Met de tool Audience Manager Admin kunt u bedrijven, servers, rapporten, indelingen en gebruikers toevoegen en configureren. U kunt ook uw persoonlijke profiel weergeven of bewerken.
+
+>[!IMPORTANT]
+>
+> Het publiek voor deze documentatieopslagplaats is Adobe-interne werknemers. Als u een klant van de Audience Manager bent, gelieve te navigeren aan [Overzicht van de handleiding voor Audience Managers](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html).
 
 <table id="table_882B0982144442F79328A4FA45BD5C7E" frame="none"> 
  <tbody> 
