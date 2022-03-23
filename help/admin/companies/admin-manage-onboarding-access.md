@@ -1,14 +1,20 @@
 ---
 description: Om toevallig dossier en gegevens te verhinderen in doelgegevensbronnen die door andere partners of klanten worden bezeten, heeft de Audience Manager een kaartvereiste tussen partner identiteitskaart (PID) en de gegevensbronnen toegevoegd die door andere partners worden bezeten.
 title: Toegang aan boord beheren voor gegevens van andere leveranciers
-source-git-commit: 6c88979f876909bc32b5238605cb4a352e327a00
+exl-id: 03bec978-dd31-41cc-a3aa-d67fbb98963c
+source-git-commit: cc04863272005964cfbf1bb2319cc0dd86863680
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
 
 # Toegang aan boord beheren voor gegevens van een tweede partij {#manage-onboarding-access-for-second-party-data}
+
+>[!IMPORTANT]
+>
+> Het publiek voor deze pagina is Adobe-interne werknemers. Als u een klant van de Audience Manager bent die om een tweede-partijgegevenstoewijzing zoals die op deze pagina wordt beschreven verzoekt, contacteer de Zorg van de Klant of uw Technische Manager van de Rekening.
+> Merk op dat niet wordt vereist om een afbeelding voor bestaande gegevens te verzoeken delend verhoudingen. De toewijzing wordt ook niet vereist wanneer het aan boord gaan van gegevens in doelgegevensbronnen die tot uw PID behoren.
 
 Om toevallig dossier en gegevens te verhinderen in doelgegevensbronnen die door andere partners worden bezeten, heeft de Audience Manager een kaartvereiste tussen partner identiteitskaart (PID) en de gegevensbronnen (DPID) toegevoegd die door andere partners worden bezeten. Lees meer over PID en DPID in [index van Audience Manager-id&#39;s](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html).
 
