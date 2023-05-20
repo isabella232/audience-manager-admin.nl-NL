@@ -14,12 +14,12 @@ ht-degree: 15%
 
 # Uitgaande overdracht van Hadoop-sequentiebestanden toestaan {#enable-hadoop-sequence-file-transfers-for-outbound}
 
-U kunt binaire [!DNL Hadoop Sequence Files] ([!DNL SEQ]) uitgaande partijoverdrachten voor klanten van de Audience Manager toelaten.
+U kunt binair [!DNL Hadoop Sequence Files] ([!DNL SEQ]) uitgaande batchoverdrachten voor klanten van de Audience Manager.
 
-[!DNL SEQ] uitgaande bestandsoverdrachten inschakelen:
+Inschakelen [!DNL SEQ] uitgaande bestandsoverdrachten:
 
-1. Selecteer het bedrijf en de bestemming waarvoor u [!DNL SEQ] uitgaande dossieroverdrachten wilt toelaten.
-1. Schuif omlaag naar **[!UICONTROL Batch Data]** in de interface **[!UICONTROL Edit Destinations]**.
+1. Selecteer het bedrijf en de bestemming waarvoor u wilt toelaten [!DNL SEQ] uitgaande bestandsoverdrachten.
+1. In de **[!UICONTROL Edit Destinations]** interface, omlaag schuiven naar **[!UICONTROL Batch Data]**.
 1. Protocol selecteren: **[!UICONTROL FTP]** of **[!UICONTROL S3]**.
 1. Indeling selecteren: **[!UICONTROL AAM-Outbound-SEQ (415)]**.
-1. Bevestig door onder aan de pagina op **[!UICONTROL Save]** te klikken. De klant kan nu de Dossiers van de Reeks van de Hadoop naar de bestemming verzenden.
+1. Bevestigen door te klikken **[!UICONTROL Save]** onder aan de pagina. De klant kan nu de Dossiers van de Reeks van de Hadoop naar de bestemming verzenden.

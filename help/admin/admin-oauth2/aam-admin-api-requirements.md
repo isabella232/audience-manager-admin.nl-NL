@@ -14,26 +14,26 @@ ht-degree: 2%
 
 # API-vereisten en -aanbevelingen {#api-requirements-and-recommendations}
 
-Dingen u uw cliënten zou moeten aanmoedigen om zich bewust te zijn van wanneer zij met de Audience Manager [!DNL API]s werken.
+Dingen u uw klanten zou moeten aanmoedigen om zich bewust te zijn van wanneer zij met de Audience Manager werken [!DNL API]s.
 
 ## Vereisten {#requirements}
 
 Let op het volgende wanneer u werkt met [!DNL Audience Manager] [!DNL API] code:
 
-* **Request-parameters:** alle request-parameters zijn vereist, tenzij anders opgegeven.
-* **[!DNL JSON]inhoudssoort:** Geef  `content-type: application/json` ** `accept: application/json` en in de code op.
+* **Parameters aanvragen:** Alle verzoekparameters worden vereist tenzij anders gespecificeerd.
+* **[!DNL JSON]inhoudstype:** Opgeven `content-type: application/json` *en* `accept: application/json` in uw code.
 
-* **Verzoeken en reacties:** Verstuur aanvragen als een correct opgemaakt  [!DNL JSON] object. [!DNL Audience Manager] reageert met  [!DNL JSON] opgemaakte gegevens. Serverreacties kunnen gevraagde gegevens, een statuscode of beide bevatten.
+* **Verzoeken en antwoorden:** Aanvragen verzenden als een correct opgemaakt bestand [!DNL JSON] object. [!DNL Audience Manager] reageert met [!DNL JSON] opgemaakte gegevens. Serverreacties kunnen gevraagde gegevens, een statuscode of beide bevatten.
 
-* **Toegang:** Uw  [!DNL Audience Manager] consultant geeft u een client-id en sleutel waarmee u  [!DNL API] aanvragen kunt indienen.
+* **Toegang:** Uw [!DNL Audience Manager] consultant zal u een klant-id en een sleutel geven waarmee u [!DNL API] verzoeken.
 
-* **Documentatie en codevoorbeelden:** Tekst in  ** cursief vertegenwoordigt een variabele die u opgeeft of doorgeeft bij het maken of ontvangen van  [!DNL API] gegevens. Vervang *cursieve* tekst met uw eigen code, parameters, of andere vereiste informatie.
+* **Documentatie en codevoorbeelden:** Tekst in *cursief* vertegenwoordigt een variabele die u verstrekt of binnen overgaat wanneer het maken of het ontvangen [!DNL API] gegevens. Vervangen *cursief* tekst met uw eigen code, parameters of andere vereiste informatie.
 
 ## Recommendations: Een generieke API-gebruiker maken {#recommendations}
 
-We raden u aan een aparte, technische gebruikersaccount te maken voor het werken met de Audience Manager [!DNL API]s. Dit is een generische account die niet is gekoppeld aan of gekoppeld aan een specifieke gebruiker in de organisatie van uw klant. Met dit type gebruikersaccount van [!DNL API] kunt u twee dingen bereiken:
+We raden u aan een aparte, technische gebruikersaccount te maken voor het werken met de Audience Manager [!DNL API]s. Dit is een generische account die niet is gekoppeld aan of gekoppeld aan een specifieke gebruiker in de organisatie van uw klant. Dit type van [!DNL API] Met gebruikersaccount kunt u twee dingen bereiken:
 
-* Identificeer welke dienst [!DNL API] roept (b.v., vraag van een cliënttoepassing die onze [!DNL API]s of van het aanbrengen van bulkveranderingen gebruikt).
-* Ononderbroken toegang tot de [!DNL API]s bieden. Een rekening die aan een specifieke werknemer is gebonden, kan worden geschrapt wanneer zij het bedrijf verlaten. Hierdoor kunnen uw klanten niet met de beschikbare [!DNL API]-code werken. Dit probleem wordt voorkomen door een algemeen account dat niet aan een bepaalde werknemer is gekoppeld.
+* Identificeer welke dienst roept [!DNL API] (Bijvoorbeeld, vraag van een cliënttoepassing die onze [!DNL API]s of van het aanbrengen van bulkwijzigingen).
+* Ononderbroken toegang tot de [!DNL API]s. Een rekening die aan een specifieke werknemer is gebonden, kan worden geschrapt wanneer zij het bedrijf verlaten. Hierdoor kunnen uw klanten niet met de beschikbare [!DNL API] code. Dit probleem wordt voorkomen door een algemeen account te maken dat niet aan een bepaalde werknemer is gekoppeld.
 
-Als voorbeeld of gebruiksgeval voor dit type van rekening, laten wij zeggen uw klanten een heleboel segmenten in één keer met [Bulk de Hulpmiddelen van het Beheer willen veranderen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/bulk-management-tools/bulk-management-intro.html?lang=en). Om dit te doen, hebben zij [!DNL API] toegang nodig. In plaats van toestemmingen aan een specifieke gebruiker toe te voegen, creeer een niet-specifieke, [!DNL API] gebruikersrekening die de aangewezen geloofsbrieven, de sleutel, en het geheim heeft om [!DNL API] vraag te maken. Dit is ook handig als de client eigen toepassingen ontwikkelt die de [!DNL Audience Manager] [!DNL API]s gebruiken.
+Als voorbeeld of gebruiksgeval voor dit type van rekening, laten wij zeggen uw klanten een hoop segmenten in één keer met willen veranderen [Bulkbeheertools](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/bulk-management-tools/bulk-management-intro.html?lang=en). Om dit te doen, hebben zij nodig [!DNL API] toegang. In plaats van machtigingen toe te voegen aan een specifieke gebruiker, maakt u een niet-specifieke gebruiker. [!DNL API] gebruikersaccount met de juiste gegevens, sleutel en geheim om [!DNL API] oproepen. Dit is ook handig als de client eigen toepassingen ontwikkelt die gebruikmaken van de [!DNL Audience Manager] [!DNL API]s.

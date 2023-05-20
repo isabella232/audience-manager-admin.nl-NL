@@ -1,23 +1,22 @@
 ---
 description: Voorbeelden van veelgebruikte HTTP-macrocombinaties.
-seo-description: Voorbeelden van veelgebruikte HTTP-macrocombinaties.
-seo-title: Voorbeelden van macro's voor HTTP-indelingen
+seo-description: Examples of some commonly used HTTP macro combinations.
+seo-title: HTTP Format Macro Examples
 title: Voorbeelden van macro's voor HTTP-indelingen
 uuid: a81a2e2a-de7e-4b6a-8771-fcfa0dc74570
-translation-type: tm+mt
-source-git-commit: 4c6d1752ff10d2d3d12cab88e823f25f5ef4fcd0
+exl-id: 1f8ccbf3-241d-4bd9-8c35-cf68b12d2713
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 15%
+source-wordcount: '66'
+ht-degree: 12%
 
 ---
 
-
 # Voorbeelden van macro&#39;s voor HTTP-indelingen {#http-format-macro-examples}
 
-Voorbeelden van enkele veelgebruikte [!DNL HTTP] macrocombinaties.
+Voorbeelden van vaak gebruikte [!DNL HTTP] macrocombinaties.
 
-Zie [HTTP-indelingsmacro&#39;s](../formats/web-formats.md) voor een lijst met macro&#39;s en de bijbehorende definities.
+Zie de [HTTP-indelingsmacro&#39;s](../formats/web-formats.md) voor een lijst van macro&#39;s en hun definities.
 
 <table id="table_D5FAC5D056ED49D79FA883197EF8F42E"> 
  <thead> 
@@ -138,7 +137,7 @@ Zie [HTTP-indelingsmacro&#39;s](../formats/web-formats.md) voor een lijst met ma
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>&lt;if(user.segments &amp;&amp; user.removedSegments)&gt;&lt;COMMA&gt;&lt;endif&gt;</code> </p> </td> 
-   <td colname="col2"> <p>Hiermee wordt een komma afgedrukt als de velden <code>segments</code> en <code>removedSegments</code> niet leeg zijn. Deze voorwaarde kan voor POST verzoeken worden gebruikt wanneer het aaneenschakelen van lijsten voor segmenten en verwijderde segmenten. </p> </td> 
+   <td colname="col2"> <p>Hiermee wordt een komma afgedrukt als de velden <code>segments</code> en <code>removedSegments</code> zijn niet leeg. Deze voorwaarde kan voor POST verzoeken worden gebruikt wanneer het aaneenschakelen van lijsten voor segmenten en verwijderde segmenten. </p> </td> 
   </tr> 
  </tbody> 
 </table>

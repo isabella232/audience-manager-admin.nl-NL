@@ -14,24 +14,24 @@ ht-degree: 3%
 
 # Een HTTP-server maken of bewerken {#create-or-edit-an-http-server}
 
-Gebruik de pagina [!UICONTROL Servers] in het hulpmiddel van Admin van de Audience Manager om een nieuwe server van HTTP tot stand te brengen of een bestaande server uit te geven.
+Gebruik de [!UICONTROL Servers] pagina in het hulpmiddel Admin van de Audience Manager om een nieuwe server van HTTP tot stand te brengen of een bestaande server uit te geven.
 
 >[!NOTE]
 >
->U moet de rol [!UICONTROL DEXADMIN] hebben om nieuwe servers te creëren of bestaande servers uit te geven.
+>U moet beschikken over de [!UICONTROL DEXADMIN] rol om nieuwe servers te maken of bestaande servers te bewerken.
 
-1. Als u een nieuwe server wilt maken, gaat u naar **[!UICONTROL Servers]** > **[!UICONTROL Create Server]**. Als u een bestaande server wilt bewerken, klikt u op de gewenste server in de kolom **[!UICONTROL Label]**.
+1. Ga naar **[!UICONTROL Servers]** > **[!UICONTROL Create Server]**. Als u een bestaande server wilt bewerken, klikt u op de gewenste server in het dialoogvenster **[!UICONTROL Label]** kolom.
 1. Geef het gewenste label voor deze server op.
-1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Protocol]** het gewenste protocol: [!DNL HTTP].
+1. Van de **[!UICONTROL Protocol]** Selecteer het gewenste protocol in de vervolgkeuzelijst: [!DNL HTTP].
 1. Vul de velden in:
 
    * **[!UICONTROL Domain]:** Geef het gewenste domein (host) voor deze server op.
    * **[!UICONTROL Port]:** Geef de gewenste poort voor deze server op. De standaardpoort wordt weergegeven voor elk type codering. U kunt de standaardpoort desgewenst wijzigen
    * **[!UICONTROL Maximum Users Per Request]:** Geef het maximumaantal gebruikers op dat per aanvraag is toegestaan voor deze server.
-   * **[!UICONTROL URL Prefix]:** Geef het  [!DNL URL] voorvoegsel op dat u voor deze server wilt gebruiken.
-   * **[!UICONTROL Authentication URL]:** Geef de gegevens  [!UICONTROL Authentication URL] voor deze  `HTTP` server op.
-   * **[!UICONTROL Authentication]:** Geef de gewenste verificatiemethode op:  **[!UICONTROL None]**,  **[!UICONTROL Username/Password]** of  **[!UICONTROL SSH Key]**.
-   * **[!UICONTROL HTTP Signature Header]:** De naam van de  [!DNL HTTP] kopbal, die door de klant wordt verstrekt, die de  [!DNL HTTP] handtekeningssleutel bevat. De standaardwaarde is [!UICONTROL X-Signature], zoals in het onderstaande voorbeeld wordt getoond:
+   * **[!UICONTROL URL Prefix]:** Geef de [!DNL URL] voor deze server te gebruiken.
+   * **[!UICONTROL Authentication URL]:** Geef de [!UICONTROL Authentication URL] voor `HTTP` server.
+   * **[!UICONTROL Authentication]:** Geef de gewenste verificatiemethode op: **[!UICONTROL None]**, **[!UICONTROL Username/Password]**, of **[!UICONTROL SSH Key]**.
+   * **[!UICONTROL HTTP Signature Header]:** De naam van de [!DNL HTTP] header, verstrekt door de klant, die de [!DNL HTTP] handtekeningensleutel. De standaardwaarde is [!UICONTROL X-Signature], zoals in het onderstaande voorbeeld wordt getoond:
 
       ```
       * Connected to partner.website.com (127.0.0.1) port 80 (#0)
@@ -44,13 +44,13 @@ Gebruik de pagina [!UICONTROL Servers] in het hulpmiddel van Admin van de Audien
       POST message content
       ```
 
-   * **[!UICONTROL HTTP Signature Key]:** De sleutel die wordt gebruikt om het  [!DNL HTTP] verzoek te ondertekenen, door de klant wordt verstrekt die.
-   * **[!UICONTROL Show Signature Key]:** U kunt in- of uitschakelen om de handtekening in de browser weer te geven.
-   * **[!UICONTROL HTTP Signature Encryption Method]:** Geef de methode op waarmee de handtekening wordt versleuteld. Gebruik [!UICONTROL SHA1] tenzij de klant anders kiest.
+   * **[!UICONTROL HTTP Signature Key]:** De sleutel die wordt gebruikt om het [!DNL HTTP] verzoek, verstrekt door de klant.
+   * **[!UICONTROL Show Signature Key]:** Schakel deze optie in of uit om de handtekening in de browser weer te geven.
+   * **[!UICONTROL HTTP Signature Encryption Method]:** Geef de methode op waarmee de handtekening wordt versleuteld. Gebruiken [!UICONTROL SHA1] tenzij de klant anders kiest.
 
    >[!NOTE]
    >
-   >Als u [OAuth 2.0 authentificatie voor gegevensoverdrachten in real time](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.html?lang=en) voor een partner wilt toelaten, vul de gebieden zoals in de hieronder lijst in. De velden in *cursief* moeten exact zo worden ingevuld als in de tabel.
+   >Als u wilt inschakelen [OAuth 2.0 authentificatie voor gegevensoverdrachten in real time](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.html?lang=en) vult voor een partner de velden in zoals in de onderstaande tabel. De velden in *cursief* moeten exact worden ingevuld zoals in de tabel.
 
    | Naam | Waarde |
    |---|---|
@@ -68,4 +68,4 @@ Gebruik de pagina [!UICONTROL Servers] in het hulpmiddel van Admin van de Audien
    | [!UICONTROL HTTP Signature Key] | [!UICONTROL Leave this field blank] |
    | [!UICONTROL HTTP Signature Encryption Method] | [!UICONTROL None] |
 
-1. Klik **[!UICONTROL Create]** als u een nieuwe server maakt of klik **[!UICONTROL Update]** als u een bestaande server bewerkt.
+1. Klikken **[!UICONTROL Create]** als u een nieuwe server maakt, of klikt u op **[!UICONTROL Update]** als u een bestaande server bewerkt.

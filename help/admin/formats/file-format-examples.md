@@ -1,29 +1,28 @@
 ---
 description: Voorbeelden van hoe macro's worden gebruikt om uitgaande, FTP- dossiermalplaatjes tot stand te brengen.
-seo-description: Voorbeelden van hoe macro's worden gebruikt om uitgaande, FTP- dossiermalplaatjes tot stand te brengen.
-seo-title: Voorbeelden van macro's voor bestandsindelingen
+seo-description: Examples of how macros are used to create outbound, FTP file templates.
+seo-title: File Format Macro Examples
 title: Voorbeelden van macro's voor bestandsindelingen
 uuid: f00d431d-7e43-457a-b633-c79cbc4c8f10
-translation-type: tm+mt
-source-git-commit: 4c6d1752ff10d2d3d12cab88e823f25f5ef4fcd0
+exl-id: 132a8e40-8001-4a49-9304-82e852ee28fd
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 5%
+source-wordcount: '199'
+ht-degree: 4%
 
 ---
 
-
 # Voorbeelden van macro&#39;s voor bestandsindelingen {#file-format-macro-examples}
 
-Voorbeelden van hoe macro&#39;s worden gebruikt om uitgaande, [!DNL FTP] dossiermalplaatjes tot stand te brengen.
+Voorbeelden van hoe de macro&#39;s worden gebruikt om uitgaande tot stand te brengen, [!DNL FTP] bestandssjablonen.
 
 >[!NOTE]
 >
->In de tabellen geeft het type **vet** elke macro met de bijbehorende uitvoer aan. In de indelingsvoorbeelden zijn de &lt; >-symbolen toegevoegd om elke macro visueel te kunnen scheiden.
+>In de tabellen: **vet** type identificeert elke macro met zijn verwante output. In de indelingsvoorbeelden zijn de &lt; >-symbolen toegevoegd om elke macro visueel te kunnen scheiden.
 
 ## Algemene macro&#39;s {#common-macros}
 
-Deze macro&#39;s kunnen in elk formaatveld worden gebruikt. Zie [Bestandsindelingmacro&#39;s](../formats/file-formats.md) voor een volledige lijst en definities.
+Deze macro&#39;s kunnen in elk formaatveld worden gebruikt. Zie de [Bestandsindelingsmacro&#39;s](../formats/file-formats.md) voor een volledige lijst en definities.
 
 <table id="table_B5073597219B470298EE614902DACAE8"> 
  <thead> 
@@ -69,9 +68,9 @@ Deze macro&#39;s kunnen in elk formaatveld worden gebruikt. Zie [Bestandsindelin
  </tbody> 
 </table>
 
-## Macro&#39;s {#header-field-macros} voor koptekstveld
+## Koptekstveldmacro&#39;s {#header-field-macros}
 
-Macro&#39;s die alleen in koptekstvelden worden gebruikt. Zie [Bestandsindelingmacro&#39;s](../formats/file-formats.md) voor een volledige lijst en definities.
+Macro&#39;s die alleen in koptekstvelden worden gebruikt. Zie de [Bestandsindelingsmacro&#39;s](../formats/file-formats.md) voor een volledige lijst en definities.
 
 <table id="table_ABC31B3D660D47969E111EBC734D5BBC"> 
  <thead> 
@@ -88,9 +87,9 @@ Macro&#39;s die alleen in koptekstvelden worden gebruikt. Zie [Bestandsindelingm
  </tbody>
 </table>
 
-## Macro&#39;s {#data-row-macros} gegevensrij
+## Macro&#39;s gegevensrij {#data-row-macros}
 
-Macro&#39;s die alleen in koptekstvelden worden gebruikt. Zie [Bestandsindelingmacro&#39;s](../formats/file-formats.md) voor een volledige lijst en definities.
+Macro&#39;s die alleen in koptekstvelden worden gebruikt. Zie de [Bestandsindelingsmacro&#39;s](../formats/file-formats.md) voor een volledige lijst en definities.
 
 <table id="table_408C6DD2B9D54550B003EAC93562E64F"> 
  <thead> 

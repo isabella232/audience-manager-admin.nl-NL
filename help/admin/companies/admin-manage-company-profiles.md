@@ -14,46 +14,46 @@ ht-degree: 1%
 
 # Een bedrijfsprofiel maken {#create-a-company-profile}
 
-Gebruik de pagina [!UICONTROL Companies] in het hulpmiddel van Admin van de Audience Manager om een nieuw bedrijf tot stand te brengen.
+Gebruik de [!UICONTROL Companies] pagina in het hulpmiddel Admin van de Audience Manager om een nieuw bedrijf tot stand te brengen.
 
 <!-- t_create_company.xml -->
 
 >[!NOTE]
 >
->U moet de **[!UICONTROL DEXADMIN]** rol hebben om nieuwe bedrijven tot stand te brengen.
+>U moet beschikken over de **[!UICONTROL DEXADMIN]** de rol om nieuwe ondernemingen op te richten.
 
 1. Klik op **[!UICONTROL Companies]** > **[!UICONTROL Add Company]**.
 1. Vul de velden in:
 
    * **[!UICONTROL Name]**: (Vereist) Geef de naam van de onderneming op.
    * **[!UICONTROL Description]**: (Vereist) Geef beschrijvende informatie over de onderneming, zoals de industrie of haar volledige naam.
-   * **[!UICONTROL Subdomain]**: (Vereist) Geef het subdomein van het bedrijf op. De tekst die u invoert, wordt weergegeven als het subdomein van de gebeurtenisaanroep. Dit kan niet worden gewijzigd. Het moet een tekenreeks van [!DNL URL]-geldige tekens zijn.
+   * **[!UICONTROL Subdomain]**: (Vereist) Geef het subdomein van het bedrijf op. De tekst die u invoert, wordt weergegeven als het subdomein van de gebeurtenisaanroep. Dit kan niet worden gewijzigd. Het moet een tekenreeks zijn [!DNL URL]-valid characters.
 
-      Bijvoorbeeld, als uw bedrijf [!DNL AcmeCorp] werd genoemd, zou subdomain [!DNL acmecorp] zijn.
+      Als uw bedrijf bijvoorbeeld een naam heeft gekregen [!DNL AcmeCorp]het subdomein [!DNL acmecorp].
 
-      Audience Manager gebruikt subdomain voor [!UICONTROL Data Collection Server] (DCS). In het vorige voorbeeld, als de volledige [!DNL URL] in [!UICONTROL DCS] [!DNL acmecorp.demdex.net] zou zijn.
+      Audience Manager gebruikt het subdomein voor de [!UICONTROL Data Collection Server] (DCS). In het vorige voorbeeld, als uw bedrijf volledig is [!DNL URL] in [!UICONTROL DCS] zou [!DNL acmecorp.demdex.net].
 
    * **[!UICONTROL Lifecyle]**: Geef het gewenste werkgebied voor het bedrijf op:
-      * **[!UICONTROL Active]**: Specificeer dat het bedrijf een actieve cliënt van de Audience Manager zal zijn. Een [!UICONTROL Active]-account betekent een betalende klant, niet alleen voor advies, maar ook voor de Audience Manager SKU.
+      * **[!UICONTROL Active]**: Specificeer dat het bedrijf een actieve cliënt van de Audience Manager zal zijn. An [!UICONTROL Active] rekening: een betalende klant, niet alleen voor advies, maar voor de Audience Manager SKU.
       * **[!UICONTROL Demo]**: Geef op dat het bedrijf alleen voor demo-doeleinden zal worden gebruikt. Gegevens worden automatisch gerapporteerd.
-      * **[!UICONTROL Prospect]**: Specificeer dat de onderneming een potentiële cliënt van de Audience Manager is, zoals een onderneming die een vrije  [!DNL POC] of een rekeningsopstelling voor een verkoopdemo wordt gegeven.
+      * **[!UICONTROL Prospect]**: Specificeer dat de onderneming een potentiële cliënt van de Audience Manager is, zoals een onderneming die een vrije [!DNL POC] of een accountinstelling voor een verkoopdemo.
       * **[!UICONTROL Test]**: Geef op dat het bedrijf alleen voor interne tests wordt gebruikt.
    * **[!UICONTROL Account Types]**: Geef de volledige set accounttypen voor dit bedrijf op. Geen accounttype sluit elkaar uit met een ander type.
       * **[!UICONTROL Full AAM]**: Geef op dat het bedrijf een volledige Adobe Audience Manager-account heeft en dat gebruikers toegang tot de aanmelding hebben.
-      * **[!UICONTROL MMP]**: Specificeer dat het bedrijf is toegelaten om de  [!UICONTROL Master Marketing Profile] ([!UICONTROL MMP]) mogelijkheden te gebruiken. Met [!UICONTROL MMP] kunnen soorten publiek via de Experience Cloud worden gedeeld met een [!UICONTROL Experience Cloud ID] ([!DNL MCID]) die aan elke bezoeker is toegewezen en vervolgens door de Audience Manager wordt gebruikt. Als u dit accounttype selecteert, wordt [!UICONTROL Experience Cloud ID Service] ook automatisch geselecteerd.
+      * **[!UICONTROL MMP]**: Geef op dat het bedrijf de [!UICONTROL Master Marketing Profile] ([!UICONTROL MMP]). De [!UICONTROL MMP] staat toe om publiek over de Experience Cloud te delen die [!UICONTROL Experience Cloud ID] ([!DNL MCID]) die aan elke bezoeker wordt toegewezen en vervolgens door Audience Manager wordt gebruikt. Als u dit accounttype selecteert, wordt [!UICONTROL Experience Cloud ID Service] wordt ook automatisch geselecteerd.
 
-         Zie [Experience Cloud Soorten publiek](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=en) voor meer informatie.
+         Zie voor meer informatie [Experience Cloud publiek](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=en).
    * **[!UICONTROL Data Source]**: Specificeer dat het bedrijf een derde gegevensleverancier binnen Audience Manager is.
    * **[!UICONTROL Targeting Partner]**: Specificeer dat de onderneming als doelplatform voor klanten van de Audience Manager handelt.
-   * **[!UICONTROL Visitor ID Service]**: Geef op dat het bedrijf de  [!UICONTROL Experience Cloud Visitor ID Service]functie mag gebruiken.
+   * **[!UICONTROL Visitor ID Service]**: Geef op dat het bedrijf de [!UICONTROL Experience Cloud Visitor ID Service].
 
-      [!UICONTROL Experience Cloud Visitor ID Service] verstrekt een universele bezoekersidentiteitskaart over Experience Cloud oplossingen. Raadpleeg de gebruikershandleiding [Experience Cloud-bezoeker-id Service](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=en) voor meer informatie.
+      De [!UICONTROL Experience Cloud Visitor ID Service] biedt een universele bezoeker-id voor alle Experience Cloud-oplossingen. Zie voor meer informatie de [Gebruikershandleiding voor Experience Cloud-bezoekersidentiteitskaart](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=en).
 
-   * **[!UICONTROL Agency]**: Geef op dat het bedrijf een  [!UICONTROL Agency] account krijgt.
+   * **[!UICONTROL Agency]**: Geef op dat het bedrijf een [!UICONTROL Agency] account.
 
 
 
-1. Klik op **[!UICONTROL Create]**. Ga met de instructies in [geef een Profiel van het Bedrijf](../companies/admin-manage-company-profiles.md#edit-company-profile) uit.
+1. Klik op **[!UICONTROL Create]**. Doorgaan met de instructies in [Een bedrijfsprofiel bewerken](../companies/admin-manage-company-profiles.md#edit-company-profile).
 
    ![Stap resultaat](assets/add_company.png)
 
@@ -63,9 +63,9 @@ Bewerk het profiel van een bedrijf, inclusief de naam, beschrijving, subdomein, 
 
 <!-- t_edit_company_profile.xml -->
 
-1. Klik **[!UICONTROL Companies]**, dan bepaal de plaats en klik het gewenste bedrijf om zijn [!UICONTROL Profile] pagina te tonen.
+1. Klikken **[!UICONTROL Companies]** en klik vervolgens op het gewenste bedrijf om het [!UICONTROL Profile] pagina.
 
-   Gebruik de doos [!UICONTROL Search] of de pagineringscontroles bij de bodem van de lijst om het gewenste bedrijf te vinden. U kunt elke kolom in stijgende of dalende orde sorteren door de gewenste kopbal van de kolom te klikken.
+   Gebruik de [!UICONTROL Search] of de pagineringscontroles bij de bodem van de lijst om het gewenste bedrijf te vinden. U kunt elke kolom in stijgende of dalende orde sorteren door de gewenste kopbal van de kolom te klikken.
 
    ![Stap resultaat](assets/profile_company.png)
 
@@ -73,29 +73,29 @@ Bewerk het profiel van een bedrijf, inclusief de naam, beschrijving, subdomein, 
 
    * **[!UICONTROL Name]**: Bewerk de naam van het bedrijf. Dit is een verplicht veld.
    * **[!UICONTROL Description]**: Bewerk de beschrijving van het bedrijf. Dit is een verplicht veld.
-   * **[!UICONTROL Subdomain]**: (Vereist) Geef het subdomein van het bedrijf op. De tekst die u invoert, wordt weergegeven als het subdomein van de gebeurtenisaanroep. Dit kan niet worden gewijzigd. Het moet een tekenreeks van [!DNL URL]-geldige tekens zijn.
+   * **[!UICONTROL Subdomain]**: (Vereist) Geef het subdomein van het bedrijf op. De tekst die u invoert, wordt weergegeven als het subdomein van de gebeurtenisaanroep. Dit kan niet worden gewijzigd. Het moet een tekenreeks zijn [!DNL URL]-valid characters.
 
-      Bijvoorbeeld, als uw bedrijf [!DNL AcmeCorp] werd genoemd, zou subdomain [!DNL acmecorp] zijn.
+      Als uw bedrijf bijvoorbeeld een naam heeft gekregen [!DNL AcmeCorp]het subdomein [!DNL acmecorp].
 
-      Audience Manager gebruikt subdomain voor [!UICONTROL Data Collection Server] (DCS). In het vorige voorbeeld, als de volledige [!DNL URL] in [!UICONTROL DCS] [!DNL acmecorp.demdex.net] zou zijn.
+      Audience Manager gebruikt het subdomein voor de [!UICONTROL Data Collection Server] (DCS). In het vorige voorbeeld, als uw bedrijf volledig is [!DNL URL] in [!UICONTROL DCS] zou [!DNL acmecorp.demdex.net].
 
    * **[!UICONTROL imsOrgld]**: ([!UICONTROL Identity Management System Organization ID]) Met deze id kunt u verbinding maken met uw bedrijf en de Adobe Experience Cloud.
    * **[!UICONTROL Lifecyle]**: Geef het gewenste werkgebied voor het bedrijf op:
       * **[!UICONTROL Active]**: Specificeer dat het bedrijf een actieve cliënt van de Audience Manager zal zijn. Een actieve rekening betekent een betalende klant, niet alleen voor raadpleging, maar voor Audience Manager SKU.
       * **[!UICONTROL Demo]**: Geef op dat het bedrijf alleen voor demo-doeleinden zal worden gebruikt. Gegevens worden automatisch gerapporteerd.
-      * **[!UICONTROL Prospect]**: Specificeer dat de onderneming een potentiële cliënt van de Audience Manager is, zoals een onderneming die een vrije  [!DNL POC] of een rekeningsopstelling voor een verkoopdemo wordt gegeven.
+      * **[!UICONTROL Prospect]**: Specificeer dat de onderneming een potentiële cliënt van de Audience Manager is, zoals een onderneming die een vrije [!DNL POC] of een accountinstelling voor een verkoopdemo.
       * **[!UICONTROL Test]**: Geef op dat het bedrijf alleen voor interne tests wordt gebruikt.
    * **[!UICONTROL Account Types]**: Geef de volledige set accounttypen voor dit bedrijf op. Geen accounttype sluit elkaar uit met een ander type.
       * **[!UICONTROL Full AAM]**: Geef op dat het bedrijf een volledige Adobe Audience Manager-account heeft en dat gebruikers toegang tot de aanmelding hebben.
-      * **[!UICONTROL MMP]**: Geef op dat het bedrijf de mogelijkheden van het Master marketingprofiel ([!UICONTROL MMP]) mag gebruiken.
+      * **[!UICONTROL MMP]**: Geef op dat het bedrijf het Master marketingprofiel mag gebruiken ([!UICONTROL MMP]).
 
-         Als u dit accounttype selecteert, wordt **[!UICONTROL Visitor ID Service]** ook automatisch geselecteerd.
-Zie [Experience Cloud Soorten publiek](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=en) voor meer informatie.
+         Als u dit accounttype selecteert, **[!UICONTROL Visitor ID Service]** wordt ook automatisch geselecteerd.
+Zie voor meer informatie [Experience Cloud publiek](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=en).
    * **[!UICONTROL Data Source]**: Specificeer dat het bedrijf een derde gegevensleverancier binnen Audience Manager is.
    * **[!UICONTROL Targeting Partner]**: Specificeer dat de onderneming als doelplatform voor klanten van de Audience Manager handelt.
    * **[!UICONTROL Visitor ID Service]**: Specificeer dat het bedrijf is toegelaten om de Dienst van identiteitskaart van de Bezoeker van Experience Cloud te gebruiken.
 
-      De dienst van identiteitskaart van de Bezoeker van Experience Cloud verstrekt universele bezoekersidentiteitskaart over Experience Cloud oplossingen. Voor meer informatie, zie [Experience Cloud ID de gebruikershandleiding van de Dienst](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en).
+      De dienst van identiteitskaart van de Bezoeker van Experience Cloud verstrekt universele bezoekersidentiteitskaart over Experience Cloud oplossingen. Zie voor meer informatie de [Gebruikershandleiding voor Experience Cloud ID-service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en).
 
    * **[!UICONTROL Agency]**: Geef op dat de onderneming een account van het Agentschap heeft.
    * **[!UICONTROL Features]**: Selecteer de gewenste opties:
@@ -108,17 +108,17 @@ Zie [Experience Cloud Soorten publiek](https://experienceleague.adobe.com/docs/c
 
 ## Een bedrijfsprofiel verwijderen {#delete-company-profile}
 
-Gebruik de [!UICONTROL Companies] pagina in de Audience Manager [!UICONTROL Admin] hulpmiddel om een bestaand bedrijf te schrappen.
+Gebruik de [!UICONTROL Companies] pagina in de Audience Manager [!UICONTROL Admin] om een bestaand bedrijf te verwijderen.
 
 <!-- t_delete_company.xml -->
 
 >[!NOTE]
 >
->U moet de rol [!UICONTROL DEXADMIN] hebben om bestaande bedrijven te schrappen.
+>U moet beschikken over de [!UICONTROL DEXADMIN] rol om bestaande ondernemingen te schrappen.
 
 1. Als u een bestaand bedrijf wilt verwijderen, klikt u op **[!UICONTROL Companies]**.
 
    ![Stap resultaat](assets/companies.png)
 
-1. Klik ![](assets/icon_delete.png) in **[!UICONTROL Actions]** kolom van het gewenste bedrijf.
-1. Klik **[!UICONTROL OK]** om de schrapping te bevestigen.
+1. Klikken  ![](assets/icon_delete.png) in de **[!UICONTROL Actions]** kolom van het gewenste bedrijf.
+1. Klikken **[!UICONTROL OK]** om de schrapping te bevestigen.

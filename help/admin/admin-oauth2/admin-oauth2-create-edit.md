@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # OAuth2-clients {#oauth-clients}
 
-Gebruik de pagina [!UICONTROL OAuth2 Clients] om een lijst van [!UICONTROL OAuth2] cliënten in uw [!DNL Audience Manager] configuratie te bekijken. U kunt bestaande clients bewerken of verwijderen of nieuwe clients maken, op voorwaarde dat u de juiste gebruikersrollen hebt toegewezen.
+Gebruik de [!UICONTROL OAuth2 Clients] pagina om een lijst met [!UICONTROL OAuth2] clients in uw [!DNL Audience Manager] configuratie. U kunt bestaande clients bewerken of verwijderen of nieuwe clients maken, op voorwaarde dat u de juiste gebruikersrollen hebt toegewezen.
 
 ## Overzicht {#overview}
 
@@ -22,37 +22,37 @@ Gebruik de pagina [!UICONTROL OAuth2 Clients] om een lijst van [!UICONTROL OAuth
 
 >[!NOTE]
 >
->Zorg ervoor dat uw klant de [OAuth2](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html#oauth) documentatie in de Gids van de Gebruiker van de Audience Manager leest.
+>Zorg ervoor dat uw klant de [OAuth2](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html#oauth) documentatie in de Gids van de Gebruiker van de Audience Manager.
 
-[!DNL OAuth2] is een open norm voor vergunning om beveiligde gedelegeerde toegang tot  [!DNL Audience Manager] middelen namens een middeleigenaar te verlenen.
+[!DNL OAuth2] is een open norm voor vergunning om beveiligde gedelegeerde toegang te verlenen tot [!DNL Audience Manager] middelen voor rekening van een eigenaar van middelen.
 
 ![](assets/oauth.png)
 
 U kunt elke kolom in stijgende of dalende orde sorteren door de gewenste kopbal van de kolom te klikken.
 
-Gebruik de doos [!UICONTROL Search] of de pagineringscontroles bij de bodem van de lijst om de gewenste cliënt te vinden.
+Gebruik de [!UICONTROL Search] of de pagineringscontroles bij de bodem van de lijst om de gewenste cliënt te vinden.
 
 ## Een OAuth2-client maken of bewerken {#create-edit-client}
 
 <!-- t_create_edit_auth.xml -->
 
-Met de [!UICONTROL OAuth2 Clients]-pagina in de Audience Manager [!UICONTROL Admin] kunt u een nieuwe [!UICONTROL Oauth2]-client maken of een bestaande client bewerken.
+Gebruik de [!UICONTROL OAuth2 Clients] pagina in de Audience Manager [!UICONTROL Admin] een nieuw gereedschap maken [!UICONTROL Oauth2] of om een bestaande client te bewerken.
 
-1. Als u een nieuwe [!UICONTROL OAuth2]-client wilt maken, klikt u op **[!UICONTROL OAuth2 Clients]** > **[!UICONTROL Add OAuth2 Client]**. Als u een bestaande [!UICONTROL OAuth2]-client wilt bewerken, klikt u op de gewenste client in de kolom **[!UICONTROL Client ID]**.
-1. Geef de gewenste naam op voor deze [!UICONTROL OAuth2]-client. Dit is alleen een naam voor de record.
-1. Geef het e-mailadres van de [!UICONTROL OAuth2]-client op. Er geldt een limiet van één e-mailadres.
-1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Partner]** de gewenste partner.
-1. Geef in het vak **[!UICONTROL Client ID]** de gewenste id op. Dit is de waarde die wordt gebruikt bij het verzenden van [!DNL API] verzoeken. Het voorvoegsel wordt automatisch gevuld wanneer u begint te typen nadat u een [!UICONTROL Partner] in de vervolgkeuzelijst in de voorafgaande stap hebt gekozen. De juiste indeling is &lt; *`partner subdomain`*> - &lt; *`Audience Manager username`*>.
-1. Schakel desgewenst het selectievakje **[!UICONTROL Restrict to Partner Users]** in of uit. Als dit controlevakje wordt geselecteerd, moet de gebruiker een [!DNL Audience Manager] gebruiker zijn die voor de geselecteerde partner wordt vermeld. We raden u aan deze optie te selecteren.
-1. Schakel in de sectie **[!UICONTROL Scope]** de selectievakjes **[!UICONTROL Read]** en **[!UICONTROL Write]** naar wens in of uit.
-1. Selecteer in de sectie **[!UICONTROL Grant Type]** het gewenste middel voor autorisatie. Wij adviseren dat u de standaardmontages van [!UICONTROL Password] en [!UICONTROL Refresh-token] opties gebruikt.
+1. Een nieuwe [!UICONTROL OAuth2] client, klik op **[!UICONTROL OAuth2 Clients]** > **[!UICONTROL Add OAuth2 Client]**. Bestaande bewerken [!UICONTROL OAuth2] client, klik op de gewenste client in de **[!UICONTROL Client ID]** kolom.
+1. Geef de gewenste naam op voor deze [!UICONTROL OAuth2] client. Dit is alleen een naam voor de record.
+1. Geef de [!UICONTROL OAuth2] e-mailadres van de client. Er geldt een limiet van één e-mailadres.
+1. Van de **[!UICONTROL Partner]** vervolgkeuzelijst selecteert u de gewenste partner.
+1. In de **[!UICONTROL Client ID]** geeft u de gewenste id op. Dit is de waarde die wordt gebruikt bij het verzenden [!DNL API] verzoeken. Het voorvoegsel wordt automatisch ingevuld wanneer u begint te typen nadat u een [!UICONTROL Partner] in de vervolgkeuzelijst in de voorgaande stap. De juiste notatie is &lt; *`partner subdomain`*> - &lt; *`Audience Manager username`*>.
+1. Selecteer of deselecteer de optie **[!UICONTROL Restrict to Partner Users]** Schakel het selectievakje naar wens in. Als dit selectievakje is ingeschakeld, moet de gebruiker een [!DNL Audience Manager] gebruiker die voor de geselecteerde partner wordt vermeld. We raden u aan deze optie te selecteren.
+1. In de **[!UICONTROL Scope]** in of uit te schakelen. **[!UICONTROL Read]** en **[!UICONTROL Write]** schakelt u de selectievakjes naar wens in.
+1. In de **[!UICONTROL Grant Type]** selecteert u de gewenste toelatingsmiddelen. We raden u aan de standaardinstellingen van [!UICONTROL Password] en [!UICONTROL Refresh-token] opties.
 
-   * **[!UICONTROL Implicit]**: Als u deze optie selecteert, wordt het  [!UICONTROL Redirect URI] vak ingeschakeld. De gebruiker krijgt een automatisch toegangstoken nadat voor authentiek wordt verklaard en wordt onmiddellijk verzonden naar omleiding [!DNL URI].
-   * **[!UICONTROL Authorization Code]**: Als u deze optie selecteert, wordt het  [!UICONTROL Redirect URI] vak ingeschakeld. De gebruiker wordt teruggegeven aan de cliënt na voor authentiek verklaard en dan verzonden naar redirect [!DNL URI].
+   * **[!UICONTROL Implicit]**: Als u deze optie selecteert, [!UICONTROL Redirect URI] is ingeschakeld. De gebruiker krijgt een automatisch toegangstoken nadat voor authentiek wordt verklaard en wordt onmiddellijk verzonden naar redirect [!DNL URI].
+   * **[!UICONTROL Authorization Code]**: Als u deze optie selecteert, [!UICONTROL Redirect URI] is ingeschakeld. De gebruiker wordt teruggegeven aan de cliënt na voor authentiek wordt verklaard en dan verzonden naar redirect [!DNL URI].
    * **[!UICONTROL Password]**: De gebruiker wordt geverifieerd met een door de gebruiker ingevoerd wachtwoord en niet met een automatische validatiepoging via een verificatieserver.
    * **[!UICONTROL Refresh_token]**: Gebruikt om een verlopen toegangstoken voor een lange periode te verfrissen.
 
-1. Geef in het tekstvak **[!UICONTROL Redirect URI]** de gewenste [!DNL URI] op. Deze optie wordt toegelaten slechts als u **[!UICONTROL Implicit]** en **[!UICONTROL Authorization_code]** subsidietypes selecteert. In het tekstvak **[!UICONTROL Redirect URI]** kunt u een door komma&#39;s gescheiden waarde van acceptabele [!DNL URI]-waarden opgeven. Dit is [!DNL URI] een gebruiker van een cliënt wordt opnieuw gericht aan na het goedkeuren van de cliënt voor toegang [!DNL API].
+1. In de **[!UICONTROL Redirect URI]** de gewenste [!DNL URI]. Deze optie is alleen beschikbaar als u **[!UICONTROL Implicit]** en **[!UICONTROL Authorization_code]** subsidietypen. De **[!UICONTROL Redirect URI]** kunt u een door komma&#39;s gescheiden waarde van acceptabel opgeven [!DNL URI] waarden. Dit is het [!DNL URI] een gebruiker van een cliënt wordt opnieuw gericht aan na het goedkeuren van de cliënt voor [!DNL API] toegang.
 1. Geef de gewenste vervaltijd (in seconden) op voor toegang en vernieuw de vervaldatum van het token.
 
    * **[!UICONTROL Access Token Expiration Time]**: Het aantal seconden dat een toegangstoken na wordt uitgegeven geldig is. Kan null zijn als u de standaardinstelling van het platform wilt gebruiken (12 uur). Ook kan -1 zijn om erop te wijzen dat het toegangstoken niet verloopt.
@@ -60,7 +60,7 @@ Met de [!UICONTROL OAuth2 Clients]-pagina in de Audience Manager [!UICONTROL Adm
 
 1. Klik op **[!UICONTROL Save]**.
 
-Als u een [!UICONTROL OAuth2]-client wilt verwijderen, klikt u op **[!UICONTROL OAuth2 Clients]** en vervolgens op ![](assets/icon_delete.png) in de kolom **[!UICONTROL Actions]** voor de gewenste client.
+Een [!UICONTROL OAuth2] client, klik op **[!UICONTROL OAuth2 Clients]** en klik vervolgens op  ![](assets/icon_delete.png) in de **[!UICONTROL Actions]** voor de gewenste client.
 
 >[!MORELIKETHIS]
 >

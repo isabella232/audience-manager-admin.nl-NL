@@ -1,17 +1,16 @@
 ---
 description: Beheer de volgende grenzen voor de modellen, de segmenten, de bestemmingen, en de eigenschappen van het bedrijfsalgoritme.
-seo-description: Beheer de volgende grenzen voor de modellen, de segmenten, de bestemmingen, en de eigenschappen van het bedrijfsalgoritme.
-seo-title: Bedrijfslimieten beheren
+seo-description: Manage the following limits for the company  algorithmic models, segments, destinations, and traits.
+seo-title: Manage Company Limits
 title: Bedrijfslimieten beheren
 uuid: 67a19fb2-8322-47ce-afa4-f6b78c52f814
-translation-type: tm+mt
-source-git-commit: 57d7a92265e565b6c411e4cfa5c579e40eb837b3
+exl-id: dd6d04ef-895a-4bd7-bf9d-851e2fdcb594
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 3%
+source-wordcount: '285'
+ht-degree: 2%
 
 ---
-
 
 # Bedrijfslimieten beheren {#manage-company-limits}
 
@@ -19,17 +18,17 @@ De volgende limieten voor het bedrijf beheren: algoritmische modellen, segmenten
 
 <!-- t_company_limits.xml -->
 
-1. Klik **[!UICONTROL Companies]**, dan bepaal de plaats en klik het gewenste bedrijf om zijn [!UICONTROL Profile] pagina te tonen. Gebruik de doos [!UICONTROL Search] of de pagineringscontroles bij de bodem van de lijst om het gewenste bedrijf te vinden. U kunt elke kolom in stijgende of dalende orde sorteren door de gewenste kopbal van de kolom te klikken.
-1. Klik op het tabblad **[!UICONTROL Limits]**.
+1. Klikken **[!UICONTROL Companies]** en klik vervolgens op het gewenste bedrijf om het [!UICONTROL Profile] pagina. Gebruik de [!UICONTROL Search] of de pagineringscontroles bij de bodem van de lijst om het gewenste bedrijf te vinden. U kunt elke kolom in stijgende of dalende orde sorteren door de gewenste kopbal van de kolom te klikken.
+1. Klik op de knop **[!UICONTROL Limits]** tab.
 1. Vul de velden in:
 
    >[!NOTE]
    >
-   >Als een van de velden leeg is, is de standaardwaarde momenteel onbeperkt. Alle velden zijn onafhankelijk. In de sectie [!UICONTROL Trait Limits] kunt u bijvoorbeeld 100 opgeven voor [!UICONTROL Total Traits] en 100 voor de andere typen kenmerken. De som van [!UICONTROL Max Number of Algorithmic Traits], [!UICONTROL Max Number or Rule Based Traits] en [!UICONTROL Max Number of Onboarded Traits] is niet gelijk aan [!UICONTROL Total Number].
+   >Als een van de velden leeg is, is de standaardwaarde momenteel onbeperkt. Alle velden zijn onafhankelijk. In het dialoogvenster [!UICONTROL Trait Limits] , kunt u 100 opgeven voor [!UICONTROL Total Traits] en 100 voor de andere soorten kenmerken. De som van [!UICONTROL Max Number of Algorithmic Traits], [!UICONTROL Max Number or Rule Based Traits], en [!UICONTROL Max Number of Onboarded Traits] is niet gelijk aan [!UICONTROL Total Number].
 
-   * **[!UICONTROL Trait Folder Limits]**: Geef de  [!UICONTROL Trait Folder] limieten voor deze onderneming op:
-      * **[!UICONTROL Max number of Trait Folders]**: Geef het maximumaantal op dat  [!UICONTROL Trait Folders] dit bedrijf kan hebben.
-      * **[!UICONTROL Max depth of Trait Folders]**: Geef de maximale diepte op die de  [!UICONTROL Trait Folder] structuur van het bedrijf kan hebben.
+   * **[!UICONTROL Trait Folder Limits]**: Geef de [!UICONTROL Trait Folder] limieten voor deze onderneming:
+      * **[!UICONTROL Max number of Trait Folders]**: Geef het maximumaantal op van [!UICONTROL Trait Folders] dit bedrijf kan dat hebben .
+      * **[!UICONTROL Max depth of Trait Folders]**: Geef de maximale diepte op die het bedrijf [!UICONTROL Trait Folder] structuur kan hebben.
    * **[!UICONTROL AlgoModel Limits]**: Geef de algoritmische limieten voor dit bedrijf op:
       * **[!UICONTROL Total Number]**: Geef het totale aantal algoritmische kenmerken op dat dit bedrijf kan hebben.
    * **[!UICONTROL Segment Limits]**: Geef de segmentlimieten voor dit bedrijf op:
@@ -37,7 +36,7 @@ De volgende limieten voor het bedrijf beheren: algoritmische modellen, segmenten
    * **[!UICONTROL Destinations Limits]**: Geef de bestemmingslimieten voor dit bedrijf op:
       * **[!UICONTROL Total Number]**: Geef het totale aantal bestemmingen op dat dit bedrijf kan hebben.
       * **[!UICONTROL Max Number of URL Destinations]**: Geef het maximumaantal URL-doelen op dat dit bedrijf kan hebben.
-      * **[!UICONTROL Max Number of AdServer Destinations]**: Specificeer het maximumaantal  [!UICONTROL AdServer] bestemmingen dit bedrijf kan hebben.
+      * **[!UICONTROL Max Number of AdServer Destinations]**: Geef het maximumaantal op van [!UICONTROL AdServer] bestemmingen die dit bedrijf kan hebben.
       * **[!UICONTROL Max Number of S2S Destinations]**: Specificeer het maximumaantal bestemmingen S2S dit bedrijf kan hebben.
    * **[!UICONTROL Trait Limits]**: Geef de limieten voor de kenmerken van dit bedrijf op:
       * **[!UICONTROL Total Number]**: Geef het totale aantal kenmerken op dat dit bedrijf kan hebben.

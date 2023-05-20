@@ -1,25 +1,24 @@
 ---
-description: 'Gebruik Logboekregistratie van de Controle als eerste plaats om te gaan wanneer het zuiveren van klantenkwesties. '
-seo-description: 'Gebruik Logboekregistratie van de Controle als eerste plaats om te gaan wanneer het zuiveren van klantenkwesties. '
-seo-title: Auditlogboekregistratie
+description: Gebruik Logboekregistratie van de Controle als eerste plaats om te gaan wanneer het zuiveren van klantenkwesties.
+seo-description: Use Audit Logging as a first place to go when debugging customer issues.
+seo-title: Audit Logging
 title: Auditlogboekregistratie
 uuid: null
-translation-type: tm+mt
-source-git-commit: 53bf192d17e107f5f696712e578921abaa52b9ab
+exl-id: ff68f90f-b521-4560-9bf6-a7a6a588adf9
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 9%
+source-wordcount: '51'
+ht-degree: 7%
 
 ---
 
-
 # Auditlogboekregistratie {#audit-logging}
 
-Gebruik [!UICONTROL  Audit Logging] als eerste plaats om te gaan wanneer het zuiveren van klantenkwesties.
+Gebruiken [!UICONTROL  Audit Logging] als eerste plaats om te gaan wanneer het zuiveren van klantenkwesties.
 
 >[!NOTE]
 >
->De [!UICONTROL Audit Logging] functionaliteit en documentatie is momenteel in ontwikkeling en onderhevig aan wijzigingen. Gelieve te registreren om het even welke kwesties u in [!DNL JIRA] ([!DNL UI] team) ontmoet.
+>De [!UICONTROL Audit Logging] functionaliteit en documentatie wordt momenteel ontwikkeld en kan worden gewijzigd. Meld alle problemen aan die u tegenkomt [!DNL JIRA] ([!DNL UI] team).
 
 ![Controlelogboekweergave](assets/audit-logging-img.png)
 

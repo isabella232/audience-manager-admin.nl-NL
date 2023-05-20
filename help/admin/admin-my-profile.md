@@ -1,17 +1,16 @@
 ---
 description: Bewerk de gegevens van het profiel Admin voor Audience Managers of wijzig uw wachtwoord.
-seo-description: Bewerk de gegevens van het profiel Admin voor Audience Managers of wijzig uw wachtwoord.
-seo-title: Mijn profiel
+seo-description: Edit the details of your Audience Manager Admin tool profile or change your password.
+seo-title: My Profile
 title: Mijn profiel
 uuid: ccaa611d-c855-484e-9696-081d9b4e0935
-translation-type: tm+mt
-source-git-commit: 57d7a92265e565b6c411e4cfa5c579e40eb837b3
+exl-id: d213f734-af52-4f43-8733-af67ce6f4e98
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 3%
+source-wordcount: '330'
+ht-degree: 2%
 
 ---
-
 
 # Mijn profiel {#my-profile}
 
@@ -19,9 +18,9 @@ Bewerk de gegevens van het profiel Admin voor Audience Managers of wijzig uw wac
 
 <!-- c_my_profile.xml -->
 
-## Profiel {#edit-profile} bewerken
+## Profiel bewerken {#edit-profile}
 
-Bekijk en bewerk het profiel van het hulpmiddel Admin van de Audience Manager, met inbegrip van voornaam en achternaam, gebruikersbenaming, e-mailadres, telefoonaantal, [!UICONTROL IMS ID], gebruikersrollen, en status.
+Het profiel van het hulpprogramma Admin voor Audience Managers weergeven en bewerken, inclusief voornaam en achternaam, gebruikersnaam, e-mailadres, telefoonnummer. [!UICONTROL IMS ID], gebruikersrollen en status.
 
 <!-- t_edit_profile.xml -->
 
@@ -37,23 +36,23 @@ Bekijk en bewerk het profiel van het hulpmiddel Admin van de Audience Manager, m
    * **[!UICONTROL Phone Number]:** Geef uw telefoonnummer op.
    * **[!UICONTROL IMS ID]:** Geef uw Internet Messaging Service-id op.
    * **[!UICONTROL User Roles]:** Selecteer de gewenste gebruikersrollen:
-      * **[!UICONTROL DEXADMIN]:** Verleent beheerdertoegang om taken in het hulpmiddel van Admin van de Audience Manager uit te voeren. Als u deze optie niet selecteert, kunt u afzonderlijke rollen kiezen. Deze rollen laten gebruikers taken uitvoeren gebruikend [!DNL API] vraag, maar niet in het hulpmiddel Admin.
-      * **[!UICONTROL CREATE_USERS]:** Laat gebruikers nieuwe gebruikers tot stand brengen gebruikend een  [!DNL API] vraag.
-      * **[!UICONTROL DELETE_USERS]:** Laat gebruikers bestaande gebruikers schrappen gebruikend een  [!DNL API] vraag.
-      * **[!UICONTROL EDIT_USERS]:** Laat gebruikers bestaande gebruikers uitgeven gebruikend een  [!DNL API] vraag.
-      * **[!UICONTROL VIEW_USERS]:** Laat gebruikers andere gebruikers in uw configuratie van de Audience Manager bekijken gebruikend een  [!DNL API] vraag.
-      * **[!UICONTROL CREATE_PARTNERS]:** Laat gebruikers partners tot stand brengen van de Audience Manager gebruikend een  [!DNL API] vraag.
-      * **[!UICONTROL DELETE_PARTNERS]:** Laat gebruikers partners schrappen van de Audience Manager gebruikend een  [!DNL API] vraag.
-      * **[!UICONTROL EDIT_PARTNERS]:** Laat gebruikers Audience Manager partners uitgeven gebruikend een  [!DNL API] vraag.
-      * **[!UICONTROL VIEW_PARNTERS]:** Laat gebruikers partners bekijken van de Audience Manager gebruikend een  [!DNL API] vraag.
+      * **[!UICONTROL DEXADMIN]:** Verleent beheerdertoegang om taken in het hulpmiddel van Admin van de Audience Manager uit te voeren. Als u deze optie niet selecteert, kunt u afzonderlijke rollen kiezen. Deze rollen laten gebruikers taken uitvoeren gebruikend [!DNL API] oproepen, maar niet in het hulpmiddel Admin.
+      * **[!UICONTROL CREATE_USERS]:** Gebruikers kunnen nieuwe gebruikers maken met een [!DNL API] vraag.
+      * **[!UICONTROL DELETE_USERS]:** Gebruikers kunnen bestaande gebruikers verwijderen met een [!DNL API] vraag.
+      * **[!UICONTROL EDIT_USERS]:** Gebruikers kunnen bestaande gebruikers bewerken met een [!DNL API] vraag.
+      * **[!UICONTROL VIEW_USERS]:** Gebruikers kunnen andere gebruikers in de configuratie van de Audience Manager weergeven met een [!DNL API] vraag.
+      * **[!UICONTROL CREATE_PARTNERS]:** Gebruikers kunnen Audience Manager partners maken met behulp van een [!DNL API] vraag.
+      * **[!UICONTROL DELETE_PARTNERS]:** Laat gebruikers Audience Manager partners schrappen die een [!DNL API] vraag.
+      * **[!UICONTROL EDIT_PARTNERS]:** Gebruikers kunnen Audience Manager-partners bewerken met een [!DNL API] vraag.
+      * **[!UICONTROL VIEW_PARNTERS]:** Laat gebruikers Audience Manager partners bekijken die een [!DNL API] vraag.
    * **[!UICONTROL Status]:** Selecteer de gewenste status:
-      * **[!UICONTROL Active]:** Specificeert dat deze gebruiker in een actieve gebruiker van de Audience Manager.
-      * **[!UICONTROL Deactivated]:** Specificeert dat deze gebruiker een gedeactiveerde gebruiker in het Beheer van de Publiek is.
+      * **[!UICONTROL Active]:** Geeft op dat deze gebruiker in een actieve gebruiker van de Audience Manager.
+      * **[!UICONTROL Deactivated]:** Geeft aan dat deze gebruiker een gedeactiveerde gebruiker is in Audience Management.
       * **[!UICONTROL Expired]:** Geeft aan dat de account van deze gebruiker in Audience Manager is verlopen.
-      * **[!UICONTROL Locked Out]:** Geeft aan dat het account van deze gebruiker in de Audience Manager is vergrendeld.
+      * **[!UICONTROL Locked Out]:** Geeft aan dat het account van deze gebruiker in Audience Manager vergrendeld is.
 3. Klik op **[!UICONTROL Submit]**.
 
-## Wachtwoord {#change-password} wijzigen
+## Wachtwoord wijzigen {#change-password}
 
 Wijzig het wachtwoord voor het gereedschap Audience Manager Admin.
 

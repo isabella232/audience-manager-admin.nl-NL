@@ -14,26 +14,26 @@ ht-degree: 5%
 
 # Een S3-server maken of bewerken {#create-or-edit-an-s-server}
 
-Gebruik de pagina [!UICONTROL Servers] in het hulpmiddel van Admin van de Audience Manager om een nieuwe [!DNL S3] server tot stand te brengen of een bestaande server uit te geven.
+Gebruik de [!UICONTROL Servers] pagina in het hulpmiddel Admin van de Audience Manager om een nieuwe nieuwe [!DNL S3] of om een bestaande server te bewerken.
 
 >[!NOTE]
 >
->U moet de rol [!UICONTROL DEXADMIN] hebben om nieuwe servers te creëren of bestaande servers uit te geven.
+>U moet beschikken over de [!UICONTROL DEXADMIN] rol om nieuwe servers te maken of bestaande servers te bewerken.
 
-1. Als u een nieuwe server wilt maken, klikt u op **[!UICONTROL Servers]** > **[!UICONTROL Create Server]**. Als u een bestaande server wilt bewerken, klikt u op de gewenste server in de kolom **[!UICONTROL Label]**.
+1. Als u een nieuwe server wilt maken, klikt u op **[!UICONTROL Servers]** > **[!UICONTROL Create Server]**. Als u een bestaande server wilt bewerken, klikt u op de gewenste server in het dialoogvenster **[!UICONTROL Label]** kolom.
 1. Geef het gewenste label voor deze server op.
-1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Protocol]** het gewenste protocol: **[!UICONTROL S3]**.
+1. Van de **[!UICONTROL Protocol]** Selecteer het gewenste protocol in de vervolgkeuzelijst: **[!UICONTROL S3]**.
 
    >[!NOTE]
    >
-   >Wij adviseren gebruikend [!DNL Amazon S3] als methode om dossiers van en het leveren van dossiers aan partners te krijgen. [!DNL Amazon S3] verstrekt een eenvoudige interface van de Webdiensten die kan worden gebruikt om het even welke hoeveelheid gegevens op te slaan en terug te winnen, op elk ogenblik, van overal op het Web. Zie [Informatie over Amazon S3](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html) in de *Gebruikershandleiding voor Audience Managers* voor meer informatie.
+   >We raden u aan [!DNL Amazon S3] als een methode voor het ophalen van bestanden van en het leveren van bestanden aan partners. [!DNL Amazon S3] verstrekt een eenvoudige interface van de Webdiensten die kan worden gebruikt om het even welke hoeveelheid gegevens op te slaan en terug te winnen, op elk ogenblik, van overal op het Web. Zie voor meer informatie [Informatie over Amazon S3](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html) in de *Gebruikershandleiding voor Audience Manager*.
 
 1. Vul de velden in:
 
-   * **[!UICONTROL Account]:** Geef het gewenste  [!DNL S3] account op.
-   * **[!UICONTROL Bucket]:** Geef het gewenste  [!DNL S3] emmertje op.
-   * **[!UICONTROL Directory]:** Geef de gewenste  [!DNL S3] map op.
-   * **[!UICONTROL Access Key]:** Geef de gewenste  [!DNL S3] toegangstoets op.
-   * **[!UICONTROL Secret Key]:** Geef de gewenste  [!DNL S3] geheime sleutel op.
+   * **[!UICONTROL Account]:** Geef het gewenste [!DNL S3] account.
+   * **[!UICONTROL Bucket]:** Geef het gewenste [!DNL S3] emmertje.
+   * **[!UICONTROL Directory]:** Geef het gewenste [!DNL S3] directory.
+   * **[!UICONTROL Access Key]:** Geef het gewenste [!DNL S3] toegangstoets.
+   * **[!UICONTROL Secret Key]:** Geef het gewenste [!DNL S3] geheime sleutel.
 
-1. Klik **[!UICONTROL Create]** als u een nieuwe server maakt of klik **[!UICONTROL Update]** als u een bestaande server bewerkt.
+1. Klikken **[!UICONTROL Create]** als u een nieuwe server maakt, of klikt u op **[!UICONTROL Update]** als u een bestaande server bewerkt.
